@@ -3,12 +3,23 @@ package main
 import (
 	"go-api/controller"
 	"go-api/db"
-	"go-api/middleware"
 	"go-api/repository"
 	"go-api/usecase"
+	"os"
 
 	"github.com/gin-gonic/gin"
 )
+
+var INSTANCE_ID = getInstanceID()
+
+func getInstanceID() string {
+	hostname, err := os.Hostname()
+	if err != nil {
+		panic(err)
+	}
+
+	return hostname
+}
 
 func main() {
 	server := gin.Default()
@@ -21,15 +32,12 @@ func main() {
 
 	// camada de repo
 	UserRepository := repository.NewUserRepository(dbConnection)
-	ProductRepository := repository.NewProductRepository(dbConnection)
 
 	// camada de usecase
 	UserUseCase := usecase.NewUserUseCase(UserRepository)
-	ProductUseCase := usecase.NewProductUseCase(ProductRepository)
 
 	// camada de controller
 	UserController := controller.NewUserController(UserUseCase)
-	ProductController := controller.NewProductController(ProductUseCase)
 
 	// healthcheck endpoint
 	server.GET("/health", func(ctx *gin.Context) {
@@ -42,16 +50,11 @@ func main() {
 		ctx.String(200, "API funcionando!")
 	})
 
-	server.POST("/signin", UserController.CreateUser)
-	server.POST("/login", UserController.Login)
-
-	privateRoutes := server.Group("/")
-	privateRoutes.Use(middleware.AuthMiddleware())
-	{
-		privateRoutes.GET("/products", ProductController.GetProducts)
-		privateRoutes.GET("/products/:productId", ProductController.GetProductById)
-		privateRoutes.POST("/product", ProductController.CreateProduct)
-	}
+	server.GET("/users", UserController.GetUsers)
+	server.GET("/users/:id", UserController.GetUserById)
+	server.POST("/users", UserController.CreateUser)
+	server.DELETE("/users/:id", UserController.DeleteUser)
+	server.PUT("/users/:id", UserController.UpdateUser)
 
 	server.Run(":8000")
 }

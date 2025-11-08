@@ -1,21 +1,12 @@
-INSERT INTO product (product_name, price) VALUES
-('Camiseta Básica', 29.90),
-('Calça Jeans', 89.50),
-('Tênis Esportivo', 149.99),
-('Jaqueta de Couro', 299.90),
-('Relógio de Pulso', 199.50),
-('Boné Trucker', 39.90),
-('Óculos de Sol', 129.90),
-('Mochila Escolar', 79.90),
-('Livro de Romance', 49.90),
-('Fone de Ouvido', 89.90),
-('Cadeira Gamer', 499.90),
-('Teclado Mecânico', 299.90),
-('Mouse Sem Fio', 149.90),
-('Smartphone', 1599.90),
-('Tablet', 899.90),
-('Caneca Personalizada', 24.90),
-('Agenda 2025', 34.90),
-('Camiseta Estampada', 39.90),
-('Meias Coloridas', 19.90),
-('Jaqueta Esportiva', 149.90);
+
+INSERT INTO users (name, email, username, password) VALUES
+('João Silva', 'joao.silva@email.com', 'joaosilva', '$2a$10$zoXQB1LEV85zlbzmfg.mjOGRkkv92oWLxYmmyOWjMZRZ3tedDbRwm'),
+('Maria Santos', 'maria.santos@email.com', 'mariasantos', '$2a$10$zoXQB1LEV85zlbzmfg.mjOGRkkv92oWLxYmmyOWjMZRZ3tedDbRwm'),
+('Pedro Oliveira', 'pedro.oliveira@email.com', 'pedrooliveira', '$2a$10$zoXQB1LEV85zlbzmfg.mjOGRkkv92oWLxYmmyOWjMZRZ3tedDbRwm'),
+('Ana Costa', 'ana.costa@email.com', 'anacosta', '$2a$10$zoXQB1LEV85zlbzmfg.mjOGRkkv92oWLxYmmyOWjMZRZ3tedDbRwm'),
+('Carlos Souza', 'carlos.souza@email.com', 'carlossouza', '$2a$10$zoXQB1LEV85zlbzmfg.mjOGRkkv92oWLxYmmyOWjMZRZ3tedDbRwm'),
+('Juliana Lima', 'juliana.lima@email.com', 'julianalima', '$2a$10$zoXQB1LEV85zlbzmfg.mjOGRkkv92oWLxYmmyOWjMZRZ3tedDbRwm'),
+('Roberto Ferreira', 'roberto.ferreira@email.com', 'robertoferreira', '$2a$10$zoXQB1LEV85zlbzmfg.mjOGRkkv92oWLxYmmyOWjMZRZ3tedDbRwm'),
+('Camila Alves', 'camila.alves@email.com', 'camilaalves', '$2a$10$zoXQB1LEV85zlbzmfg.mjOGRkkv92oWLxYmmyOWjMZRZ3tedDbRwm'),
+('Fernando Rocha', 'fernando.rocha@email.com', 'fernandorocha', '$2a$10$zoXQB1LEV85zlbzmfg.mjOGRkkv92oWLxYmmyOWjMZRZ3tedDbRwm'),
+('Beatriz Martins', 'beatriz.martins@email.com', 'beatrizmartins', '$2a$10$zoXQB1LEV85zlbzmfg.mjOGRkkv92oWLxYmmyOWjMZRZ3tedDbRwm');

@@ -23,19 +23,19 @@ func ConnectDB() (*sql.DB, error) {
 	dbname := os.Getenv("DB_NAME")
 
 	if host == "" {
-		panic("DB_HOST não definido")
+		panic("DB_HOST nao definido")
 	}
 	if port == "" {
-		panic("DB_PORT não definido")
+		panic("DB_PORT nao definido")
 	}
 	if user == "" {
-		panic("DB_USER não definido")
+		panic("DB_USER nao definido")
 	}
 	if password == "" {
-		panic("DB_PASSWORD não definido")
+		panic("DB_PASSWORD nao definido")
 	}
 	if dbname == "" {
-		panic("DB_NAME não definido")
+		panic("DB_NAME nao definido")
 	}
 
 	psqlInfo := fmt.Sprintf("host=%s port=%s user=%s "+

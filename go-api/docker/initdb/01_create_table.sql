@@ -1,14 +1,9 @@
-CREATE TABLE product (
-	id SERIAL PRIMARY KEY,
-	product_name VARCHAR(50) NOT NULL, 
-	price NUMERIC(10, 2) NOT NULL
-);
-
 CREATE TABLE users (
     id SERIAL PRIMARY KEY,
     name VARCHAR(120) NOT NULL,
     email VARCHAR(255) NOT NULL UNIQUE,
-    password_hash VARCHAR(255) NOT NULL,
+    username VARCHAR(255) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL, --hash da senha
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
