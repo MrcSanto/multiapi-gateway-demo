@@ -5,21 +5,9 @@ import (
 	"go-api/db"
 	"go-api/repository"
 	"go-api/usecase"
-	"os"
 
 	"github.com/gin-gonic/gin"
 )
-
-var INSTANCE_ID = getInstanceID()
-
-func getInstanceID() string {
-	hostname, err := os.Hostname()
-	if err != nil {
-		panic(err)
-	}
-
-	return hostname
-}
 
 func main() {
 	server := gin.Default()
