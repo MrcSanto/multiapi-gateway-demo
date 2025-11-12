@@ -5,11 +5,19 @@ import (
 	"go-api/db"
 	"go-api/repository"
 	"go-api/usecase"
+	"log"
 
 	"github.com/gin-gonic/gin"
+	"github.com/joho/godotenv"
 )
 
 func main() {
+	// carregando a .env
+	err := godotenv.Load()
+	if err != nil {
+		log.Fatal("Erro ao carregar o arquivo .env")
+	}
+
 	server := gin.Default()
 
 	// conexão com o banco de dados

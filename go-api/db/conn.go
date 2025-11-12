@@ -1,56 +1,42 @@
 package db
 
 import (
-	"database/sql"
 	"fmt"
 	"log"
 	"os"
 
-	"github.com/joho/godotenv"
-	_ "github.com/lib/pq"
+	"gorm.io/driver/postgres"
+	"gorm.io/gorm"
+	"gorm.io/gorm/logger"
 )
 
-func ConnectDB() (*sql.DB, error) {
-	err := godotenv.Load()
-	if err != nil {
-		log.Fatal("Erro ao carregar o .env")
-	}
-
+func ConnectDB() (*gorm.DB, error) {
 	host := os.Getenv("DB_HOST")
 	port := os.Getenv("DB_PORT")
 	user := os.Getenv("DB_USER")
 	password := os.Getenv("DB_PASSWORD")
 	dbname := os.Getenv("DB_NAME")
 
-	if host == "" {
-		panic("DB_HOST nao definido")
-	}
-	if port == "" {
-		panic("DB_PORT nao definido")
-	}
-	if user == "" {
-		panic("DB_USER nao definido")
-	}
-	if password == "" {
-		panic("DB_PASSWORD nao definido")
-	}
-	if dbname == "" {
-		panic("DB_NAME nao definido")
+	// Debug: imprimir valores para verificar
+	log.Printf("DB Config - Host: %s, Port: %s, User: %s, DBName: %s", host, port, user, dbname)
+
+	// Validar se as variáveis foram carregadas
+	if host == "" || port == "" || user == "" || dbname == "" {
+		return nil, fmt.Errorf("variáveis de ambiente do banco não configuradas corretamente")
 	}
 
-	psqlInfo := fmt.Sprintf("host=%s port=%s user=%s "+
-		"password=%s dbname=%s sslmode=disable",
+	dsn := fmt.Sprintf("host=%s port=%s user=%s password=%s dbname=%s sslmode=disable",
 		host, port, user, password, dbname)
-	db, err := sql.Open("postgres", psqlInfo)
+
+	db, err := gorm.Open(postgres.Open(dsn), &gorm.Config{
+		Logger: logger.Default.LogMode(logger.Info),
+	})
+
 	if err != nil {
-		panic(err)
+		log.Fatal("Erro ao conectar ao banco de dados:", err)
+		return nil, err
 	}
 
-	err = db.Ping()
-	if err != nil {
-		panic(err)
-	}
-
-	fmt.Println("Connect to " + dbname)
+	log.Println("Conexão com banco de dados estabelecida!")
 	return db, nil
 }

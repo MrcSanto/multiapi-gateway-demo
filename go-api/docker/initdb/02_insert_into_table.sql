@@ -1,4 +1,3 @@
-
 INSERT INTO users (name, email, username, password) VALUES
 ('João Silva', 'joao.silva@email.com', 'joaosilva', '$2a$10$zoXQB1LEV85zlbzmfg.mjOGRkkv92oWLxYmmyOWjMZRZ3tedDbRwm'),
 ('Maria Santos', 'maria.santos@email.com', 'mariasantos', '$2a$10$zoXQB1LEV85zlbzmfg.mjOGRkkv92oWLxYmmyOWjMZRZ3tedDbRwm'),

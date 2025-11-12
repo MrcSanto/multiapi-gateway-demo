@@ -1,209 +1,104 @@
 package repository
 
 import (
-	"database/sql"
-	"fmt"
 	"go-api/model"
+
+	"gorm.io/gorm"
 )
 
 type UserRepository struct {
-	connection *sql.DB
+	db *gorm.DB
 }
 
-func NewUserRepository(connection *sql.DB) UserRepository {
+func NewUserRepository(db *gorm.DB) UserRepository {
 	return UserRepository{
-		connection: connection,
+		db: db,
 	}
 }
 
 func (ur *UserRepository) GetUsers() ([]model.User, error) {
-	query, err := ur.connection.Prepare("SELECT id, name, email, username, created_at, updated_at FROM users ORDER BY created_at DESC")
-	if err != nil {
-		return nil, err
-	}
-	defer query.Close()
-
-	rows, err := query.Query()
-	if err != nil {
-		fmt.Println(err)
-		return nil, err
-	}
-	defer rows.Close()
-
 	var users []model.User
-	for rows.Next() {
-		var user model.User
-		err = rows.Scan(
-			&user.ID,
-			&user.Name,
-			&user.Email,
-			&user.User,
-			&user.CreatedAt,
-			&user.UpdatedAt,
-		)
-		if err != nil {
-			fmt.Println(err)
-			return nil, err
-		}
-		users = append(users, user)
+	result := ur.db.Order("created_at DESC").Find(&users)
+	if result.Error != nil {
+		return nil, result.Error
 	}
-
 	return users, nil
 }
 
 func (ur *UserRepository) GetUserById(idUser int) (*model.User, error) {
-
-	query, err := ur.connection.Prepare("SELECT id, name, email, username, created_at, updated_at FROM users WHERE id = $1")
-	if err != nil {
-		return nil, err
-	}
-	defer query.Close()
-
 	var user model.User
-	err = query.QueryRow(idUser).Scan(
-		&user.ID,
-		&user.Name,
-		&user.Email,
-		&user.User,
-		&user.CreatedAt,
-		&user.UpdatedAt,
-	)
+	result := ur.db.First(&user, idUser)
 
-	if err != nil {
-		if err == sql.ErrNoRows {
+	if result.Error != nil {
+		if result.Error == gorm.ErrRecordNotFound {
 			return nil, nil
 		}
-		fmt.Println(err)
-		return nil, err
+		return nil, result.Error
 	}
 
 	return &user, nil
 }
 
 func (ur *UserRepository) GetUserByEmail(email string) (*model.User, error) {
-
-	query, err := ur.connection.Prepare("SELECT id, name, email, username, password, created_at, updated_at FROM users WHERE email = $1")
-	if err != nil {
-		return nil, err
-	}
-	defer query.Close()
-
 	var user model.User
-	err = query.QueryRow(email).Scan(
-		&user.ID,
-		&user.Name,
-		&user.Email,
-		&user.User,
-		&user.Password,
-		&user.CreatedAt,
-		&user.UpdatedAt,
-	)
+	result := ur.db.Where("email = ?", email).First(&user)
 
-	if err != nil {
-		if err == sql.ErrNoRows {
+	if result.Error != nil {
+		if result.Error == gorm.ErrRecordNotFound {
 			return nil, nil
 		}
-		fmt.Println(err)
-		return nil, err
+		return nil, result.Error
 	}
 
 	return &user, nil
 }
 
 func (ur *UserRepository) GetUserByUserName(username string) (*model.User, error) {
-
-	query, err := ur.connection.Prepare("SELECT id, name, email, username, password, created_at, updated_at FROM users WHERE username = $1")
-	if err != nil {
-		return nil, err
-	}
-	defer query.Close()
-
 	var user model.User
-	err = query.QueryRow(username).Scan(
-		&user.ID,
-		&user.Name,
-		&user.Email,
-		&user.User,
-		&user.Password,
-		&user.CreatedAt,
-		&user.UpdatedAt,
-	)
+	result := ur.db.Where("username = ?", username).First(&user)
 
-	if err != nil {
-		if err == sql.ErrNoRows {
+	if result.Error != nil {
+		if result.Error == gorm.ErrRecordNotFound {
 			return nil, nil
 		}
-		fmt.Println(err)
-		return nil, err
+		return nil, result.Error
 	}
 
 	return &user, nil
 }
 
 func (ur *UserRepository) DeleteUser(idUser int) (int64, error) {
-	query, err := ur.connection.Prepare("DELETE FROM users WHERE id = $1")
-	if err != nil {
-		return 0, err
+	result := ur.db.Delete(&model.User{}, idUser)
+	if result.Error != nil {
+		return 0, result.Error
 	}
-	defer query.Close()
-
-	result, err := query.Exec(idUser)
-	if err != nil {
-		fmt.Println(err)
-		return 0, err
-	}
-
-	rowsAffected, err := result.RowsAffected()
-	if err != nil {
-		return 0, err
-	}
-
-	return rowsAffected, nil
+	return result.RowsAffected, nil
 }
 
 func (ur *UserRepository) UpdateUser(idUser int, user model.User) error {
-	query, err := ur.connection.Prepare(
-		"UPDATE users SET name = $1, email = $2, username = $3, updated_at = NOW() WHERE id = $4",
-	)
-	if err != nil {
-		return err
-	}
-	defer query.Close()
+	result := ur.db.Model(&model.User{}).
+		Where("id = ?", idUser).
+		Updates(map[string]interface{}{
+			"name":     user.Name,
+			"email":    user.Email,
+			"username": user.User,
+		})
 
-	result, err := query.Exec(user.Name, user.Email, user.User, idUser)
-	if err != nil {
-		fmt.Println(err)
-		return err
+	if result.Error != nil {
+		return result.Error
 	}
 
-	rowsAffected, err := result.RowsAffected()
-	if err != nil {
-		return err
-	}
-
-	if rowsAffected == 0 {
-		return fmt.Errorf("usuario nao encontrado")
+	if result.RowsAffected == 0 {
+		return gorm.ErrRecordNotFound
 	}
 
 	return nil
 }
 
 func (ur *UserRepository) CreateUser(user model.User) (int, error) {
-	var id int
-	query, err := ur.connection.Prepare("INSERT INTO users " +
-		"(name, email, username, password) " +
-		"VALUES ($1, $2, $3, $4) RETURNING id")
-	if err != nil {
-		fmt.Println(err)
-		return 0, err
+	result := ur.db.Create(&user)
+	if result.Error != nil {
+		return 0, result.Error
 	}
-	defer query.Close()
-
-	err = query.QueryRow(user.Name, user.Email, user.User, user.Password).Scan(&id)
-	if err != nil {
-		fmt.Println(err)
-		return 0, err
-	}
-
-	return id, nil
+	return int(user.ID), nil
 }
