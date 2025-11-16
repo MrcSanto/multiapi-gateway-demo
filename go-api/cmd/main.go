@@ -12,10 +12,9 @@ import (
 )
 
 func main() {
-	// carregando a .env
-	err := godotenv.Load()
-	if err != nil {
-		log.Fatal("Erro ao carregar o arquivo .env")
+	// carregando a .env (opcional)
+	if err := godotenv.Load(); err != nil {
+		log.Println("Aviso: arquivo .env não encontrado, usando variáveis padrão")
 	}
 
 	server := gin.Default()
@@ -43,7 +42,7 @@ func main() {
 	})
 
 	server.GET("/", func(ctx *gin.Context) {
-		ctx.String(200, "API funcionando!")
+		ctx.String(200, "API em Golang funcionando!")
 	})
 
 	server.GET("/users", UserController.GetUsers)
