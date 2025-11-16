@@ -17,9 +17,6 @@ func ConnectDB() (*gorm.DB, error) {
 	password := os.Getenv("DB_PASSWORD")
 	dbname := os.Getenv("DB_NAME")
 
-	// Debug: imprimir valores para verificar
-	log.Printf("DB Config - Host: %s, Port: %s, User: %s, DBName: %s", host, port, user, dbname)
-
 	// Validar se as variáveis foram carregadas
 	if host == "" || port == "" || user == "" || dbname == "" {
 		return nil, fmt.Errorf("variáveis de ambiente do banco não configuradas corretamente")

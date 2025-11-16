@@ -36,7 +36,7 @@ func main() {
 	UserController := controller.NewUserController(UserUseCase)
 
 	// healthcheck endpoint
-	server.GET("/health", func(ctx *gin.Context) {
+	server.GET("/healthcheck", func(ctx *gin.Context) {
 		ctx.JSON(200, gin.H{
 			"status": true,
 		})
