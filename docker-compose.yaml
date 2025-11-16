@@ -1,0 +1,84 @@
+services:
+  # Banco de dados PostgreSQL para Go API
+  go_db:
+    container_name: go_db
+    image: postgres:12
+    environment:
+      POSTGRES_USER: ${DB_USER:-postgres}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-postgres}
+      POSTGRES_DB: ${DB_NAME:-go_db}
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./go-api/docker/initdb:/docker-entrypoint-initdb.d:ro
+    networks:
+      - gateway-net
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER:-postgres} -d ${DB_NAME:-go_db}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # API em Go
+  go_app:
+    container_name: go_app
+    build:
+      context: ./go-api
+      dockerfile: Dockerfile
+    image: go-api
+    environment:
+      DATABASE_URL: postgresql://postgres:postgres@go_db:5432/go_db
+    ports:
+      - "8001:8000"
+    networks:
+      - gateway-net
+    depends_on:
+      go_db:
+        condition: service_healthy
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/healthcheck"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
+
+  # API Gateway em Rust
+  rust_gateway:
+    container_name: rust_gateway
+    build:
+      context: ./rust-gateway
+      dockerfile: Dockerfile
+    environment:
+      - UPSTREAMS=http://go_app:8000
+
+      # para depois
+      # - UPSTREAMS=http://go_app:8000,http://node_app:8000,http://python_app:8000
+
+      - RATE_LIMIT=30
+      - WINDOW_SEC=60
+      - CB_FAIL_THRESHOLD=3
+      - CB_COOLDOWN_SEC=10
+      - PORT=8000
+    ports:
+      - "8080:8000"
+    networks:
+      - gateway-net
+    depends_on:
+      - go_app
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:8000/_health"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 5s
+
+networks:
+  gateway-net:
+    driver: bridge
+
+volumes:
+  pgdata: {}
