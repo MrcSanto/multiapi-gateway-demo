@@ -7,24 +7,39 @@ Sistema distribuído com API Gateway em Rust e microserviços backend.
 ```mermaid
 graph TD
     A[Cliente] --> B[Rust Gateway]
-    B --> C[Python API]
-    B --> D[Node.js API]
-    B --> E[Golang API]
 
-    C --> F((PostgreSQL))
-    D --> F
-    E --> F
-
-    %% Subgraph destacando que são partes do banco
-    subgraph DB[Database Schemas]
-        G[Schema python-app]
-        H[Schema node-app]
-        I[Schema go-app]
+    subgraph GO[Golang Instances]
+        C[go_app_1]
+        D[go_app_2]
     end
 
-    F --> G
-    F --> H
-    F --> I
+    subgraph NODE[Node Instances]
+        E[node_app_1]
+        F[node_app_2]
+    end
+
+    subgraph PYTHON[Python Instances]
+        G[python_app_1]
+        H[python_app_2]
+    end
+
+    B --> GO
+    B --> NODE
+    B --> PYTHON
+
+    GO --> I((PostgreSQL))
+    NODE --> I
+    PYTHON --> I
+
+    subgraph DB[Database Schemas]
+        J[Schema go-app]
+        K[Schema node-app]
+        L[Schema python-app]
+    end
+
+    I --> J
+    I --> K
+    I --> L
 ```
 
 ### Componentes
