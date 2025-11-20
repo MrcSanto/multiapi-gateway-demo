@@ -26,7 +26,7 @@ async fn main() {
 
     // Criar router
     let app = Router::new()
-        .route("/_health", get(health_handler))
+        .route("/", get(health_handler))
         .fallback(any(proxy_handler))
         .layer(axum_middleware::from_fn_with_state(
             state.clone(),

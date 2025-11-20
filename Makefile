@@ -15,7 +15,7 @@ up: ## Inicia todos os serviços
 	docker compose up -d
 	@echo -e "$(GREEN)Services started!$(NC)"
 	@echo -e "$(YELLOW)Gateway: http://localhost:8080$(NC)"
-	@echo -e "$(YELLOW)Go API:  http://localhost:8001$(NC)"
+	@echo -e "$(YELLOW)Go API:  http://localhost:8001/go$(NC)"
 	@echo -e "$(YELLOW)DB:      localhost:5432$(NC)"
 
 down: ## Para todos os serviços
@@ -47,21 +47,21 @@ ps: ## Lista status dos containers
 health: ## Verifica health dos serviços
 	@echo -e "$(GREEN)Checking services health...$(NC)"
 	@echo -e "\n$(YELLOW)Gateway Health:$(NC)"
-	@curl -s http://localhost:8080/_health | jq . || echo "Gateway not responding"
+	@curl -s http://localhost:8080/ | jq . || echo "Gateway not responding"
 	@echo -e "\n$(YELLOW)Go API Health:$(NC)"
-	@curl -s http://localhost:8001/health | jq . || echo "Go API not responding"
+	@curl -s http://localhost:8001/go/healthcheck | jq . || echo "Go API not responding"
 	@echo -e "\n$(YELLOW)Database:$(NC)"
 	@docker exec go_db pg_isready -U postgres && echo "Database is ready" || echo "Database not ready"
 
 test: ## Testa o gateway com requisições
 	@echo -e "$(GREEN)Testing gateway...$(NC)"
 	@echo -e "\n$(YELLOW)1. Testing health endpoint:$(NC)"
-	@curl -s http://localhost:8080/_health | jq .
+	@curl -s http://localhost:8080/ | jq .
 	@echo -e "\n$(YELLOW)2. Testing proxy to Go API:$(NC)"
-	@curl -s http://localhost:8080/users | jq .
+	@curl -s http://localhost:8080/go/users | jq .
 	@echo -e "\n$(YELLOW)3. Testing rate limit (10 requests):$(NC)"
 	@for i in {1..10}; do \
-		curl -s -o /dev/null -w "Request $i: %{http_code}\n" http://localhost:8080/users; \
+		curl -s -o /dev/null -w "Request $i: %{http_code}\n" http://localhost:8080/go/users; \
 	done
 
 dev: ## Modo desenvolvimento (build + up + logs)

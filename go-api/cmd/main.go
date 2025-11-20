@@ -34,22 +34,25 @@ func main() {
 	// camada de controller
 	UserController := controller.NewUserController(UserUseCase)
 
+	// criando grupo para a api em go
+	goGroup := server.Group("/go")
+
 	// healthcheck endpoint
-	server.GET("/healthcheck", func(ctx *gin.Context) {
+	goGroup.GET("/healthcheck", func(ctx *gin.Context) {
 		ctx.JSON(200, gin.H{
 			"status": true,
 		})
 	})
 
-	server.GET("/", func(ctx *gin.Context) {
+	goGroup.GET("/", func(ctx *gin.Context) {
 		ctx.String(200, "API em Golang funcionando!")
 	})
 
-	server.GET("/users", UserController.GetUsers)
-	server.GET("/users/:id", UserController.GetUserById)
-	server.POST("/users", UserController.CreateUser)
-	server.DELETE("/users/:id", UserController.DeleteUser)
-	server.PUT("/users/:id", UserController.UpdateUser)
+	goGroup.GET("/users", UserController.GetUsers)
+	goGroup.GET("/users/:id", UserController.GetUserById)
+	goGroup.POST("/users", UserController.CreateUser)
+	goGroup.DELETE("/users/:id", UserController.DeleteUser)
+	goGroup.PUT("/users/:id", UserController.UpdateUser)
 
 	server.Run(":8000")
 }
