@@ -1,5 +1,5 @@
 services:
-  # Banco de dados PostgreSQL para Go API
+  # Banco de dados PostgreSQL para as APIs
   api_db:
     container_name: api_db
     image: postgres:12
@@ -20,15 +20,13 @@ services:
       timeout: 5s
       retries: 5
 
-  # API em Go
-  go_app:
-    container_name: go_app
+  go_app_1:
+    container_name: go_app_1
     build:
       context: ./go-api
       dockerfile: Dockerfile
     image: go-api
     environment:
-      # DATABASE_URL: postgresql://postgres:postgres@go_db:5432/go_db
       DB_HOST: api_db
       DB_PORT: 5432
       DB_USER: postgres
@@ -36,7 +34,7 @@ services:
       DB_PASSWORD: 1234
       DB_NAME: postgres
     ports:
-      - "8001:8000"
+      - "8081:8000"
     networks:
       - gateway-net
     depends_on:
@@ -50,6 +48,33 @@ services:
       retries: 3
       start_period: 10s
 
+  go_app_2:
+    container_name: go_app_2
+    build:
+      context: ./go-api
+      dockerfile: Dockerfile
+    image: go-api
+    environment:
+      DB_HOST: api_db
+      DB_PORT: 5432
+      DB_USER: postgres
+      DB_SCHEMA_GO: go_app
+      DB_PASSWORD: 1234
+      DB_NAME: postgres
+    ports:
+      - "8082:8000"
+    networks:
+      - gateway-net
+    depends_on:
+      api_db:
+        condition: service_healthy
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/healthcheck"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
 
   # API Gateway em Rust
   rust_gateway:
@@ -58,7 +83,7 @@ services:
       context: ./rust-gateway
       dockerfile: Dockerfile
     environment:
-      - UPSTREAMS=http://go_app:8000
+      - UPSTREAMS=http://go_app_1:8000,http://go_app_2:8000
 
       # para depois
       # - UPSTREAMS=http://go_app:8000,http://node_app:8000,http://python_app:8000
@@ -73,7 +98,8 @@ services:
     networks:
       - gateway-net
     depends_on:
-      - go_app
+      - go_app_1
+      - go_app_2
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "wget", "--spider", "-q", "http://localhost:8000/_health"]

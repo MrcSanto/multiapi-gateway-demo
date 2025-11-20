@@ -22,6 +22,8 @@ pub async fn proxy_handler(
     let path = req.uri().path();
     let query = req.uri().query().unwrap_or("");
 
+    println!("→ Gateway encaminhando para instância: {}", upstream);
+
     // Construir URL
     let url = if query.is_empty() {
         format!("{}{}", upstream, path)

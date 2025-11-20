@@ -15,7 +15,8 @@ up: ## Inicia todos os serviços
 	docker compose up -d
 	@echo -e "$(GREEN)Services started!$(NC)"
 	@echo -e "$(YELLOW)Gateway: http://localhost:8080$(NC)"
-	@echo -e "$(YELLOW)Go API:  http://localhost:8001/go$(NC)"
+	@echo -e "$(YELLOW)Go API 1:  http://localhost:8001/go$(NC)"
+	@echo -e "$(YELLOW)Go API 2:  http://localhost:8002/go$(NC)"
 	@echo -e "$(YELLOW)DB:      localhost:5432$(NC)"
 
 down: ## Para todos os serviços
@@ -36,7 +37,8 @@ gateway-logs: ## Mostra logs do gateway
 	docker compose logs -f rust_gateway
 
 go-logs: ## Mostra logs da Go API
-	docker compose logs -f go_app
+	docker compose logs -f go_app_1 go_app_2
+
 
 db-logs: ## Mostra logs do banco
 	docker compose logs -f api_db

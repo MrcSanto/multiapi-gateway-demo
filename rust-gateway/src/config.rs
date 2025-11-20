@@ -26,6 +26,10 @@ impl Config {
                 }
             })
             .collect();
+        // printando os upstreams para visualização
+        for (i, up) in upstreams.iter().enumerate() {
+            println!("Upstream {} -> {}", i, up);
+        }
 
         Self {
             upstreams,
@@ -37,6 +41,8 @@ impl Config {
         }
     }
 
+    // método para ler uma variavel de ambiente, tentar converter se possível,
+    // caso de erro, utilizamos o valor default definido
     fn parse_env<T: std::str::FromStr>(key: &str, default: T) -> T {
         env::var(key)
             .ok()

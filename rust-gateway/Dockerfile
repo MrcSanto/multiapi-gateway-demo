@@ -29,14 +29,6 @@ WORKDIR /app
 # Copiar binário do build stage
 COPY --from=builder /app/target/release/rust-gateway /app/rust-gateway
 
-# Variáveis de ambiente
-ENV UPSTREAMS="http://go_app:8000"
-ENV RATE_LIMIT=30
-ENV WINDOW_SEC=60
-ENV CB_FAIL_THRESHOLD=3
-ENV CB_COOLDOWN_SEC=10
-ENV PORT=8000
-
 EXPOSE 8000
 
 CMD ["/app/rust-gateway"]
