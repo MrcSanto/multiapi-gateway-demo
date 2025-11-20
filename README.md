@@ -8,13 +8,23 @@ Sistema distribuído com API Gateway em Rust e microserviços backend.
 graph TD
     A[Cliente] --> B[Rust Gateway]
     B --> C[Python API]
-    C --> F[PostgreSQL Database]
-
     B --> D[Node.js API]
-    D --> F[PostgreSQL Database]
-
     B --> E[Golang API]
-    E --> F[PostgreSQL Database]
+
+    C --> F((PostgreSQL))
+    D --> F
+    E --> F
+
+    %% Subgraph destacando que são partes do banco
+    subgraph DB[Database Schemas]
+        G[Schema python-app]
+        H[Schema node-app]
+        I[Schema go-app]
+    end
+
+    F --> G
+    F --> H
+    F --> I
 ```
 
 ### Componentes
