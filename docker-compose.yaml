@@ -1,21 +1,21 @@
 services:
   # Banco de dados PostgreSQL para Go API
-  go_db:
-    container_name: go_db
+  api_db:
+    container_name: api_db
     image: postgres:12
     environment:
-      POSTGRES_USER: ${DB_USER:-postgres}
-      POSTGRES_PASSWORD: ${DB_PASSWORD:-postgres}
-      POSTGRES_DB: ${DB_NAME:-go_db}
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 1234
+      POSTGRES_DB: postgres
     ports:
       - "5432:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
-      - ./go-api/docker/initdb:/docker-entrypoint-initdb.d:ro
+      - ./init_db:/docker-entrypoint-initdb.d:ro
     networks:
       - gateway-net
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U ${DB_USER:-postgres} -d ${DB_NAME:-go_db}"]
+      test: ["CMD-SHELL", "pg_isready -U postgres -d postgres"]
       interval: 5s
       timeout: 5s
       retries: 5
@@ -28,13 +28,19 @@ services:
       dockerfile: Dockerfile
     image: go-api
     environment:
-      DATABASE_URL: postgresql://postgres:postgres@go_db:5432/go_db
+      # DATABASE_URL: postgresql://postgres:postgres@go_db:5432/go_db
+      DB_HOST: api_db
+      DB_PORT: 5432
+      DB_USER: postgres
+      DB_SCHEMA_GO: go_app
+      DB_PASSWORD: 1234
+      DB_NAME: postgres
     ports:
       - "8001:8000"
     networks:
       - gateway-net
     depends_on:
-      go_db:
+      api_db:
         condition: service_healthy
     restart: unless-stopped
     healthcheck:

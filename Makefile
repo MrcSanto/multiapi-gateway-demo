@@ -39,7 +39,7 @@ go-logs: ## Mostra logs da Go API
 	docker compose logs -f go_app
 
 db-logs: ## Mostra logs do banco
-	docker compose logs -f go_db
+	docker compose logs -f api_db
 
 ps: ## Lista status dos containers
 	@docker compose ps
@@ -51,7 +51,7 @@ health: ## Verifica health dos serviços
 	@echo -e "\n$(YELLOW)Go API Health:$(NC)"
 	@curl -s http://localhost:8001/go/healthcheck | jq . || echo "Go API not responding"
 	@echo -e "\n$(YELLOW)Database:$(NC)"
-	@docker exec go_db pg_isready -U postgres && echo "Database is ready" || echo "Database not ready"
+	@docker exec api_db pg_isready -U postgres && echo "Database is ready" || echo "Database not ready"
 
 test: ## Testa o gateway com requisições
 	@echo -e "$(GREEN)Testing gateway...$(NC)"
@@ -59,8 +59,8 @@ test: ## Testa o gateway com requisições
 	@curl -s http://localhost:8080/ | jq .
 	@echo -e "\n$(YELLOW)2. Testing proxy to Go API:$(NC)"
 	@curl -s http://localhost:8080/go/users | jq .
-	@echo -e "\n$(YELLOW)3. Testing rate limit (10 requests):$(NC)"
-	@for i in {1..10}; do \
+	@echo -e "\n$(YELLOW)3. Testing rate limit (40 requests):$(NC)"
+	@for i in {1..40}; do \
 		curl -s -o /dev/null -w "Request $i: %{http_code}\n" http://localhost:8080/go/users; \
 	done
 
