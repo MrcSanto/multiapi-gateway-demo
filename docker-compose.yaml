@@ -42,7 +42,7 @@ services:
         condition: service_healthy
     restart: unless-stopped
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8000/healthcheck"]
+      test: ["CMD", "curl", "-f", "http://localhost:8081/healthcheck"]
       interval: 10s
       timeout: 5s
       retries: 3
@@ -70,24 +70,75 @@ services:
         condition: service_healthy
     restart: unless-stopped
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8000/healthcheck"]
+      test: ["CMD", "curl", "-f", "http://localhost:8082/healthcheck"]
       interval: 10s
       timeout: 5s
       retries: 3
       start_period: 10s
 
-  # API Gateway em Rust
+  python_app_1:
+    container_name: python_app_1
+    build:
+      context: ./python-api
+      dockerfile: Dockerfile
+    image: python-api
+    environment:
+      DB_HOST: api_db
+      DB_PORT: 5432
+      DB_USER: postgres
+      DB_SCHEMA_PYTHON: python_app
+      DB_PASSWORD: 1234
+      DB_NAME: postgres
+    ports:
+      - "8083:8000"
+    networks:
+      - gateway-net
+    depends_on:
+      api_db:
+        condition: service_healthy
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8083/healthcheck"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
+  python_app_2:
+    container_name: python_app_2
+    build:
+      context: ./python-api
+      dockerfile: Dockerfile
+    image: python-api
+    environment:
+      DB_HOST: api_db
+      DB_PORT: 5432
+      DB_USER: postgres
+      DB_SCHEMA_PYTHON: python_app
+      DB_PASSWORD: 1234
+      DB_NAME: postgres
+    ports:
+      - "8084:8000"
+    networks:
+      - gateway-net
+    depends_on:
+      api_db:
+        condition: service_healthy
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8084/healthcheck"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
   rust_gateway:
     container_name: rust_gateway
     build:
       context: ./rust-gateway
       dockerfile: Dockerfile
     environment:
-      - UPSTREAMS=http://go_app_1:8000,http://go_app_2:8000
-
-      # para depois
-      # - UPSTREAMS=http://go_app:8000,http://node_app:8000,http://python_app:8000
-
+      - UPSTREAMS=http://go_app_1:8000,http://go_app_2:8000,http://python_app_1:8000,http://python_app_2:8000
       - RATE_LIMIT=30
       - WINDOW_SEC=60
       - CB_FAIL_THRESHOLD=3
