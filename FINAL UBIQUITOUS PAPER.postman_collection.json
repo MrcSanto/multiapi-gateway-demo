@@ -7,7 +7,7 @@
 	},
 	"item": [
 		{
-			"name": "Users",
+			"name": "golang",
 			"item": [
 				{
 					"name": "Get Users",
@@ -15,13 +15,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:8080/go/users",
+							"raw": "localhost:8081/users",
 							"host": [
 								"localhost"
 							],
-							"port": "8080",
+							"port": "8081",
 							"path": [
-								"go",
 								"users"
 							]
 						}
@@ -34,13 +33,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:8080/go/users/10",
+							"raw": "localhost:8081/users/10",
 							"host": [
 								"localhost"
 							],
-							"port": "8080",
+							"port": "8081",
 							"path": [
-								"go",
 								"users",
 								"10"
 							]
@@ -63,13 +61,12 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:8080/go/users",
+							"raw": "localhost:8081/users",
 							"host": [
 								"localhost"
 							],
-							"port": "8080",
+							"port": "8081",
 							"path": [
-								"go",
 								"users"
 							]
 						}
@@ -82,13 +79,12 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "localhost:8080/go/users/11",
+							"raw": "localhost:8081/users/11",
 							"host": [
 								"localhost"
 							],
-							"port": "8080",
+							"port": "8081",
 							"path": [
-								"go",
 								"users",
 								"11"
 							]
@@ -111,15 +107,14 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:8080/go/users/13",
+							"raw": "localhost:8081/users/10",
 							"host": [
 								"localhost"
 							],
-							"port": "8080",
+							"port": "8081",
 							"path": [
-								"go",
 								"users",
-								"13"
+								"10"
 							]
 						}
 					},
@@ -131,13 +126,146 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:8080/go/healthcheck",
+							"raw": "localhost:8081/healthcheck",
 							"host": [
 								"localhost"
 							],
-							"port": "8080",
+							"port": "8081",
 							"path": [
-								"go",
+								"healthcheck"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "python",
+			"item": [
+				{
+					"name": "Get Users",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8083/users",
+							"host": [
+								"localhost"
+							],
+							"port": "8083",
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get User By ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8083/users/10",
+							"host": [
+								"localhost"
+							],
+							"port": "8083",
+							"path": [
+								"users",
+								"10"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create User",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Marco Antonio Santolin\",\n    \"email\": \"marco.antonio@santolin.com.br\",\n    \"username\": \"marco_santolin\",\n    \"password\": \"MarcaoLindo123\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8083/users",
+							"host": [
+								"localhost"
+							],
+							"port": "8083",
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete User",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:8083/users/11",
+							"host": [
+								"localhost"
+							],
+							"port": "8083",
+							"path": [
+								"users",
+								"11"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update User",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Marco Antônio Santolin\",\n    \"email\": \"marco.antonio@santolin.com.br\",\n    \"username\": \"marco_santolin\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8083/users/10",
+							"host": [
+								"localhost"
+							],
+							"port": "8083",
+							"path": [
+								"users",
+								"10"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Healthcheck",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8081/healthcheck",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
 								"healthcheck"
 							]
 						}
