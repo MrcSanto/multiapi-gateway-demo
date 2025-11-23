@@ -132,6 +132,27 @@ services:
       retries: 3
       start_period: 10s
 
+  node-api:
+    build:
+      context: ./node-api
+      dockerfile: Dockerfile
+    container_name: node_api
+    depends_on:
+      - api_db
+    environment:
+      - DB_HOST=api_db
+      - DB_PORT=5432
+      - DB_USER=postgres        
+      - DB_PASSWORD=1234     
+      - DB_NAME=postgres         
+      - DB_SCHEMA_NODE=node_app  
+      - PORT=8005                
+    ports:
+      - "8085:8005"              
+    networks:
+      - gateway-net              
+
+
   rust_gateway:
     container_name: rust_gateway
     build:
