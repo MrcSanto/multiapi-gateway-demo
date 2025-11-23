@@ -275,6 +275,151 @@
 			]
 		},
 		{
+			"name": "node",
+			"item": [
+				{
+					"name": "Get Users",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8085/users",
+							"host": [
+								"localhost"
+							],
+							"port": "8085",
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get User By ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8085/users/10",
+							"host": [
+								"localhost"
+							],
+							"port": "8085",
+							"path": [
+								"users",
+								"10"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create User",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Marco Antonio Santolin\",\n    \"email\": \"marco.antonio@santolin.com.br\",\n    \"username\": \"marco_santolin\",\n    \"password\": \"MarcaoLindo123\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8085/users",
+							"host": [
+								"localhost"
+							],
+							"port": "8085",
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete User",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Marco Antonio Santolin\",\n    \"email\": \"marco.antonio@santolin.com.br\",\n    \"username\": \"marco_santolin\",\n    \"password\": \"MarcaoLindo123\"\n}"
+						},
+						"url": {
+							"raw": "localhost:8085/users/11",
+							"host": [
+								"localhost"
+							],
+							"port": "8085",
+							"path": [
+								"users",
+								"11"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update User",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Marco Antônio Santolin\",\n    \"email\": \"marco.antonio@santolin.com.br\",\n    \"username\": \"marco_santolin\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8085/users/10",
+							"host": [
+								"localhost"
+							],
+							"port": "8085",
+							"path": [
+								"users",
+								"10"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Healthcheck",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Marco Antonio Santolin\",\n    \"email\": \"marco.antonio@santolin.com.br\",\n    \"username\": \"marco_santolin\",\n    \"password\": \"MarcaoLindo123\"\n}"
+						},
+						"url": {
+							"raw": "localhost:8085/healthcheck",
+							"host": [
+								"localhost"
+							],
+							"port": "8085",
+							"path": [
+								"healthcheck"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
 			"name": "Health Gateway",
 			"request": {
 				"method": "GET",
