@@ -5,18 +5,6 @@
  * structure of the users table used in the Go implementation.
  */
 class User {
-  /**
-   * Creates a new User instance.
-   *
-   * @param {Object} params
-   * @param {number} [params.id] - Unique identifier of the user.
-   * @param {string} params.name - Full name of the user.
-   * @param {string} params.email - Email address (must be unique).
-   * @param {string} params.username - Login username (must be unique).
-   * @param {string} [params.password] - Hashed password. Optional when sending user data back to clients.
-   * @param {Date} [params.created_at] - Timestamp when the user was created.
-   * @param {Date} [params.updated_at] - Timestamp of the last user update.
-   */
   constructor({ id, name, email, username, password, created_at, updated_at }) {
     this.id = id;
     this.name = name;

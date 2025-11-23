@@ -11,31 +11,14 @@ class UserUseCase {
     this.repository = new UserRepository();
   }
 
-  /**
-   * Fetches all users.
-   *
-   * @returns {Promise<Array>}
-   */
   async getUsers() {
     return this.repository.getUsers();
   }
 
-  /**
-   * Retrieves a single user by ID.
-   *
-   * @param {number} id - User identifier.
-   * @returns {Promise<Object|null>}
-   */
   async getUserById(id) {
     return this.repository.getUserById(id);
   }
 
-  /**
-   * Deletes a user by ID. Throws an error if no user was removed.
-   *
-   * @param {number} id - User identifier to remove.
-   * @returns {Promise<void>}
-   */
   async deleteUser(id) {
     const rowCount = await this.repository.deleteUser(id);
     if (rowCount === 0) {
@@ -43,13 +26,6 @@ class UserUseCase {
     }
   }
 
-  /**
-   * Updates an existing user. If the user does not exist, an error is thrown.
-   *
-   * @param {number} id - User identifier.
-   * @param {Object} user - Data to update.
-   * @returns {Promise<Object>} The updated user record.
-   */
   async updateUser(id, user) {
     const rowCount = await this.repository.updateUser(id, user);
     if (rowCount === 0) {
@@ -59,14 +35,6 @@ class UserUseCase {
     return this.repository.getUserById(id);
   }
 
-  /**
-   * Creates a new user with validation and password hashing. Throws
-   * descriptive errors if validation fails or uniqueness constraints are
-   * violated.
-   *
-   * @param {Object} user - Data for the new user.
-   * @returns {Promise<Object>} The newly created user with the ID field set.
-   */
   async createUser(user) {
     // Basic validations
     if (!user.name) {
