@@ -48,8 +48,8 @@ graph TD
 | -------------- | ----------------- | -------------- | ---------------------------------------------- |
 | Gateway        | Rust (Axum)       | 8080           | Rate limiting, circuit breaker, load balancing |
 | Go API         | Golang (Gin)      | 8081           | CRUD de usuários                               |
-| Node.js API    | Node.js (Express) | 8082           | CRUD de usuários                               |
-| Python API     | Python (FastAPI)  | 8083           | CRUD de usuários                               |
+| Node.js API    | Node.js (Express) | 8083           | CRUD de usuários                               |
+| Python API     | Python (FastAPI)  | 8085           | CRUD de usuários                               |
 | Database       | PostgreSQL 12     | 5432           | Persistencia dos dados                         |
 
 ## Testando o sistema
