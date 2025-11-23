@@ -18,14 +18,5 @@ COPY . .
 # Expose the port the app runs on
 EXPOSE 8000
 
-# Define environment variable defaults (can be overridden at runtime)
-ENV PORT=8000 \
-    DB_HOST=localhost \
-    DB_PORT=5432 \
-    DB_USER=postgres \
-    DB_PASSWORD=1234 \
-    DB_NAME=postgres \
-    DB_SCHEMA_NODE=node_app
-
 # Start the server
 CMD [ "npm", "start" ]

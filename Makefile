@@ -17,8 +17,10 @@ up: ## Inicia todos os serviços
 	@echo -e "$(YELLOW)Gateway: http://localhost:8080$(NC)"
 	@echo -e "$(YELLOW)Go API 1:  http://localhost:8081$(NC)"
 	@echo -e "$(YELLOW)Go API 2:  http://localhost:8082$(NC)"
-	@echo -e "$(YELLOW)Go API 1:  http://localhost:8083$(NC)"
-	@echo -e "$(YELLOW)Go API 2:  http://localhost:8084$(NC)"
+	@echo -e "$(YELLOW)Python API 1:  http://localhost:8083$(NC)"
+	@echo -e "$(YELLOW)Python API 2:  http://localhost:8084$(NC)"
+	@echo -e "$(YELLOW)Node API 1:  http://localhost:8085$(NC)"
+	@echo -e "$(YELLOW)Node API 2:  http://localhost:8086$(NC)"
 	@echo -e "$(YELLOW)DB:      localhost:5432$(NC)"
 
 down: ## Para todos os serviços
@@ -44,6 +46,9 @@ go-logs: ## Mostra logs da Go API
 python-logs: ## mostra logs da Python API
 	docker compose logs -f python_app_1 python_app_2
 
+node-logs: ## mostra logs da Node API
+	docker compose logs -f node_app_1 node_app_2
+
 db-logs: ## Mostra logs do banco
 	docker compose logs -f api_db
 
@@ -55,7 +60,11 @@ health: ## Verifica health dos serviços
 	@echo -e "\n$(YELLOW)Gateway Health:$(NC)"
 	@curl -s http://localhost:8080/ | jq . || echo "Gateway not responding"
 	@echo -e "\n$(YELLOW)Go API Health:$(NC)"
-	@curl -s http://localhost:8001/healthcheck | jq . || echo "API not responding"
+	@curl -s http://localhost:8081/healthcheck | jq . || echo "API not responding"
+	@echo -e "\n$(YELLOW)Python API Health:$(NC)"
+	@curl -s http://localhost:8083/healthcheck | jq . || echo "API not responding"
+	@echo -e "\n$(YELLOW)Node API Health:$(NC)"
+	@curl -s http://localhost:8085/healthcheck | jq . || echo "API not responding"
 	@echo -e "\n$(YELLOW)Database:$(NC)"
 	@docker exec api_db pg_isready -U postgres && echo "Database is ready" || echo "Database not ready"
 

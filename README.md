@@ -48,7 +48,7 @@ graph TD
 | -------------- | ----------------- | -------------- | ---------------------------------------------- |
 | Gateway        | Rust (Axum)       | 8080           | Rate limiting, circuit breaker, load balancing |
 | Go API         | Golang (Gin)      | 8081           | CRUD de usuários                               |
-| Node.js API    | Node.js (Express) | 8082           | *A implementar*                                |
+| Node.js API    | Node.js (Express) | 8082           | CRUD de usuários                               |
 | Python API     | Python (FastAPI)  | 8083           | CRUD de usuários                               |
 | Database       | PostgreSQL 12     | 5432           | Persistencia dos dados                         |
 
@@ -56,7 +56,7 @@ graph TD
 
 1. Testando o Gateway Health
    ```bash
-    curl http://localhost:8080/_health
+    curl http://localhost:8080/
     ```
    Resposta esperada:
    ```json

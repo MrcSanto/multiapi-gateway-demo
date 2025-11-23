@@ -28,7 +28,7 @@ app.put('/users/:id', userController.updateUser);
 app.delete('/users/:id', userController.deleteUser);
 
 // Determine the port to listen on
-const port = process.env.PORT || 8000;
+const port = 8000;
 
 // Start the server
 app.listen(port, () => {
