@@ -1,0 +1,1548 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1763946388005,2,Healthcheck,200,OK,TESTES 1-1,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946388007,8,POST,201,Created,TESTES 1-1,text,true,,353,394,1,1,http://localhost:8083/users,8,0,0
+1763946388016,1,GET ID,200,OK,TESTES 1-1,text,true,,348,124,1,1,http://localhost:8083/users/11,1,0,0
+1763946388017,3,PUT,200,OK,TESTES 1-1,text,true,,333,335,1,1,http://localhost:8083/users/11,3,0,0
+1763946388020,2,GET,200,OK,TESTES 1-1,text,true,,2086,121,1,1,http://localhost:8083/users,2,0,0
+1763946388022,1,DELETE,200,OK,TESTES 1-1,text,true,,164,210,1,1,http://localhost:8083/users/11,1,0,0
+1763946388023,1,Healthcheck,200,OK,TESTES 1-1,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946388024,1,POST,201,Created,TESTES 1-1,text,true,,354,395,1,1,http://localhost:8083/users,1,0,0
+1763946388025,1,GET ID,200,OK,TESTES 1-1,text,true,,349,124,1,1,http://localhost:8083/users/12,1,0,0
+1763946388026,1,PUT,200,OK,TESTES 1-1,text,true,,334,336,1,1,http://localhost:8083/users/12,1,0,0
+1763946388027,1,GET,200,OK,TESTES 1-1,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946388028,1,DELETE,200,OK,TESTES 1-1,text,true,,164,210,1,1,http://localhost:8083/users/12,1,0,0
+1763946388105,2,Healthcheck,200,OK,TESTES 1-2,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946388107,4,POST,201,Created,TESTES 1-2,text,true,,354,395,1,1,http://localhost:8083/users,4,0,0
+1763946388111,1,GET ID,200,OK,TESTES 1-2,text,true,,349,124,1,1,http://localhost:8083/users/13,1,0,0
+1763946388112,1,PUT,200,OK,TESTES 1-2,text,true,,333,335,1,1,http://localhost:8083/users/13,1,0,0
+1763946388113,2,GET,200,OK,TESTES 1-2,text,true,,2086,121,1,1,http://localhost:8083/users,2,0,0
+1763946388115,2,DELETE,200,OK,TESTES 1-2,text,true,,164,210,1,1,http://localhost:8083/users/13,2,0,0
+1763946388117,0,Healthcheck,200,OK,TESTES 1-2,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946388117,2,POST,201,Created,TESTES 1-2,text,true,,354,395,1,1,http://localhost:8083/users,2,0,0
+1763946388119,5,GET ID,200,OK,TESTES 1-2,text,true,,349,124,1,1,http://localhost:8083/users/14,5,0,0
+1763946388124,1,PUT,200,OK,TESTES 1-2,text,true,,334,336,1,1,http://localhost:8083/users/14,1,0,0
+1763946388125,1,GET,200,OK,TESTES 1-2,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946388126,2,DELETE,200,OK,TESTES 1-2,text,true,,164,210,1,1,http://localhost:8083/users/14,2,0,0
+1763946388204,2,Healthcheck,200,OK,TESTES 1-3,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,1
+1763946388206,7,POST,201,Created,TESTES 1-3,text,true,,354,394,1,1,http://localhost:8083/users,7,0,0
+1763946388213,2,GET ID,200,OK,TESTES 1-3,text,true,,349,124,1,1,http://localhost:8083/users/15,2,0,0
+1763946388215,3,PUT,200,OK,TESTES 1-3,text,true,,333,335,1,1,http://localhost:8083/users/15,3,0,0
+1763946388218,1,GET,200,OK,TESTES 1-3,text,true,,2086,121,1,1,http://localhost:8083/users,1,0,0
+1763946388219,2,DELETE,200,OK,TESTES 1-3,text,true,,164,210,1,1,http://localhost:8083/users/15,2,0,0
+1763946388221,0,Healthcheck,200,OK,TESTES 1-3,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946388221,2,POST,201,Created,TESTES 1-3,text,true,,353,394,1,1,http://localhost:8083/users,2,0,0
+1763946388223,1,GET ID,200,OK,TESTES 1-3,text,true,,348,124,1,1,http://localhost:8083/users/16,1,0,0
+1763946388224,2,PUT,200,OK,TESTES 1-3,text,true,,334,336,1,1,http://localhost:8083/users/16,2,0,0
+1763946388226,1,GET,200,OK,TESTES 1-3,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946388227,1,DELETE,200,OK,TESTES 1-3,text,true,,164,210,1,1,http://localhost:8083/users/16,1,0,0
+1763946388305,2,Healthcheck,200,OK,TESTES 1-4,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946388307,6,POST,201,Created,TESTES 1-4,text,true,,354,395,1,1,http://localhost:8083/users,6,0,0
+1763946388313,2,GET ID,200,OK,TESTES 1-4,text,true,,349,124,1,1,http://localhost:8083/users/17,2,0,0
+1763946388315,5,PUT,200,OK,TESTES 1-4,text,true,,334,336,1,1,http://localhost:8083/users/17,5,0,0
+1763946388320,2,GET,200,OK,TESTES 1-4,text,true,,2087,121,1,1,http://localhost:8083/users,2,0,0
+1763946388322,3,DELETE,200,OK,TESTES 1-4,text,true,,164,210,1,1,http://localhost:8083/users/17,3,0,0
+1763946388326,0,Healthcheck,200,OK,TESTES 1-4,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946388326,4,POST,201,Created,TESTES 1-4,text,true,,354,394,1,1,http://localhost:8083/users,4,0,0
+1763946388330,1,GET ID,200,OK,TESTES 1-4,text,true,,349,124,1,1,http://localhost:8083/users/18,1,0,0
+1763946388331,3,PUT,200,OK,TESTES 1-4,text,true,,333,335,1,1,http://localhost:8083/users/18,3,0,0
+1763946388334,1,GET,200,OK,TESTES 1-4,text,true,,2086,121,1,1,http://localhost:8083/users,1,0,0
+1763946388335,2,DELETE,200,OK,TESTES 1-4,text,true,,164,210,1,1,http://localhost:8083/users/18,2,0,0
+1763946388404,3,Healthcheck,200,OK,TESTES 1-5,text,true,,182,127,1,1,http://localhost:8083/healthcheck,3,0,1
+1763946388407,6,POST,201,Created,TESTES 1-5,text,true,,353,394,1,1,http://localhost:8083/users,6,0,0
+1763946388413,3,GET ID,200,OK,TESTES 1-5,text,true,,348,124,1,1,http://localhost:8083/users/19,3,0,0
+1763946388416,4,PUT,200,OK,TESTES 1-5,text,true,,333,335,1,1,http://localhost:8083/users/19,4,0,0
+1763946388420,2,GET,200,OK,TESTES 1-5,text,true,,2086,121,1,1,http://localhost:8083/users,2,0,0
+1763946388422,3,DELETE,200,OK,TESTES 1-5,text,true,,164,210,1,1,http://localhost:8083/users/19,3,0,0
+1763946388425,0,Healthcheck,200,OK,TESTES 1-5,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946388425,3,POST,201,Created,TESTES 1-5,text,true,,354,395,1,1,http://localhost:8083/users,3,0,0
+1763946388428,1,GET ID,200,OK,TESTES 1-5,text,true,,349,124,1,1,http://localhost:8083/users/20,1,0,0
+1763946388429,2,PUT,200,OK,TESTES 1-5,text,true,,334,336,1,1,http://localhost:8083/users/20,2,0,0
+1763946388431,1,GET,200,OK,TESTES 1-5,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946388432,1,DELETE,200,OK,TESTES 1-5,text,true,,164,210,1,1,http://localhost:8083/users/20,1,0,0
+1763946388505,2,Healthcheck,200,OK,TESTES 1-6,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946388507,6,POST,201,Created,TESTES 1-6,text,true,,354,395,1,1,http://localhost:8083/users,6,0,0
+1763946388513,2,GET ID,200,OK,TESTES 1-6,text,true,,349,124,1,1,http://localhost:8083/users/21,2,0,0
+1763946388516,3,PUT,200,OK,TESTES 1-6,text,true,,334,336,1,1,http://localhost:8083/users/21,3,0,0
+1763946388519,2,GET,200,OK,TESTES 1-6,text,true,,2087,121,1,1,http://localhost:8083/users,2,0,0
+1763946388521,2,DELETE,200,OK,TESTES 1-6,text,true,,164,210,1,1,http://localhost:8083/users/21,2,0,0
+1763946388523,0,Healthcheck,200,OK,TESTES 1-6,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946388523,3,POST,201,Created,TESTES 1-6,text,true,,354,395,1,1,http://localhost:8083/users,3,0,0
+1763946388526,1,GET ID,200,OK,TESTES 1-6,text,true,,349,124,1,1,http://localhost:8083/users/22,1,0,0
+1763946388527,2,PUT,200,OK,TESTES 1-6,text,true,,334,336,1,1,http://localhost:8083/users/22,2,0,0
+1763946388530,1,GET,200,OK,TESTES 1-6,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946388531,3,DELETE,200,OK,TESTES 1-6,text,true,,164,210,1,1,http://localhost:8083/users/22,3,0,0
+1763946388604,2,Healthcheck,200,OK,TESTES 1-7,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946388606,3,POST,201,Created,TESTES 1-7,text,true,,354,395,1,1,http://localhost:8083/users,3,0,0
+1763946388609,2,GET ID,200,OK,TESTES 1-7,text,true,,349,124,1,1,http://localhost:8083/users/23,2,0,0
+1763946388611,2,PUT,200,OK,TESTES 1-7,text,true,,334,336,1,1,http://localhost:8083/users/23,2,0,0
+1763946388613,2,GET,200,OK,TESTES 1-7,text,true,,2087,121,1,1,http://localhost:8083/users,2,0,0
+1763946388615,1,DELETE,200,OK,TESTES 1-7,text,true,,164,210,1,1,http://localhost:8083/users/23,1,0,0
+1763946388616,0,Healthcheck,200,OK,TESTES 1-7,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946388616,2,POST,201,Created,TESTES 1-7,text,true,,354,395,1,1,http://localhost:8083/users,2,0,0
+1763946388618,1,GET ID,200,OK,TESTES 1-7,text,true,,349,124,1,1,http://localhost:8083/users/24,1,0,0
+1763946388619,2,PUT,200,OK,TESTES 1-7,text,true,,334,336,1,1,http://localhost:8083/users/24,2,0,0
+1763946388621,1,GET,200,OK,TESTES 1-7,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946388622,2,DELETE,200,OK,TESTES 1-7,text,true,,164,210,1,1,http://localhost:8083/users/24,2,0,0
+1763946388705,2,Healthcheck,200,OK,TESTES 1-8,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946388707,4,POST,201,Created,TESTES 1-8,text,true,,354,395,1,1,http://localhost:8083/users,4,0,0
+1763946388711,1,GET ID,200,OK,TESTES 1-8,text,true,,349,124,1,1,http://localhost:8083/users/25,1,0,0
+1763946388712,5,PUT,200,OK,TESTES 1-8,text,true,,334,336,1,1,http://localhost:8083/users/25,5,0,0
+1763946388717,2,GET,200,OK,TESTES 1-8,text,true,,2087,121,1,1,http://localhost:8083/users,2,0,0
+1763946388719,4,DELETE,200,OK,TESTES 1-8,text,true,,164,210,1,1,http://localhost:8083/users/25,4,0,0
+1763946388723,1,Healthcheck,200,OK,TESTES 1-8,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946388724,5,POST,201,Created,TESTES 1-8,text,true,,354,394,1,1,http://localhost:8083/users,5,0,0
+1763946388729,3,GET ID,200,OK,TESTES 1-8,text,true,,349,124,1,1,http://localhost:8083/users/26,3,0,0
+1763946388732,6,PUT,200,OK,TESTES 1-8,text,true,,334,336,1,1,http://localhost:8083/users/26,6,0,0
+1763946388738,3,GET,200,OK,TESTES 1-8,text,true,,2087,121,1,1,http://localhost:8083/users,3,0,0
+1763946388741,5,DELETE,200,OK,TESTES 1-8,text,true,,164,210,1,1,http://localhost:8083/users/26,5,0,0
+1763946388804,3,Healthcheck,200,OK,TESTES 1-9,text,true,,182,127,1,1,http://localhost:8083/healthcheck,3,0,1
+1763946388807,5,POST,201,Created,TESTES 1-9,text,true,,354,395,1,1,http://localhost:8083/users,5,0,0
+1763946388812,2,GET ID,200,OK,TESTES 1-9,text,true,,349,124,1,1,http://localhost:8083/users/27,2,0,0
+1763946388814,5,PUT,200,OK,TESTES 1-9,text,true,,334,336,1,1,http://localhost:8083/users/27,5,0,0
+1763946388820,3,GET,200,OK,TESTES 1-9,text,true,,2087,121,1,1,http://localhost:8083/users,3,0,0
+1763946388823,4,DELETE,200,OK,TESTES 1-9,text,true,,164,210,1,1,http://localhost:8083/users/27,4,0,0
+1763946388827,1,Healthcheck,200,OK,TESTES 1-9,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946388828,4,POST,201,Created,TESTES 1-9,text,true,,354,395,1,1,http://localhost:8083/users,4,0,0
+1763946388832,3,GET ID,200,OK,TESTES 1-9,text,true,,349,124,1,1,http://localhost:8083/users/28,3,0,0
+1763946388835,4,PUT,200,OK,TESTES 1-9,text,true,,334,336,1,1,http://localhost:8083/users/28,4,0,0
+1763946388839,1,GET,200,OK,TESTES 1-9,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946388841,2,DELETE,200,OK,TESTES 1-9,text,true,,164,210,1,1,http://localhost:8083/users/28,2,0,0
+1763946388905,2,Healthcheck,200,OK,TESTES 1-10,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946388908,5,POST,201,Created,TESTES 1-10,text,true,,354,395,1,1,http://localhost:8083/users,5,0,0
+1763946388913,1,GET ID,200,OK,TESTES 1-10,text,true,,349,124,1,1,http://localhost:8083/users/29,1,0,0
+1763946388914,3,PUT,200,OK,TESTES 1-10,text,true,,333,335,1,1,http://localhost:8083/users/29,3,0,0
+1763946388917,2,GET,200,OK,TESTES 1-10,text,true,,2086,121,1,1,http://localhost:8083/users,2,0,0
+1763946388919,1,DELETE,200,OK,TESTES 1-10,text,true,,164,210,1,1,http://localhost:8083/users/29,1,0,0
+1763946388920,1,Healthcheck,200,OK,TESTES 1-10,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946388921,1,POST,201,Created,TESTES 1-10,text,true,,352,393,1,1,http://localhost:8083/users,1,0,0
+1763946388922,1,GET ID,200,OK,TESTES 1-10,text,true,,347,124,1,1,http://localhost:8083/users/30,1,0,0
+1763946388923,2,PUT,200,OK,TESTES 1-10,text,true,,333,335,1,1,http://localhost:8083/users/30,2,0,0
+1763946388925,0,GET,200,OK,TESTES 1-10,text,true,,2086,121,1,1,http://localhost:8083/users,0,0,0
+1763946388925,1,DELETE,200,OK,TESTES 1-10,text,true,,164,210,1,1,http://localhost:8083/users/30,1,0,0
+1763946389005,2,Healthcheck,200,OK,TESTES 1-11,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946389007,5,POST,201,Created,TESTES 1-11,text,true,,354,395,1,1,http://localhost:8083/users,5,0,0
+1763946389013,2,GET ID,200,OK,TESTES 1-11,text,true,,349,124,1,1,http://localhost:8083/users/31,2,0,0
+1763946389015,4,PUT,200,OK,TESTES 1-11,text,true,,334,336,1,1,http://localhost:8083/users/31,4,0,0
+1763946389019,1,GET,200,OK,TESTES 1-11,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946389021,2,DELETE,200,OK,TESTES 1-11,text,true,,164,210,1,1,http://localhost:8083/users/31,2,0,0
+1763946389023,0,Healthcheck,200,OK,TESTES 1-11,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946389023,3,POST,201,Created,TESTES 1-11,text,true,,354,394,1,1,http://localhost:8083/users,3,0,0
+1763946389026,1,GET ID,200,OK,TESTES 1-11,text,true,,349,124,1,1,http://localhost:8083/users/32,1,0,0
+1763946389027,3,PUT,200,OK,TESTES 1-11,text,true,,334,336,1,1,http://localhost:8083/users/32,3,0,0
+1763946389030,1,GET,200,OK,TESTES 1-11,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946389031,2,DELETE,200,OK,TESTES 1-11,text,true,,164,210,1,1,http://localhost:8083/users/32,2,0,0
+1763946389105,2,Healthcheck,200,OK,TESTES 1-12,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946389107,7,POST,201,Created,TESTES 1-12,text,true,,354,395,1,1,http://localhost:8083/users,7,0,0
+1763946389114,3,GET ID,200,OK,TESTES 1-12,text,true,,349,124,1,1,http://localhost:8083/users/33,3,0,0
+1763946389117,5,PUT,200,OK,TESTES 1-12,text,true,,333,335,1,1,http://localhost:8083/users/33,5,0,0
+1763946389122,2,GET,200,OK,TESTES 1-12,text,true,,2086,121,1,1,http://localhost:8083/users,2,0,0
+1763946389124,3,DELETE,200,OK,TESTES 1-12,text,true,,164,210,1,1,http://localhost:8083/users/33,3,0,0
+1763946389127,0,Healthcheck,200,OK,TESTES 1-12,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946389127,3,POST,201,Created,TESTES 1-12,text,true,,354,395,1,1,http://localhost:8083/users,3,0,0
+1763946389130,1,GET ID,200,OK,TESTES 1-12,text,true,,349,124,1,1,http://localhost:8083/users/34,1,0,0
+1763946389131,2,PUT,200,OK,TESTES 1-12,text,true,,334,336,1,1,http://localhost:8083/users/34,2,0,0
+1763946389133,1,GET,200,OK,TESTES 1-12,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946389134,1,DELETE,200,OK,TESTES 1-12,text,true,,164,210,1,1,http://localhost:8083/users/34,1,0,0
+1763946389205,2,Healthcheck,200,OK,TESTES 1-13,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946389208,6,POST,201,Created,TESTES 1-13,text,true,,354,395,1,1,http://localhost:8083/users,6,0,0
+1763946389214,3,GET ID,200,OK,TESTES 1-13,text,true,,349,124,1,1,http://localhost:8083/users/35,3,0,0
+1763946389217,5,PUT,200,OK,TESTES 1-13,text,true,,334,336,1,1,http://localhost:8083/users/35,5,0,0
+1763946389222,2,GET,200,OK,TESTES 1-13,text,true,,2087,121,1,1,http://localhost:8083/users,2,0,0
+1763946389224,3,DELETE,200,OK,TESTES 1-13,text,true,,164,210,1,1,http://localhost:8083/users/35,3,0,0
+1763946389227,1,Healthcheck,200,OK,TESTES 1-13,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946389228,2,POST,201,Created,TESTES 1-13,text,true,,354,395,1,1,http://localhost:8083/users,2,0,0
+1763946389230,1,GET ID,200,OK,TESTES 1-13,text,true,,349,124,1,1,http://localhost:8083/users/36,1,0,0
+1763946389231,2,PUT,200,OK,TESTES 1-13,text,true,,334,336,1,1,http://localhost:8083/users/36,2,0,0
+1763946389233,1,GET,200,OK,TESTES 1-13,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946389234,2,DELETE,200,OK,TESTES 1-13,text,true,,164,210,1,1,http://localhost:8083/users/36,2,0,0
+1763946389305,3,Healthcheck,200,OK,TESTES 1-14,text,true,,182,127,1,1,http://localhost:8083/healthcheck,3,0,1
+1763946389308,8,POST,201,Created,TESTES 1-14,text,true,,354,395,1,1,http://localhost:8083/users,8,0,0
+1763946389316,3,GET ID,200,OK,TESTES 1-14,text,true,,349,124,1,1,http://localhost:8083/users/37,3,0,0
+1763946389320,5,PUT,200,OK,TESTES 1-14,text,true,,334,336,1,1,http://localhost:8083/users/37,5,0,0
+1763946389325,2,GET,200,OK,TESTES 1-14,text,true,,2087,121,1,1,http://localhost:8083/users,2,0,0
+1763946389327,4,DELETE,200,OK,TESTES 1-14,text,true,,164,210,1,1,http://localhost:8083/users/37,4,0,0
+1763946389331,0,Healthcheck,200,OK,TESTES 1-14,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946389331,3,POST,201,Created,TESTES 1-14,text,true,,354,395,1,1,http://localhost:8083/users,3,0,0
+1763946389334,1,GET ID,200,OK,TESTES 1-14,text,true,,349,124,1,1,http://localhost:8083/users/38,1,0,0
+1763946389335,3,PUT,200,OK,TESTES 1-14,text,true,,334,336,1,1,http://localhost:8083/users/38,3,0,0
+1763946389338,1,GET,200,OK,TESTES 1-14,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946389339,1,DELETE,200,OK,TESTES 1-14,text,true,,164,210,1,1,http://localhost:8083/users/38,1,0,0
+1763946389405,2,Healthcheck,200,OK,TESTES 1-15,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946389407,5,POST,201,Created,TESTES 1-15,text,true,,354,395,1,1,http://localhost:8083/users,5,0,0
+1763946389413,2,GET ID,200,OK,TESTES 1-15,text,true,,349,124,1,1,http://localhost:8083/users/39,2,0,0
+1763946389415,4,PUT,200,OK,TESTES 1-15,text,true,,333,335,1,1,http://localhost:8083/users/39,4,0,0
+1763946389419,1,GET,200,OK,TESTES 1-15,text,true,,2086,121,1,1,http://localhost:8083/users,1,0,0
+1763946389420,3,DELETE,200,OK,TESTES 1-15,text,true,,164,210,1,1,http://localhost:8083/users/39,3,0,0
+1763946389423,1,Healthcheck,200,OK,TESTES 1-15,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946389424,3,POST,201,Created,TESTES 1-15,text,true,,354,394,1,1,http://localhost:8083/users,3,0,0
+1763946389427,2,GET ID,200,OK,TESTES 1-15,text,true,,349,124,1,1,http://localhost:8083/users/40,2,0,0
+1763946389429,2,PUT,200,OK,TESTES 1-15,text,true,,334,336,1,1,http://localhost:8083/users/40,2,0,0
+1763946389431,1,GET,200,OK,TESTES 1-15,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946389432,2,DELETE,200,OK,TESTES 1-15,text,true,,164,210,1,1,http://localhost:8083/users/40,2,0,0
+1763946389504,2,Healthcheck,200,OK,TESTES 1-16,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,1
+1763946389506,7,POST,201,Created,TESTES 1-16,text,true,,354,395,1,1,http://localhost:8083/users,7,0,0
+1763946389513,3,GET ID,200,OK,TESTES 1-16,text,true,,349,124,1,1,http://localhost:8083/users/41,3,0,0
+1763946389516,6,PUT,200,OK,TESTES 1-16,text,true,,334,336,1,1,http://localhost:8083/users/41,6,0,0
+1763946389523,3,GET,200,OK,TESTES 1-16,text,true,,2087,121,1,1,http://localhost:8083/users,3,0,0
+1763946389526,3,DELETE,200,OK,TESTES 1-16,text,true,,164,210,1,1,http://localhost:8083/users/41,3,0,0
+1763946389529,1,Healthcheck,200,OK,TESTES 1-16,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946389530,2,POST,201,Created,TESTES 1-16,text,true,,354,395,1,1,http://localhost:8083/users,2,0,0
+1763946389532,1,GET ID,200,OK,TESTES 1-16,text,true,,349,124,1,1,http://localhost:8083/users/42,1,0,0
+1763946389533,3,PUT,200,OK,TESTES 1-16,text,true,,334,336,1,1,http://localhost:8083/users/42,3,0,0
+1763946389536,1,GET,200,OK,TESTES 1-16,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946389537,2,DELETE,200,OK,TESTES 1-16,text,true,,164,210,1,1,http://localhost:8083/users/42,2,0,0
+1763946389604,1,Healthcheck,200,OK,TESTES 1-17,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946389605,3,POST,201,Created,TESTES 1-17,text,true,,353,394,1,1,http://localhost:8083/users,3,0,0
+1763946389608,1,GET ID,200,OK,TESTES 1-17,text,true,,348,124,1,1,http://localhost:8083/users/43,1,0,0
+1763946389609,3,PUT,200,OK,TESTES 1-17,text,true,,334,336,1,1,http://localhost:8083/users/43,3,0,0
+1763946389612,1,GET,200,OK,TESTES 1-17,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946389613,2,DELETE,200,OK,TESTES 1-17,text,true,,164,210,1,1,http://localhost:8083/users/43,2,0,0
+1763946389615,1,Healthcheck,200,OK,TESTES 1-17,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946389616,2,POST,201,Created,TESTES 1-17,text,true,,354,395,1,1,http://localhost:8083/users,2,0,0
+1763946389618,1,GET ID,200,OK,TESTES 1-17,text,true,,349,124,1,1,http://localhost:8083/users/44,1,0,0
+1763946389619,3,PUT,200,OK,TESTES 1-17,text,true,,334,336,1,1,http://localhost:8083/users/44,3,0,0
+1763946389622,1,GET,200,OK,TESTES 1-17,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946389623,1,DELETE,200,OK,TESTES 1-17,text,true,,164,210,1,1,http://localhost:8083/users/44,1,0,0
+1763946389705,1,Healthcheck,200,OK,TESTES 1-18,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946389706,3,POST,201,Created,TESTES 1-18,text,true,,354,395,1,1,http://localhost:8083/users,3,0,0
+1763946389709,2,GET ID,200,OK,TESTES 1-18,text,true,,349,124,1,1,http://localhost:8083/users/45,2,0,0
+1763946389711,2,PUT,200,OK,TESTES 1-18,text,true,,333,335,1,1,http://localhost:8083/users/45,2,0,0
+1763946389713,1,GET,200,OK,TESTES 1-18,text,true,,2086,121,1,1,http://localhost:8083/users,1,0,0
+1763946389714,2,DELETE,200,OK,TESTES 1-18,text,true,,164,210,1,1,http://localhost:8083/users/45,2,0,0
+1763946389717,0,Healthcheck,200,OK,TESTES 1-18,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946389717,3,POST,201,Created,TESTES 1-18,text,true,,354,395,1,1,http://localhost:8083/users,3,0,0
+1763946389720,1,GET ID,200,OK,TESTES 1-18,text,true,,349,124,1,1,http://localhost:8083/users/46,1,0,0
+1763946389721,3,PUT,200,OK,TESTES 1-18,text,true,,334,336,1,1,http://localhost:8083/users/46,3,0,0
+1763946389724,1,GET,200,OK,TESTES 1-18,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946389725,2,DELETE,200,OK,TESTES 1-18,text,true,,164,210,1,1,http://localhost:8083/users/46,2,0,0
+1763946389804,3,Healthcheck,200,OK,TESTES 1-19,text,true,,182,127,1,1,http://localhost:8083/healthcheck,3,0,1
+1763946389807,6,POST,201,Created,TESTES 1-19,text,true,,354,395,1,1,http://localhost:8083/users,6,0,0
+1763946389814,3,GET ID,200,OK,TESTES 1-19,text,true,,349,124,1,1,http://localhost:8083/users/47,3,0,0
+1763946389817,8,PUT,200,OK,TESTES 1-19,text,true,,333,335,1,1,http://localhost:8083/users/47,8,0,0
+1763946389825,3,GET,200,OK,TESTES 1-19,text,true,,2086,121,1,1,http://localhost:8083/users,3,0,0
+1763946389828,6,DELETE,200,OK,TESTES 1-19,text,true,,164,210,1,1,http://localhost:8083/users/47,6,0,0
+1763946389834,0,Healthcheck,200,OK,TESTES 1-19,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946389834,4,POST,201,Created,TESTES 1-19,text,true,,354,395,1,1,http://localhost:8083/users,4,0,0
+1763946389838,1,GET ID,200,OK,TESTES 1-19,text,true,,349,124,1,1,http://localhost:8083/users/48,1,0,0
+1763946389839,3,PUT,200,OK,TESTES 1-19,text,true,,334,336,1,1,http://localhost:8083/users/48,3,0,0
+1763946389842,2,GET,200,OK,TESTES 1-19,text,true,,2087,121,1,1,http://localhost:8083/users,2,0,0
+1763946389844,4,DELETE,200,OK,TESTES 1-19,text,true,,164,210,1,1,http://localhost:8083/users/48,4,0,0
+1763946389905,2,Healthcheck,200,OK,TESTES 1-20,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946389907,6,POST,201,Created,TESTES 1-20,text,true,,354,395,1,1,http://localhost:8083/users,6,0,0
+1763946389914,2,GET ID,200,OK,TESTES 1-20,text,true,,349,124,1,1,http://localhost:8083/users/49,2,0,0
+1763946389916,6,PUT,200,OK,TESTES 1-20,text,true,,334,336,1,1,http://localhost:8083/users/49,6,0,0
+1763946389923,2,GET,200,OK,TESTES 1-20,text,true,,2087,121,1,1,http://localhost:8083/users,2,0,0
+1763946389925,3,DELETE,200,OK,TESTES 1-20,text,true,,164,210,1,1,http://localhost:8083/users/49,3,0,0
+1763946389929,0,Healthcheck,200,OK,TESTES 1-20,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946389929,3,POST,201,Created,TESTES 1-20,text,true,,353,394,1,1,http://localhost:8083/users,3,0,0
+1763946389932,1,GET ID,200,OK,TESTES 1-20,text,true,,348,124,1,1,http://localhost:8083/users/50,1,0,0
+1763946389933,3,PUT,200,OK,TESTES 1-20,text,true,,334,336,1,1,http://localhost:8083/users/50,3,0,0
+1763946389936,1,GET,200,OK,TESTES 1-20,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946389937,1,DELETE,200,OK,TESTES 1-20,text,true,,164,210,1,1,http://localhost:8083/users/50,1,0,0
+1763946390004,1,Healthcheck,200,OK,TESTES 1-21,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946390005,2,POST,201,Created,TESTES 1-21,text,true,,354,395,1,1,http://localhost:8083/users,2,0,0
+1763946390007,0,GET ID,200,OK,TESTES 1-21,text,true,,349,124,1,1,http://localhost:8083/users/51,0,0,0
+1763946390007,2,PUT,200,OK,TESTES 1-21,text,true,,334,336,1,1,http://localhost:8083/users/51,2,0,0
+1763946390009,1,GET,200,OK,TESTES 1-21,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946390010,1,DELETE,200,OK,TESTES 1-21,text,true,,164,210,1,1,http://localhost:8083/users/51,1,0,0
+1763946390011,0,Healthcheck,200,OK,TESTES 1-21,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946390011,1,POST,201,Created,TESTES 1-21,text,true,,353,394,1,1,http://localhost:8083/users,1,0,0
+1763946390012,1,GET ID,200,OK,TESTES 1-21,text,true,,348,124,1,1,http://localhost:8083/users/52,1,0,0
+1763946390013,1,PUT,200,OK,TESTES 1-21,text,true,,334,336,1,1,http://localhost:8083/users/52,1,0,0
+1763946390014,0,GET,200,OK,TESTES 1-21,text,true,,2087,121,1,1,http://localhost:8083/users,0,0,0
+1763946390014,1,DELETE,200,OK,TESTES 1-21,text,true,,164,210,1,1,http://localhost:8083/users/52,1,0,0
+1763946390104,3,Healthcheck,200,OK,TESTES 1-22,text,true,,182,127,1,1,http://localhost:8083/healthcheck,3,0,1
+1763946390107,6,POST,201,Created,TESTES 1-22,text,true,,354,395,1,1,http://localhost:8083/users,6,0,0
+1763946390113,3,GET ID,200,OK,TESTES 1-22,text,true,,349,124,1,1,http://localhost:8083/users/53,3,0,0
+1763946390116,6,PUT,200,OK,TESTES 1-22,text,true,,333,335,1,1,http://localhost:8083/users/53,6,0,0
+1763946390122,3,GET,200,OK,TESTES 1-22,text,true,,2086,121,1,1,http://localhost:8083/users,3,0,0
+1763946390125,4,DELETE,200,OK,TESTES 1-22,text,true,,164,210,1,1,http://localhost:8083/users/53,4,0,0
+1763946390129,1,Healthcheck,200,OK,TESTES 1-22,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946390130,3,POST,201,Created,TESTES 1-22,text,true,,354,395,1,1,http://localhost:8083/users,3,0,0
+1763946390133,2,GET ID,200,OK,TESTES 1-22,text,true,,349,124,1,1,http://localhost:8083/users/54,2,0,0
+1763946390135,3,PUT,200,OK,TESTES 1-22,text,true,,334,336,1,1,http://localhost:8083/users/54,3,0,0
+1763946390138,2,GET,200,OK,TESTES 1-22,text,true,,2087,121,1,1,http://localhost:8083/users,2,0,0
+1763946390140,1,DELETE,200,OK,TESTES 1-22,text,true,,164,210,1,1,http://localhost:8083/users/54,1,0,0
+1763946390204,2,Healthcheck,200,OK,TESTES 1-23,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,1
+1763946390206,4,POST,201,Created,TESTES 1-23,text,true,,354,395,1,1,http://localhost:8083/users,4,0,0
+1763946390210,3,GET ID,200,OK,TESTES 1-23,text,true,,349,124,1,1,http://localhost:8083/users/55,3,0,0
+1763946390213,7,PUT,200,OK,TESTES 1-23,text,true,,334,336,1,1,http://localhost:8083/users/55,7,0,0
+1763946390220,3,GET,200,OK,TESTES 1-23,text,true,,2087,121,1,1,http://localhost:8083/users,3,0,0
+1763946390223,3,DELETE,200,OK,TESTES 1-23,text,true,,164,210,1,1,http://localhost:8083/users/55,3,0,0
+1763946390226,0,Healthcheck,200,OK,TESTES 1-23,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946390226,3,POST,201,Created,TESTES 1-23,text,true,,354,395,1,1,http://localhost:8083/users,3,0,0
+1763946390229,1,GET ID,200,OK,TESTES 1-23,text,true,,349,124,1,1,http://localhost:8083/users/56,1,0,0
+1763946390230,3,PUT,200,OK,TESTES 1-23,text,true,,334,336,1,1,http://localhost:8083/users/56,3,0,0
+1763946390233,1,GET,200,OK,TESTES 1-23,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946390234,2,DELETE,200,OK,TESTES 1-23,text,true,,164,210,1,1,http://localhost:8083/users/56,2,0,0
+1763946390305,2,Healthcheck,200,OK,TESTES 1-24,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946390307,5,POST,201,Created,TESTES 1-24,text,true,,354,394,1,1,http://localhost:8083/users,5,0,0
+1763946390312,2,GET ID,200,OK,TESTES 1-24,text,true,,349,124,1,1,http://localhost:8083/users/57,2,0,0
+1763946390314,4,PUT,200,OK,TESTES 1-24,text,true,,333,335,1,1,http://localhost:8083/users/57,4,0,0
+1763946390318,1,GET,200,OK,TESTES 1-24,text,true,,2086,121,1,1,http://localhost:8083/users,1,0,0
+1763946390319,2,DELETE,200,OK,TESTES 1-24,text,true,,164,210,1,1,http://localhost:8083/users/57,2,0,0
+1763946390321,0,Healthcheck,200,OK,TESTES 1-24,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946390321,2,POST,201,Created,TESTES 1-24,text,true,,354,395,1,1,http://localhost:8083/users,2,0,0
+1763946390323,1,GET ID,200,OK,TESTES 1-24,text,true,,349,124,1,1,http://localhost:8083/users/58,1,0,0
+1763946390324,2,PUT,200,OK,TESTES 1-24,text,true,,333,335,1,1,http://localhost:8083/users/58,2,0,0
+1763946390326,1,GET,200,OK,TESTES 1-24,text,true,,2086,121,1,1,http://localhost:8083/users,1,0,0
+1763946390327,1,DELETE,200,OK,TESTES 1-24,text,true,,164,210,1,1,http://localhost:8083/users/58,1,0,0
+1763946390405,2,Healthcheck,200,OK,TESTES 1-25,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946390407,7,POST,201,Created,TESTES 1-25,text,true,,354,394,1,1,http://localhost:8083/users,7,0,0
+1763946390414,2,GET ID,200,OK,TESTES 1-25,text,true,,349,124,1,1,http://localhost:8083/users/59,2,0,0
+1763946390416,5,PUT,200,OK,TESTES 1-25,text,true,,334,336,1,1,http://localhost:8083/users/59,5,0,0
+1763946390421,3,GET,200,OK,TESTES 1-25,text,true,,2087,121,1,1,http://localhost:8083/users,3,0,0
+1763946390425,3,DELETE,200,OK,TESTES 1-25,text,true,,164,210,1,1,http://localhost:8083/users/59,3,0,0
+1763946390428,1,Healthcheck,200,OK,TESTES 1-25,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946390429,4,POST,201,Created,TESTES 1-25,text,true,,354,395,1,1,http://localhost:8083/users,4,0,0
+1763946390433,1,GET ID,200,OK,TESTES 1-25,text,true,,349,124,1,1,http://localhost:8083/users/60,1,0,0
+1763946390434,3,PUT,200,OK,TESTES 1-25,text,true,,333,335,1,1,http://localhost:8083/users/60,3,0,0
+1763946390437,2,GET,200,OK,TESTES 1-25,text,true,,2086,121,1,1,http://localhost:8083/users,2,0,0
+1763946390439,1,DELETE,200,OK,TESTES 1-25,text,true,,164,210,1,1,http://localhost:8083/users/60,1,0,0
+1763946390504,2,Healthcheck,200,OK,TESTES 1-26,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,1
+1763946390506,5,POST,201,Created,TESTES 1-26,text,true,,354,395,1,1,http://localhost:8083/users,5,0,0
+1763946390511,3,GET ID,200,OK,TESTES 1-26,text,true,,349,124,1,1,http://localhost:8083/users/61,3,0,0
+1763946390514,5,PUT,200,OK,TESTES 1-26,text,true,,333,335,1,1,http://localhost:8083/users/61,5,0,0
+1763946390519,2,GET,200,OK,TESTES 1-26,text,true,,2086,121,1,1,http://localhost:8083/users,2,0,0
+1763946390521,1,DELETE,200,OK,TESTES 1-26,text,true,,164,210,1,1,http://localhost:8083/users/61,1,0,0
+1763946390522,1,Healthcheck,200,OK,TESTES 1-26,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946390523,1,POST,201,Created,TESTES 1-26,text,true,,353,394,1,1,http://localhost:8083/users,1,0,0
+1763946390524,1,GET ID,200,OK,TESTES 1-26,text,true,,348,124,1,1,http://localhost:8083/users/62,1,0,0
+1763946390525,2,PUT,200,OK,TESTES 1-26,text,true,,334,336,1,1,http://localhost:8083/users/62,2,0,0
+1763946390527,1,GET,200,OK,TESTES 1-26,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946390528,1,DELETE,200,OK,TESTES 1-26,text,true,,164,210,1,1,http://localhost:8083/users/62,1,0,0
+1763946390605,2,Healthcheck,200,OK,TESTES 1-27,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946390607,5,POST,201,Created,TESTES 1-27,text,true,,354,395,1,1,http://localhost:8083/users,5,0,0
+1763946390612,3,GET ID,200,OK,TESTES 1-27,text,true,,349,124,1,1,http://localhost:8083/users/63,3,0,0
+1763946390616,6,PUT,200,OK,TESTES 1-27,text,true,,334,336,1,1,http://localhost:8083/users/63,6,0,0
+1763946390622,3,GET,200,OK,TESTES 1-27,text,true,,2087,121,1,1,http://localhost:8083/users,3,0,0
+1763946390625,4,DELETE,200,OK,TESTES 1-27,text,true,,164,210,1,1,http://localhost:8083/users/63,4,0,0
+1763946390629,1,Healthcheck,200,OK,TESTES 1-27,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946390630,3,POST,201,Created,TESTES 1-27,text,true,,353,394,1,1,http://localhost:8083/users,3,0,0
+1763946390633,1,GET ID,200,OK,TESTES 1-27,text,true,,348,124,1,1,http://localhost:8083/users/64,1,0,0
+1763946390635,2,PUT,200,OK,TESTES 1-27,text,true,,334,336,1,1,http://localhost:8083/users/64,2,0,0
+1763946390637,2,GET,200,OK,TESTES 1-27,text,true,,2087,121,1,1,http://localhost:8083/users,2,0,0
+1763946390639,2,DELETE,200,OK,TESTES 1-27,text,true,,164,210,1,1,http://localhost:8083/users/64,2,0,0
+1763946390704,1,Healthcheck,200,OK,TESTES 1-28,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,1
+1763946390705,2,POST,201,Created,TESTES 1-28,text,true,,354,395,1,1,http://localhost:8083/users,2,0,0
+1763946390707,1,GET ID,200,OK,TESTES 1-28,text,true,,349,124,1,1,http://localhost:8083/users/65,1,0,0
+1763946390708,2,PUT,200,OK,TESTES 1-28,text,true,,334,336,1,1,http://localhost:8083/users/65,2,0,0
+1763946390710,0,GET,200,OK,TESTES 1-28,text,true,,2087,121,1,1,http://localhost:8083/users,0,0,0
+1763946390710,1,DELETE,200,OK,TESTES 1-28,text,true,,164,210,1,1,http://localhost:8083/users/65,1,0,0
+1763946390711,1,Healthcheck,200,OK,TESTES 1-28,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946390712,1,POST,201,Created,TESTES 1-28,text,true,,353,394,1,1,http://localhost:8083/users,1,0,0
+1763946390713,0,GET ID,200,OK,TESTES 1-28,text,true,,348,124,1,1,http://localhost:8083/users/66,0,0,0
+1763946390713,2,PUT,200,OK,TESTES 1-28,text,true,,333,335,1,1,http://localhost:8083/users/66,2,0,0
+1763946390715,0,GET,200,OK,TESTES 1-28,text,true,,2086,121,1,1,http://localhost:8083/users,0,0,0
+1763946390715,1,DELETE,200,OK,TESTES 1-28,text,true,,164,210,1,1,http://localhost:8083/users/66,1,0,0
+1763946390805,2,Healthcheck,200,OK,TESTES 1-29,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946390807,4,POST,201,Created,TESTES 1-29,text,true,,354,395,1,1,http://localhost:8083/users,4,0,0
+1763946390811,1,GET ID,200,OK,TESTES 1-29,text,true,,349,124,1,1,http://localhost:8083/users/67,1,0,0
+1763946390812,3,PUT,200,OK,TESTES 1-29,text,true,,332,334,1,1,http://localhost:8083/users/67,3,0,0
+1763946390815,1,GET,200,OK,TESTES 1-29,text,true,,2085,121,1,1,http://localhost:8083/users,1,0,0
+1763946390816,1,DELETE,200,OK,TESTES 1-29,text,true,,164,210,1,1,http://localhost:8083/users/67,1,0,0
+1763946390817,1,Healthcheck,200,OK,TESTES 1-29,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946390818,2,POST,201,Created,TESTES 1-29,text,true,,354,395,1,1,http://localhost:8083/users,2,0,0
+1763946390820,1,GET ID,200,OK,TESTES 1-29,text,true,,349,124,1,1,http://localhost:8083/users/68,1,0,0
+1763946390821,2,PUT,200,OK,TESTES 1-29,text,true,,334,336,1,1,http://localhost:8083/users/68,2,0,0
+1763946390823,1,GET,200,OK,TESTES 1-29,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946421076,2,Healthcheck,200,OK,TESTES 1-1,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,1
+1763946421078,13,POST,201,Created,TESTES 1-1,text,true,,354,395,1,1,http://localhost:8083/users,13,0,0
+1763946421091,1,GET ID,200,OK,TESTES 1-1,text,true,,349,124,1,1,http://localhost:8083/users/11,1,0,0
+1763946421093,3,PUT,200,OK,TESTES 1-1,text,true,,334,336,1,1,http://localhost:8083/users/11,3,0,0
+1763946421096,2,GET,200,OK,TESTES 1-1,text,true,,2087,121,1,1,http://localhost:8083/users,2,0,0
+1763946421098,3,DELETE,200,OK,TESTES 1-1,text,true,,164,210,1,1,http://localhost:8083/users/11,3,0,0
+1763946421101,0,Healthcheck,200,OK,TESTES 1-1,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946421101,2,POST,201,Created,TESTES 1-1,text,true,,354,395,1,1,http://localhost:8083/users,2,0,0
+1763946421103,1,GET ID,200,OK,TESTES 1-1,text,true,,349,124,1,1,http://localhost:8083/users/12,1,0,0
+1763946421104,2,PUT,200,OK,TESTES 1-1,text,true,,333,335,1,1,http://localhost:8083/users/12,2,0,0
+1763946421106,1,GET,200,OK,TESTES 1-1,text,true,,2086,121,1,1,http://localhost:8083/users,1,0,0
+1763946421107,5,DELETE,200,OK,TESTES 1-1,text,true,,164,210,1,1,http://localhost:8083/users/12,5,0,0
+1763946421177,2,Healthcheck,200,OK,TESTES 1-2,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946421179,4,POST,201,Created,TESTES 1-2,text,true,,354,395,1,1,http://localhost:8083/users,4,0,0
+1763946421183,2,GET ID,200,OK,TESTES 1-2,text,true,,349,124,1,1,http://localhost:8083/users/13,2,0,0
+1763946421185,3,PUT,200,OK,TESTES 1-2,text,true,,334,336,1,1,http://localhost:8083/users/13,3,0,0
+1763946421188,1,GET,200,OK,TESTES 1-2,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946421189,2,DELETE,200,OK,TESTES 1-2,text,true,,164,210,1,1,http://localhost:8083/users/13,2,0,0
+1763946421191,1,Healthcheck,200,OK,TESTES 1-2,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946421192,2,POST,201,Created,TESTES 1-2,text,true,,354,395,1,1,http://localhost:8083/users,2,0,0
+1763946421194,1,GET ID,200,OK,TESTES 1-2,text,true,,349,124,1,1,http://localhost:8083/users/14,1,0,0
+1763946421195,3,PUT,200,OK,TESTES 1-2,text,true,,334,336,1,1,http://localhost:8083/users/14,3,0,0
+1763946421198,1,GET,200,OK,TESTES 1-2,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946421199,2,DELETE,200,OK,TESTES 1-2,text,true,,164,210,1,1,http://localhost:8083/users/14,2,0,0
+1763946421277,1,Healthcheck,200,OK,TESTES 1-3,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946421278,4,POST,201,Created,TESTES 1-3,text,true,,354,395,1,1,http://localhost:8083/users,4,0,0
+1763946421282,2,GET ID,200,OK,TESTES 1-3,text,true,,349,124,1,1,http://localhost:8083/users/15,2,0,0
+1763946421284,5,PUT,200,OK,TESTES 1-3,text,true,,334,336,1,1,http://localhost:8083/users/15,5,0,0
+1763946421289,2,GET,200,OK,TESTES 1-3,text,true,,2087,121,1,1,http://localhost:8083/users,2,0,0
+1763946421291,3,DELETE,200,OK,TESTES 1-3,text,true,,164,210,1,1,http://localhost:8083/users/15,3,0,0
+1763946421294,1,Healthcheck,200,OK,TESTES 1-3,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946421295,4,POST,201,Created,TESTES 1-3,text,true,,354,395,1,1,http://localhost:8083/users,4,0,0
+1763946421299,2,GET ID,200,OK,TESTES 1-3,text,true,,349,124,1,1,http://localhost:8083/users/16,2,0,0
+1763946421301,4,PUT,200,OK,TESTES 1-3,text,true,,334,336,1,1,http://localhost:8083/users/16,4,0,0
+1763946421305,1,GET,200,OK,TESTES 1-3,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946421306,3,DELETE,200,OK,TESTES 1-3,text,true,,164,210,1,1,http://localhost:8083/users/16,3,0,0
+1763946421377,2,Healthcheck,200,OK,TESTES 1-4,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946421379,6,POST,201,Created,TESTES 1-4,text,true,,354,395,1,1,http://localhost:8083/users,6,0,0
+1763946421385,3,GET ID,200,OK,TESTES 1-4,text,true,,349,124,1,1,http://localhost:8083/users/17,3,0,0
+1763946421388,4,PUT,200,OK,TESTES 1-4,text,true,,334,336,1,1,http://localhost:8083/users/17,4,0,0
+1763946421392,2,GET,200,OK,TESTES 1-4,text,true,,2087,121,1,1,http://localhost:8083/users,2,0,0
+1763946421394,3,DELETE,200,OK,TESTES 1-4,text,true,,164,210,1,1,http://localhost:8083/users/17,3,0,0
+1763946421397,1,Healthcheck,200,OK,TESTES 1-4,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946421398,2,POST,201,Created,TESTES 1-4,text,true,,353,393,1,1,http://localhost:8083/users,2,0,0
+1763946421400,1,GET ID,200,OK,TESTES 1-4,text,true,,348,124,1,1,http://localhost:8083/users/18,1,0,0
+1763946421401,3,PUT,200,OK,TESTES 1-4,text,true,,334,336,1,1,http://localhost:8083/users/18,3,0,0
+1763946421404,1,GET,200,OK,TESTES 1-4,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946421405,2,DELETE,200,OK,TESTES 1-4,text,true,,164,210,1,1,http://localhost:8083/users/18,2,0,0
+1763946421476,1,Healthcheck,200,OK,TESTES 1-5,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,1
+1763946421478,3,POST,201,Created,TESTES 1-5,text,true,,353,394,1,1,http://localhost:8083/users,3,0,0
+1763946421481,2,GET ID,200,OK,TESTES 1-5,text,true,,348,124,1,1,http://localhost:8083/users/19,2,0,0
+1763946421483,4,PUT,200,OK,TESTES 1-5,text,true,,333,335,1,1,http://localhost:8083/users/19,4,0,0
+1763946421487,2,GET,200,OK,TESTES 1-5,text,true,,2086,121,1,1,http://localhost:8083/users,2,0,0
+1763946421489,2,DELETE,200,OK,TESTES 1-5,text,true,,164,210,1,1,http://localhost:8083/users/19,2,0,0
+1763946421491,0,Healthcheck,200,OK,TESTES 1-5,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946421491,3,POST,201,Created,TESTES 1-5,text,true,,354,395,1,1,http://localhost:8083/users,3,0,0
+1763946421494,1,GET ID,200,OK,TESTES 1-5,text,true,,349,124,1,1,http://localhost:8083/users/20,1,0,0
+1763946421495,3,PUT,200,OK,TESTES 1-5,text,true,,333,335,1,1,http://localhost:8083/users/20,3,0,0
+1763946421498,2,GET,200,OK,TESTES 1-5,text,true,,2086,121,1,1,http://localhost:8083/users,2,0,0
+1763946421500,2,DELETE,200,OK,TESTES 1-5,text,true,,164,210,1,1,http://localhost:8083/users/20,2,0,0
+1763946421577,2,Healthcheck,200,OK,TESTES 1-6,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946421579,6,POST,201,Created,TESTES 1-6,text,true,,354,395,1,1,http://localhost:8083/users,6,0,0
+1763946421585,2,GET ID,200,OK,TESTES 1-6,text,true,,349,124,1,1,http://localhost:8083/users/21,2,0,0
+1763946421587,4,PUT,200,OK,TESTES 1-6,text,true,,334,336,1,1,http://localhost:8083/users/21,4,0,0
+1763946421591,1,GET,200,OK,TESTES 1-6,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946421592,2,DELETE,200,OK,TESTES 1-6,text,true,,164,210,1,1,http://localhost:8083/users/21,2,0,0
+1763946421594,0,Healthcheck,200,OK,TESTES 1-6,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946421594,2,POST,201,Created,TESTES 1-6,text,true,,354,395,1,1,http://localhost:8083/users,2,0,0
+1763946421596,1,GET ID,200,OK,TESTES 1-6,text,true,,349,124,1,1,http://localhost:8083/users/22,1,0,0
+1763946421597,4,PUT,200,OK,TESTES 1-6,text,true,,334,336,1,1,http://localhost:8083/users/22,4,0,0
+1763946421601,1,GET,200,OK,TESTES 1-6,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946421603,2,DELETE,200,OK,TESTES 1-6,text,true,,164,210,1,1,http://localhost:8083/users/22,2,0,0
+1763946421676,1,Healthcheck,200,OK,TESTES 1-7,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,1
+1763946421677,3,POST,201,Created,TESTES 1-7,text,true,,354,395,1,1,http://localhost:8083/users,3,0,0
+1763946421681,1,GET ID,200,OK,TESTES 1-7,text,true,,349,124,1,1,http://localhost:8083/users/23,1,0,0
+1763946421682,2,PUT,200,OK,TESTES 1-7,text,true,,334,336,1,1,http://localhost:8083/users/23,2,0,0
+1763946421685,1,GET,200,OK,TESTES 1-7,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946421686,1,DELETE,200,OK,TESTES 1-7,text,true,,164,210,1,1,http://localhost:8083/users/23,1,0,0
+1763946421687,1,Healthcheck,200,OK,TESTES 1-7,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946421688,1,POST,201,Created,TESTES 1-7,text,true,,354,395,1,1,http://localhost:8083/users,1,0,0
+1763946421689,1,GET ID,200,OK,TESTES 1-7,text,true,,349,124,1,1,http://localhost:8083/users/24,1,0,0
+1763946421690,3,PUT,200,OK,TESTES 1-7,text,true,,334,336,1,1,http://localhost:8083/users/24,3,0,0
+1763946421693,1,GET,200,OK,TESTES 1-7,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946421694,2,DELETE,200,OK,TESTES 1-7,text,true,,164,210,1,1,http://localhost:8083/users/24,2,0,0
+1763946421777,2,Healthcheck,200,OK,TESTES 1-8,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946421779,7,POST,201,Created,TESTES 1-8,text,true,,353,394,1,1,http://localhost:8083/users,7,0,0
+1763946421786,2,GET ID,200,OK,TESTES 1-8,text,true,,348,124,1,1,http://localhost:8083/users/25,2,0,0
+1763946421788,6,PUT,200,OK,TESTES 1-8,text,true,,334,336,1,1,http://localhost:8083/users/25,6,0,0
+1763946421794,2,GET,200,OK,TESTES 1-8,text,true,,2087,121,1,1,http://localhost:8083/users,2,0,0
+1763946421796,3,DELETE,200,OK,TESTES 1-8,text,true,,164,210,1,1,http://localhost:8083/users/25,3,0,0
+1763946421799,1,Healthcheck,200,OK,TESTES 1-8,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946421800,3,POST,201,Created,TESTES 1-8,text,true,,354,395,1,1,http://localhost:8083/users,3,0,0
+1763946421803,1,GET ID,200,OK,TESTES 1-8,text,true,,349,124,1,1,http://localhost:8083/users/26,1,0,0
+1763946421804,3,PUT,200,OK,TESTES 1-8,text,true,,334,336,1,1,http://localhost:8083/users/26,3,0,0
+1763946421807,1,GET,200,OK,TESTES 1-8,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946421808,2,DELETE,200,OK,TESTES 1-8,text,true,,164,210,1,1,http://localhost:8083/users/26,2,0,0
+1763946421877,1,Healthcheck,200,OK,TESTES 1-9,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946421878,3,POST,201,Created,TESTES 1-9,text,true,,354,395,1,1,http://localhost:8083/users,3,0,0
+1763946421881,2,GET ID,200,OK,TESTES 1-9,text,true,,349,124,1,1,http://localhost:8083/users/27,2,0,0
+1763946421883,5,PUT,200,OK,TESTES 1-9,text,true,,334,336,1,1,http://localhost:8083/users/27,5,0,0
+1763946421888,2,GET,200,OK,TESTES 1-9,text,true,,2087,121,1,1,http://localhost:8083/users,2,0,0
+1763946421890,3,DELETE,200,OK,TESTES 1-9,text,true,,164,210,1,1,http://localhost:8083/users/27,3,0,0
+1763946421893,0,Healthcheck,200,OK,TESTES 1-9,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946421894,2,POST,201,Created,TESTES 1-9,text,true,,354,395,1,1,http://localhost:8083/users,2,0,0
+1763946421896,1,GET ID,200,OK,TESTES 1-9,text,true,,349,124,1,1,http://localhost:8083/users/28,1,0,0
+1763946421897,2,PUT,200,OK,TESTES 1-9,text,true,,334,336,1,1,http://localhost:8083/users/28,2,0,0
+1763946421899,1,GET,200,OK,TESTES 1-9,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946421900,2,DELETE,200,OK,TESTES 1-9,text,true,,164,210,1,1,http://localhost:8083/users/28,2,0,0
+1763946421977,1,Healthcheck,200,OK,TESTES 1-10,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946421978,4,POST,201,Created,TESTES 1-10,text,true,,354,395,1,1,http://localhost:8083/users,4,0,0
+1763946421982,1,GET ID,200,OK,TESTES 1-10,text,true,,349,124,1,1,http://localhost:8083/users/29,1,0,0
+1763946421983,5,PUT,200,OK,TESTES 1-10,text,true,,334,336,1,1,http://localhost:8083/users/29,5,0,0
+1763946421988,2,GET,200,OK,TESTES 1-10,text,true,,2087,121,1,1,http://localhost:8083/users,2,0,0
+1763946421990,3,DELETE,200,OK,TESTES 1-10,text,true,,164,210,1,1,http://localhost:8083/users/29,3,0,0
+1763946421993,0,Healthcheck,200,OK,TESTES 1-10,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946421993,3,POST,201,Created,TESTES 1-10,text,true,,354,394,1,1,http://localhost:8083/users,3,0,0
+1763946421996,1,GET ID,200,OK,TESTES 1-10,text,true,,349,124,1,1,http://localhost:8083/users/30,1,0,0
+1763946421997,3,PUT,200,OK,TESTES 1-10,text,true,,334,336,1,1,http://localhost:8083/users/30,3,0,0
+1763946422000,1,GET,200,OK,TESTES 1-10,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946422001,1,DELETE,200,OK,TESTES 1-10,text,true,,164,210,1,1,http://localhost:8083/users/30,1,0,0
+1763946422077,3,Healthcheck,200,OK,TESTES 1-11,text,true,,182,127,1,1,http://localhost:8083/healthcheck,3,0,1
+1763946422080,6,POST,201,Created,TESTES 1-11,text,true,,354,395,1,1,http://localhost:8083/users,6,0,0
+1763946422087,2,GET ID,200,OK,TESTES 1-11,text,true,,349,124,1,1,http://localhost:8083/users/31,2,0,0
+1763946422089,7,PUT,200,OK,TESTES 1-11,text,true,,334,336,1,1,http://localhost:8083/users/31,7,0,0
+1763946422096,3,GET,200,OK,TESTES 1-11,text,true,,2087,121,1,1,http://localhost:8083/users,3,0,0
+1763946422099,5,DELETE,200,OK,TESTES 1-11,text,true,,164,210,1,1,http://localhost:8083/users/31,5,0,0
+1763946422104,0,Healthcheck,200,OK,TESTES 1-11,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946422105,3,POST,201,Created,TESTES 1-11,text,true,,353,394,1,1,http://localhost:8083/users,3,0,0
+1763946422108,1,GET ID,200,OK,TESTES 1-11,text,true,,348,124,1,1,http://localhost:8083/users/32,1,0,0
+1763946422110,3,PUT,200,OK,TESTES 1-11,text,true,,334,336,1,1,http://localhost:8083/users/32,3,0,0
+1763946422113,2,GET,200,OK,TESTES 1-11,text,true,,2087,121,1,1,http://localhost:8083/users,2,0,0
+1763946422115,3,DELETE,200,OK,TESTES 1-11,text,true,,164,210,1,1,http://localhost:8083/users/32,3,0,0
+1763946422177,2,Healthcheck,200,OK,TESTES 1-12,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946422179,4,POST,201,Created,TESTES 1-12,text,true,,353,393,1,1,http://localhost:8083/users,4,0,0
+1763946422183,2,GET ID,200,OK,TESTES 1-12,text,true,,348,124,1,1,http://localhost:8083/users/33,2,0,0
+1763946422185,4,PUT,200,OK,TESTES 1-12,text,true,,334,336,1,1,http://localhost:8083/users/33,4,0,0
+1763946422189,2,GET,200,OK,TESTES 1-12,text,true,,2087,121,1,1,http://localhost:8083/users,2,0,0
+1763946422191,2,DELETE,200,OK,TESTES 1-12,text,true,,164,210,1,1,http://localhost:8083/users/33,2,0,0
+1763946422193,1,Healthcheck,200,OK,TESTES 1-12,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946422194,3,POST,201,Created,TESTES 1-12,text,true,,354,395,1,1,http://localhost:8083/users,3,0,0
+1763946422197,1,GET ID,200,OK,TESTES 1-12,text,true,,349,124,1,1,http://localhost:8083/users/34,1,0,0
+1763946422198,3,PUT,200,OK,TESTES 1-12,text,true,,333,335,1,1,http://localhost:8083/users/34,3,0,0
+1763946422201,1,GET,200,OK,TESTES 1-12,text,true,,2086,121,1,1,http://localhost:8083/users,1,0,0
+1763946422202,2,DELETE,200,OK,TESTES 1-12,text,true,,164,210,1,1,http://localhost:8083/users/34,2,0,0
+1763946422277,3,Healthcheck,200,OK,TESTES 1-13,text,true,,182,127,1,1,http://localhost:8083/healthcheck,3,0,1
+1763946422280,6,POST,201,Created,TESTES 1-13,text,true,,353,394,1,1,http://localhost:8083/users,6,0,0
+1763946422287,2,GET ID,200,OK,TESTES 1-13,text,true,,348,124,1,1,http://localhost:8083/users/35,2,0,0
+1763946422289,9,PUT,200,OK,TESTES 1-13,text,true,,334,336,1,1,http://localhost:8083/users/35,9,0,0
+1763946422298,3,GET,200,OK,TESTES 1-13,text,true,,2087,121,1,1,http://localhost:8083/users,3,0,0
+1763946422301,5,DELETE,200,OK,TESTES 1-13,text,true,,164,210,1,1,http://localhost:8083/users/35,5,0,0
+1763946422306,1,Healthcheck,200,OK,TESTES 1-13,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946422307,5,POST,201,Created,TESTES 1-13,text,true,,354,394,1,1,http://localhost:8083/users,5,0,0
+1763946422312,3,GET ID,200,OK,TESTES 1-13,text,true,,349,124,1,1,http://localhost:8083/users/36,3,0,0
+1763946422315,5,PUT,200,OK,TESTES 1-13,text,true,,334,336,1,1,http://localhost:8083/users/36,5,0,0
+1763946422320,2,GET,200,OK,TESTES 1-13,text,true,,2087,121,1,1,http://localhost:8083/users,2,0,0
+1763946422322,2,DELETE,200,OK,TESTES 1-13,text,true,,164,210,1,1,http://localhost:8083/users/36,2,0,0
+1763946422376,3,Healthcheck,200,OK,TESTES 1-14,text,true,,182,127,1,1,http://localhost:8083/healthcheck,3,0,1
+1763946422379,6,POST,201,Created,TESTES 1-14,text,true,,354,395,1,1,http://localhost:8083/users,6,0,0
+1763946422385,2,GET ID,200,OK,TESTES 1-14,text,true,,349,124,1,1,http://localhost:8083/users/37,2,0,0
+1763946422387,6,PUT,200,OK,TESTES 1-14,text,true,,334,336,1,1,http://localhost:8083/users/37,6,0,0
+1763946422393,2,GET,200,OK,TESTES 1-14,text,true,,2087,121,1,1,http://localhost:8083/users,2,0,0
+1763946422395,3,DELETE,200,OK,TESTES 1-14,text,true,,164,210,1,1,http://localhost:8083/users/37,3,0,0
+1763946422398,0,Healthcheck,200,OK,TESTES 1-14,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946422398,2,POST,201,Created,TESTES 1-14,text,true,,354,395,1,1,http://localhost:8083/users,2,0,0
+1763946422400,1,GET ID,200,OK,TESTES 1-14,text,true,,349,124,1,1,http://localhost:8083/users/38,1,0,0
+1763946422401,2,PUT,200,OK,TESTES 1-14,text,true,,333,335,1,1,http://localhost:8083/users/38,2,0,0
+1763946422403,0,GET,200,OK,TESTES 1-14,text,true,,2086,121,1,1,http://localhost:8083/users,0,0,0
+1763946422403,1,DELETE,200,OK,TESTES 1-14,text,true,,164,210,1,1,http://localhost:8083/users/38,1,0,0
+1763946422476,1,Healthcheck,200,OK,TESTES 1-15,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946422478,4,POST,201,Created,TESTES 1-15,text,true,,354,395,1,1,http://localhost:8083/users,4,0,0
+1763946422482,1,GET ID,200,OK,TESTES 1-15,text,true,,349,124,1,1,http://localhost:8083/users/39,1,0,0
+1763946422483,4,PUT,200,OK,TESTES 1-15,text,true,,334,336,1,1,http://localhost:8083/users/39,4,0,0
+1763946422487,2,GET,200,OK,TESTES 1-15,text,true,,2087,121,1,1,http://localhost:8083/users,2,0,0
+1763946422489,3,DELETE,200,OK,TESTES 1-15,text,true,,164,210,1,1,http://localhost:8083/users/39,3,0,0
+1763946422492,1,Healthcheck,200,OK,TESTES 1-15,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946422493,3,POST,201,Created,TESTES 1-15,text,true,,354,395,1,1,http://localhost:8083/users,3,0,0
+1763946422496,2,GET ID,200,OK,TESTES 1-15,text,true,,349,124,1,1,http://localhost:8083/users/40,2,0,0
+1763946422498,2,PUT,200,OK,TESTES 1-15,text,true,,334,336,1,1,http://localhost:8083/users/40,2,0,0
+1763946422500,1,GET,200,OK,TESTES 1-15,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946422501,2,DELETE,200,OK,TESTES 1-15,text,true,,164,210,1,1,http://localhost:8083/users/40,2,0,0
+1763946422576,1,Healthcheck,200,OK,TESTES 1-16,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946422577,3,POST,201,Created,TESTES 1-16,text,true,,354,395,1,1,http://localhost:8083/users,3,0,0
+1763946422581,1,GET ID,200,OK,TESTES 1-16,text,true,,349,124,1,1,http://localhost:8083/users/41,1,0,0
+1763946422582,4,PUT,200,OK,TESTES 1-16,text,true,,334,336,1,1,http://localhost:8083/users/41,4,0,0
+1763946422586,2,GET,200,OK,TESTES 1-16,text,true,,2087,121,1,1,http://localhost:8083/users,2,0,0
+1763946422588,3,DELETE,200,OK,TESTES 1-16,text,true,,164,210,1,1,http://localhost:8083/users/41,3,0,0
+1763946422591,0,Healthcheck,200,OK,TESTES 1-16,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946422591,3,POST,201,Created,TESTES 1-16,text,true,,354,395,1,1,http://localhost:8083/users,3,0,0
+1763946422594,1,GET ID,200,OK,TESTES 1-16,text,true,,349,124,1,1,http://localhost:8083/users/42,1,0,0
+1763946422595,2,PUT,200,OK,TESTES 1-16,text,true,,334,336,1,1,http://localhost:8083/users/42,2,0,0
+1763946422597,1,GET,200,OK,TESTES 1-16,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946422598,2,DELETE,200,OK,TESTES 1-16,text,true,,164,210,1,1,http://localhost:8083/users/42,2,0,0
+1763946422676,1,Healthcheck,200,OK,TESTES 1-17,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946422678,4,POST,201,Created,TESTES 1-17,text,true,,354,395,1,1,http://localhost:8083/users,4,0,0
+1763946422682,3,GET ID,200,OK,TESTES 1-17,text,true,,349,124,1,1,http://localhost:8083/users/43,3,0,0
+1763946422685,5,PUT,200,OK,TESTES 1-17,text,true,,334,336,1,1,http://localhost:8083/users/43,5,0,0
+1763946422690,2,GET,200,OK,TESTES 1-17,text,true,,2087,121,1,1,http://localhost:8083/users,2,0,0
+1763946422692,2,DELETE,200,OK,TESTES 1-17,text,true,,164,210,1,1,http://localhost:8083/users/43,2,0,0
+1763946422694,0,Healthcheck,200,OK,TESTES 1-17,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946422695,2,POST,201,Created,TESTES 1-17,text,true,,352,393,1,1,http://localhost:8083/users,2,0,0
+1763946422697,1,GET ID,200,OK,TESTES 1-17,text,true,,347,124,1,1,http://localhost:8083/users/44,1,0,0
+1763946422698,2,PUT,200,OK,TESTES 1-17,text,true,,334,336,1,1,http://localhost:8083/users/44,2,0,0
+1763946422700,1,GET,200,OK,TESTES 1-17,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946422701,1,DELETE,200,OK,TESTES 1-17,text,true,,164,210,1,1,http://localhost:8083/users/44,1,0,0
+1763946422776,1,Healthcheck,200,OK,TESTES 1-18,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946422777,3,POST,201,Created,TESTES 1-18,text,true,,354,395,1,1,http://localhost:8083/users,3,0,0
+1763946422781,1,GET ID,200,OK,TESTES 1-18,text,true,,349,124,1,1,http://localhost:8083/users/45,1,0,0
+1763946422782,5,PUT,200,OK,TESTES 1-18,text,true,,334,336,1,1,http://localhost:8083/users/45,5,0,0
+1763946422787,2,GET,200,OK,TESTES 1-18,text,true,,2087,121,1,1,http://localhost:8083/users,2,0,0
+1763946422790,3,DELETE,200,OK,TESTES 1-18,text,true,,164,210,1,1,http://localhost:8083/users/45,3,0,0
+1763946422793,0,Healthcheck,200,OK,TESTES 1-18,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946422793,4,POST,201,Created,TESTES 1-18,text,true,,354,394,1,1,http://localhost:8083/users,4,0,0
+1763946422797,1,GET ID,200,OK,TESTES 1-18,text,true,,349,124,1,1,http://localhost:8083/users/46,1,0,0
+1763946422798,2,PUT,200,OK,TESTES 1-18,text,true,,334,336,1,1,http://localhost:8083/users/46,2,0,0
+1763946422800,1,GET,200,OK,TESTES 1-18,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946422801,1,DELETE,200,OK,TESTES 1-18,text,true,,164,210,1,1,http://localhost:8083/users/46,1,0,0
+1763946422876,1,Healthcheck,200,OK,TESTES 1-19,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946422877,3,POST,201,Created,TESTES 1-19,text,true,,354,395,1,1,http://localhost:8083/users,3,0,0
+1763946422881,1,GET ID,200,OK,TESTES 1-19,text,true,,349,124,1,1,http://localhost:8083/users/47,1,0,0
+1763946422882,4,PUT,200,OK,TESTES 1-19,text,true,,334,336,1,1,http://localhost:8083/users/47,4,0,0
+1763946422886,3,GET,200,OK,TESTES 1-19,text,true,,2087,121,1,1,http://localhost:8083/users,3,0,0
+1763946422889,3,DELETE,200,OK,TESTES 1-19,text,true,,164,210,1,1,http://localhost:8083/users/47,3,0,0
+1763946422892,1,Healthcheck,200,OK,TESTES 1-19,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946422893,3,POST,201,Created,TESTES 1-19,text,true,,354,394,1,1,http://localhost:8083/users,3,0,0
+1763946422896,1,GET ID,200,OK,TESTES 1-19,text,true,,349,124,1,1,http://localhost:8083/users/48,1,0,0
+1763946422897,4,PUT,200,OK,TESTES 1-19,text,true,,334,336,1,1,http://localhost:8083/users/48,3,0,0
+1763946422901,2,GET,200,OK,TESTES 1-19,text,true,,2087,121,1,1,http://localhost:8083/users,2,0,0
+1763946422903,3,DELETE,200,OK,TESTES 1-19,text,true,,164,210,1,1,http://localhost:8083/users/48,3,0,0
+1763946422976,2,Healthcheck,200,OK,TESTES 1-20,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946422978,4,POST,201,Created,TESTES 1-20,text,true,,354,395,1,1,http://localhost:8083/users,4,0,0
+1763946422982,2,GET ID,200,OK,TESTES 1-20,text,true,,349,124,1,1,http://localhost:8083/users/49,2,0,0
+1763946422984,6,PUT,200,OK,TESTES 1-20,text,true,,334,336,1,1,http://localhost:8083/users/49,6,0,0
+1763946422990,2,GET,200,OK,TESTES 1-20,text,true,,2087,121,1,1,http://localhost:8083/users,2,0,0
+1763946422992,2,DELETE,200,OK,TESTES 1-20,text,true,,164,210,1,1,http://localhost:8083/users/49,2,0,0
+1763946422994,1,Healthcheck,200,OK,TESTES 1-20,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946422995,2,POST,201,Created,TESTES 1-20,text,true,,354,395,1,1,http://localhost:8083/users,2,0,0
+1763946422997,1,GET ID,200,OK,TESTES 1-20,text,true,,349,124,1,1,http://localhost:8083/users/50,1,0,0
+1763946422998,2,PUT,200,OK,TESTES 1-20,text,true,,334,336,1,1,http://localhost:8083/users/50,2,0,0
+1763946423000,1,GET,200,OK,TESTES 1-20,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946423001,2,DELETE,200,OK,TESTES 1-20,text,true,,164,210,1,1,http://localhost:8083/users/50,2,0,0
+1763946423076,2,Healthcheck,200,OK,TESTES 1-21,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,1
+1763946423079,4,POST,201,Created,TESTES 1-21,text,true,,354,395,1,1,http://localhost:8083/users,4,0,0
+1763946423083,1,GET ID,200,OK,TESTES 1-21,text,true,,349,124,1,1,http://localhost:8083/users/51,1,0,0
+1763946423084,3,PUT,200,OK,TESTES 1-21,text,true,,334,336,1,1,http://localhost:8083/users/51,3,0,0
+1763946423087,1,GET,200,OK,TESTES 1-21,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946423088,1,DELETE,200,OK,TESTES 1-21,text,true,,164,210,1,1,http://localhost:8083/users/51,1,0,0
+1763946423089,0,Healthcheck,200,OK,TESTES 1-21,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946423089,1,POST,201,Created,TESTES 1-21,text,true,,353,394,1,1,http://localhost:8083/users,1,0,0
+1763946423090,1,GET ID,200,OK,TESTES 1-21,text,true,,348,124,1,1,http://localhost:8083/users/52,1,0,0
+1763946423091,1,PUT,200,OK,TESTES 1-21,text,true,,333,335,1,1,http://localhost:8083/users/52,1,0,0
+1763946423092,1,GET,200,OK,TESTES 1-21,text,true,,2086,121,1,1,http://localhost:8083/users,1,0,0
+1763946423093,1,DELETE,200,OK,TESTES 1-21,text,true,,164,210,1,1,http://localhost:8083/users/52,1,0,0
+1763946423176,1,Healthcheck,200,OK,TESTES 1-22,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946423178,3,POST,201,Created,TESTES 1-22,text,true,,354,395,1,1,http://localhost:8083/users,3,0,0
+1763946423181,2,GET ID,200,OK,TESTES 1-22,text,true,,349,124,1,1,http://localhost:8083/users/53,2,0,0
+1763946423183,4,PUT,200,OK,TESTES 1-22,text,true,,333,335,1,1,http://localhost:8083/users/53,4,0,0
+1763946423187,1,GET,200,OK,TESTES 1-22,text,true,,2086,121,1,1,http://localhost:8083/users,1,0,0
+1763946423188,2,DELETE,200,OK,TESTES 1-22,text,true,,164,210,1,1,http://localhost:8083/users/53,2,0,0
+1763946423191,0,Healthcheck,200,OK,TESTES 1-22,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946423191,2,POST,201,Created,TESTES 1-22,text,true,,354,395,1,1,http://localhost:8083/users,2,0,0
+1763946423193,1,GET ID,200,OK,TESTES 1-22,text,true,,349,124,1,1,http://localhost:8083/users/54,1,0,0
+1763946423194,2,PUT,200,OK,TESTES 1-22,text,true,,334,336,1,1,http://localhost:8083/users/54,2,0,0
+1763946423196,1,GET,200,OK,TESTES 1-22,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946423197,2,DELETE,200,OK,TESTES 1-22,text,true,,164,210,1,1,http://localhost:8083/users/54,2,0,0
+1763946423277,1,Healthcheck,200,OK,TESTES 1-23,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946423278,5,POST,201,Created,TESTES 1-23,text,true,,354,395,1,1,http://localhost:8083/users,5,0,0
+1763946423283,3,GET ID,200,OK,TESTES 1-23,text,true,,349,124,1,1,http://localhost:8083/users/55,3,0,0
+1763946423286,5,PUT,200,OK,TESTES 1-23,text,true,,334,336,1,1,http://localhost:8083/users/55,5,0,0
+1763946423291,0,GET,200,OK,TESTES 1-23,text,true,,2087,121,1,1,http://localhost:8083/users,0,0,0
+1763946423292,1,DELETE,200,OK,TESTES 1-23,text,true,,164,210,1,1,http://localhost:8083/users/55,1,0,0
+1763946423293,0,Healthcheck,200,OK,TESTES 1-23,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946423293,2,POST,201,Created,TESTES 1-23,text,true,,354,395,1,1,http://localhost:8083/users,2,0,0
+1763946423295,0,GET ID,200,OK,TESTES 1-23,text,true,,349,124,1,1,http://localhost:8083/users/56,0,0,0
+1763946423295,1,PUT,200,OK,TESTES 1-23,text,true,,333,335,1,1,http://localhost:8083/users/56,1,0,0
+1763946423297,0,GET,200,OK,TESTES 1-23,text,true,,2086,121,1,1,http://localhost:8083/users,0,0,0
+1763946423297,1,DELETE,200,OK,TESTES 1-23,text,true,,164,210,1,1,http://localhost:8083/users/56,1,0,0
+1763946423376,1,Healthcheck,200,OK,TESTES 1-24,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,1
+1763946423378,2,POST,201,Created,TESTES 1-24,text,true,,354,395,1,1,http://localhost:8083/users,2,0,0
+1763946423380,2,GET ID,200,OK,TESTES 1-24,text,true,,349,124,1,1,http://localhost:8083/users/57,2,0,0
+1763946423382,3,PUT,200,OK,TESTES 1-24,text,true,,334,336,1,1,http://localhost:8083/users/57,3,0,0
+1763946423385,3,GET,200,OK,TESTES 1-24,text,true,,2087,121,1,1,http://localhost:8083/users,3,0,0
+1763946423388,3,DELETE,200,OK,TESTES 1-24,text,true,,164,210,1,1,http://localhost:8083/users/57,3,0,0
+1763946423391,1,Healthcheck,200,OK,TESTES 1-24,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946423392,4,POST,201,Created,TESTES 1-24,text,true,,354,395,1,1,http://localhost:8083/users,4,0,0
+1763946423396,1,GET ID,200,OK,TESTES 1-24,text,true,,349,124,1,1,http://localhost:8083/users/58,1,0,0
+1763946423397,3,PUT,200,OK,TESTES 1-24,text,true,,333,335,1,1,http://localhost:8083/users/58,3,0,0
+1763946423400,1,GET,200,OK,TESTES 1-24,text,true,,2086,121,1,1,http://localhost:8083/users,1,0,0
+1763946423401,2,DELETE,200,OK,TESTES 1-24,text,true,,164,210,1,1,http://localhost:8083/users/58,2,0,0
+1763946423477,2,Healthcheck,200,OK,TESTES 1-25,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946423480,6,POST,201,Created,TESTES 1-25,text,true,,354,395,1,1,http://localhost:8083/users,6,0,0
+1763946423487,3,GET ID,200,OK,TESTES 1-25,text,true,,349,124,1,1,http://localhost:8083/users/59,3,0,0
+1763946423490,7,PUT,200,OK,TESTES 1-25,text,true,,334,336,1,1,http://localhost:8083/users/59,7,0,0
+1763946423497,2,GET,200,OK,TESTES 1-25,text,true,,2087,121,1,1,http://localhost:8083/users,2,0,0
+1763946423499,3,DELETE,200,OK,TESTES 1-25,text,true,,164,210,1,1,http://localhost:8083/users/59,3,0,0
+1763946423502,1,Healthcheck,200,OK,TESTES 1-25,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946423503,4,POST,201,Created,TESTES 1-25,text,true,,354,395,1,1,http://localhost:8083/users,4,0,0
+1763946423507,1,GET ID,200,OK,TESTES 1-25,text,true,,349,124,1,1,http://localhost:8083/users/60,1,0,0
+1763946423509,3,PUT,200,OK,TESTES 1-25,text,true,,334,336,1,1,http://localhost:8083/users/60,3,0,0
+1763946423512,1,GET,200,OK,TESTES 1-25,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946423513,2,DELETE,200,OK,TESTES 1-25,text,true,,164,210,1,1,http://localhost:8083/users/60,2,0,0
+1763946423577,2,Healthcheck,200,OK,TESTES 1-26,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946423580,7,POST,201,Created,TESTES 1-26,text,true,,354,395,1,1,http://localhost:8083/users,7,0,0
+1763946423587,2,GET ID,200,OK,TESTES 1-26,text,true,,349,124,1,1,http://localhost:8083/users/61,2,0,0
+1763946423589,3,PUT,200,OK,TESTES 1-26,text,true,,334,336,1,1,http://localhost:8083/users/61,3,0,0
+1763946423592,1,GET,200,OK,TESTES 1-26,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946423593,2,DELETE,200,OK,TESTES 1-26,text,true,,164,210,1,1,http://localhost:8083/users/61,2,0,0
+1763946423595,0,Healthcheck,200,OK,TESTES 1-26,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946423595,3,POST,201,Created,TESTES 1-26,text,true,,354,395,1,1,http://localhost:8083/users,3,0,0
+1763946423598,1,GET ID,200,OK,TESTES 1-26,text,true,,349,124,1,1,http://localhost:8083/users/62,1,0,0
+1763946423599,4,PUT,200,OK,TESTES 1-26,text,true,,334,336,1,1,http://localhost:8083/users/62,4,0,0
+1763946423603,1,GET,200,OK,TESTES 1-26,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946423604,2,DELETE,200,OK,TESTES 1-26,text,true,,164,210,1,1,http://localhost:8083/users/62,2,0,0
+1763946423677,2,Healthcheck,200,OK,TESTES 1-27,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946423679,7,POST,201,Created,TESTES 1-27,text,true,,354,394,1,1,http://localhost:8083/users,7,0,0
+1763946423686,2,GET ID,200,OK,TESTES 1-27,text,true,,349,124,1,1,http://localhost:8083/users/63,2,0,0
+1763946423688,3,PUT,200,OK,TESTES 1-27,text,true,,334,336,1,1,http://localhost:8083/users/63,3,0,0
+1763946423691,1,GET,200,OK,TESTES 1-27,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946423692,1,DELETE,200,OK,TESTES 1-27,text,true,,164,210,1,1,http://localhost:8083/users/63,1,0,0
+1763946423693,1,Healthcheck,200,OK,TESTES 1-27,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946423694,2,POST,201,Created,TESTES 1-27,text,true,,354,395,1,1,http://localhost:8083/users,2,0,0
+1763946423696,2,GET ID,200,OK,TESTES 1-27,text,true,,349,124,1,1,http://localhost:8083/users/64,2,0,0
+1763946423698,3,PUT,200,OK,TESTES 1-27,text,true,,334,336,1,1,http://localhost:8083/users/64,3,0,0
+1763946423701,2,GET,200,OK,TESTES 1-27,text,true,,2087,121,1,1,http://localhost:8083/users,2,0,0
+1763946423703,2,DELETE,200,OK,TESTES 1-27,text,true,,164,210,1,1,http://localhost:8083/users/64,2,0,0
+1763946423777,1,Healthcheck,200,OK,TESTES 1-28,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946423778,3,POST,201,Created,TESTES 1-28,text,true,,354,395,1,1,http://localhost:8083/users,3,0,0
+1763946423781,1,GET ID,200,OK,TESTES 1-28,text,true,,349,124,1,1,http://localhost:8083/users/65,1,0,0
+1763946423782,1,PUT,200,OK,TESTES 1-28,text,true,,333,335,1,1,http://localhost:8083/users/65,1,0,0
+1763946423783,1,GET,200,OK,TESTES 1-28,text,true,,2086,121,1,1,http://localhost:8083/users,1,0,0
+1763946423784,1,DELETE,200,OK,TESTES 1-28,text,true,,164,210,1,1,http://localhost:8083/users/65,1,0,0
+1763946423785,0,Healthcheck,200,OK,TESTES 1-28,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946423785,1,POST,201,Created,TESTES 1-28,text,true,,354,394,1,1,http://localhost:8083/users,1,0,0
+1763946423786,1,GET ID,200,OK,TESTES 1-28,text,true,,349,124,1,1,http://localhost:8083/users/66,1,0,0
+1763946423787,1,PUT,200,OK,TESTES 1-28,text,true,,334,336,1,1,http://localhost:8083/users/66,1,0,0
+1763946423788,1,GET,200,OK,TESTES 1-28,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946423789,1,DELETE,200,OK,TESTES 1-28,text,true,,164,210,1,1,http://localhost:8083/users/66,1,0,0
+1763946423877,2,Healthcheck,200,OK,TESTES 1-29,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946423879,6,POST,201,Created,TESTES 1-29,text,true,,354,395,1,1,http://localhost:8083/users,6,0,0
+1763946423886,2,GET ID,200,OK,TESTES 1-29,text,true,,349,124,1,1,http://localhost:8083/users/67,2,0,0
+1763946423888,5,PUT,200,OK,TESTES 1-29,text,true,,334,336,1,1,http://localhost:8083/users/67,5,0,0
+1763946423893,3,GET,200,OK,TESTES 1-29,text,true,,2087,121,1,1,http://localhost:8083/users,3,0,0
+1763946423896,4,DELETE,200,OK,TESTES 1-29,text,true,,164,210,1,1,http://localhost:8083/users/67,4,0,0
+1763946423900,1,Healthcheck,200,OK,TESTES 1-29,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946423901,5,POST,201,Created,TESTES 1-29,text,true,,354,395,1,1,http://localhost:8083/users,5,0,0
+1763946423906,2,GET ID,200,OK,TESTES 1-29,text,true,,349,124,1,1,http://localhost:8083/users/68,2,0,0
+1763946423909,4,PUT,200,OK,TESTES 1-29,text,true,,334,336,1,1,http://localhost:8083/users/68,4,0,0
+1763946423913,2,GET,200,OK,TESTES 1-29,text,true,,2087,121,1,1,http://localhost:8083/users,2,0,0
+1763946423915,4,DELETE,200,OK,TESTES 1-29,text,true,,164,210,1,1,http://localhost:8083/users/68,4,0,0
+1763946423977,0,Healthcheck,200,OK,TESTES 1-30,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946423977,2,POST,201,Created,TESTES 1-30,text,true,,354,395,1,1,http://localhost:8083/users,2,0,0
+1763946423980,0,GET ID,200,OK,TESTES 1-30,text,true,,349,124,1,1,http://localhost:8083/users/69,0,0,0
+1763946423980,2,PUT,200,OK,TESTES 1-30,text,true,,334,336,1,1,http://localhost:8083/users/69,2,0,0
+1763946423982,0,GET,200,OK,TESTES 1-30,text,true,,2087,121,1,1,http://localhost:8083/users,0,0,0
+1763946423982,1,DELETE,200,OK,TESTES 1-30,text,true,,164,210,1,1,http://localhost:8083/users/69,1,0,0
+1763946423983,1,Healthcheck,200,OK,TESTES 1-30,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946423984,1,POST,201,Created,TESTES 1-30,text,true,,354,395,1,1,http://localhost:8083/users,1,0,0
+1763946423985,0,GET ID,200,OK,TESTES 1-30,text,true,,349,124,1,1,http://localhost:8083/users/70,0,0,0
+1763946423985,2,PUT,200,OK,TESTES 1-30,text,true,,333,335,1,1,http://localhost:8083/users/70,2,0,0
+1763946423987,0,GET,200,OK,TESTES 1-30,text,true,,2086,121,1,1,http://localhost:8083/users,0,0,0
+1763946423987,1,DELETE,200,OK,TESTES 1-30,text,true,,164,210,1,1,http://localhost:8083/users/70,1,0,0
+1763946424077,2,Healthcheck,200,OK,TESTES 1-31,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946424079,6,POST,201,Created,TESTES 1-31,text,true,,354,394,1,1,http://localhost:8083/users,6,0,0
+1763946424085,1,GET ID,200,OK,TESTES 1-31,text,true,,349,124,1,1,http://localhost:8083/users/71,1,0,0
+1763946424086,3,PUT,200,OK,TESTES 1-31,text,true,,334,336,1,1,http://localhost:8083/users/71,3,0,0
+1763946424089,1,GET,200,OK,TESTES 1-31,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946424090,2,DELETE,200,OK,TESTES 1-31,text,true,,164,210,1,1,http://localhost:8083/users/71,2,0,0
+1763946424092,0,Healthcheck,200,OK,TESTES 1-31,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946424092,2,POST,201,Created,TESTES 1-31,text,true,,354,395,1,1,http://localhost:8083/users,2,0,0
+1763946424094,1,GET ID,200,OK,TESTES 1-31,text,true,,349,124,1,1,http://localhost:8083/users/72,1,0,0
+1763946424095,2,PUT,200,OK,TESTES 1-31,text,true,,333,335,1,1,http://localhost:8083/users/72,2,0,0
+1763946424097,1,GET,200,OK,TESTES 1-31,text,true,,2086,121,1,1,http://localhost:8083/users,1,0,0
+1763946424098,1,DELETE,200,OK,TESTES 1-31,text,true,,164,210,1,1,http://localhost:8083/users/72,1,0,0
+1763946424176,2,Healthcheck,200,OK,TESTES 1-32,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,1
+1763946424178,2,POST,201,Created,TESTES 1-32,text,true,,354,395,1,1,http://localhost:8083/users,2,0,0
+1763946424181,1,GET ID,200,OK,TESTES 1-32,text,true,,349,124,1,1,http://localhost:8083/users/73,1,0,0
+1763946424183,2,PUT,200,OK,TESTES 1-32,text,true,,334,336,1,1,http://localhost:8083/users/73,2,0,0
+1763946424185,1,GET,200,OK,TESTES 1-32,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946424186,1,DELETE,200,OK,TESTES 1-32,text,true,,164,210,1,1,http://localhost:8083/users/73,1,0,0
+1763946424187,0,Healthcheck,200,OK,TESTES 1-32,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946424187,2,POST,201,Created,TESTES 1-32,text,true,,354,395,1,1,http://localhost:8083/users,2,0,0
+1763946424189,1,GET ID,200,OK,TESTES 1-32,text,true,,349,124,1,1,http://localhost:8083/users/74,1,0,0
+1763946424190,3,PUT,200,OK,TESTES 1-32,text,true,,331,333,1,1,http://localhost:8083/users/74,3,0,0
+1763946424193,1,GET,200,OK,TESTES 1-32,text,true,,2084,121,1,1,http://localhost:8083/users,1,0,0
+1763946424194,2,DELETE,200,OK,TESTES 1-32,text,true,,164,210,1,1,http://localhost:8083/users/74,2,0,0
+1763946424276,2,Healthcheck,200,OK,TESTES 1-33,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,1
+1763946424279,4,POST,201,Created,TESTES 1-33,text,true,,354,395,1,1,http://localhost:8083/users,4,0,0
+1763946424283,1,GET ID,200,OK,TESTES 1-33,text,true,,349,124,1,1,http://localhost:8083/users/75,1,0,0
+1763946424284,2,PUT,200,OK,TESTES 1-33,text,true,,334,336,1,1,http://localhost:8083/users/75,2,0,0
+1763946424286,1,GET,200,OK,TESTES 1-33,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946424287,1,DELETE,200,OK,TESTES 1-33,text,true,,164,210,1,1,http://localhost:8083/users/75,1,0,0
+1763946424289,0,Healthcheck,200,OK,TESTES 1-33,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946424289,1,POST,201,Created,TESTES 1-33,text,true,,354,395,1,1,http://localhost:8083/users,1,0,0
+1763946424290,1,GET ID,200,OK,TESTES 1-33,text,true,,349,124,1,1,http://localhost:8083/users/76,1,0,0
+1763946424291,2,PUT,200,OK,TESTES 1-33,text,true,,334,336,1,1,http://localhost:8083/users/76,2,0,0
+1763946424293,1,GET,200,OK,TESTES 1-33,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946424294,1,DELETE,200,OK,TESTES 1-33,text,true,,164,210,1,1,http://localhost:8083/users/76,1,0,0
+1763946424376,2,Healthcheck,200,OK,TESTES 1-34,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,1
+1763946424378,4,POST,201,Created,TESTES 1-34,text,true,,354,395,1,1,http://localhost:8083/users,4,0,0
+1763946424382,2,GET ID,200,OK,TESTES 1-34,text,true,,349,124,1,1,http://localhost:8083/users/77,2,0,0
+1763946424384,2,PUT,200,OK,TESTES 1-34,text,true,,334,336,1,1,http://localhost:8083/users/77,2,0,0
+1763946424386,1,GET,200,OK,TESTES 1-34,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946424387,1,DELETE,200,OK,TESTES 1-34,text,true,,164,210,1,1,http://localhost:8083/users/77,1,0,0
+1763946424388,0,Healthcheck,200,OK,TESTES 1-34,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946424388,2,POST,201,Created,TESTES 1-34,text,true,,354,395,1,1,http://localhost:8083/users,2,0,0
+1763946424390,0,GET ID,200,OK,TESTES 1-34,text,true,,349,124,1,1,http://localhost:8083/users/78,0,0,0
+1763946424390,2,PUT,200,OK,TESTES 1-34,text,true,,334,336,1,1,http://localhost:8083/users/78,2,0,0
+1763946424392,1,GET,200,OK,TESTES 1-34,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946424393,1,DELETE,200,OK,TESTES 1-34,text,true,,164,210,1,1,http://localhost:8083/users/78,1,0,0
+1763946424476,2,Healthcheck,200,OK,TESTES 1-35,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946424478,3,POST,201,Created,TESTES 1-35,text,true,,354,395,1,1,http://localhost:8083/users,3,0,0
+1763946424481,1,GET ID,200,OK,TESTES 1-35,text,true,,349,124,1,1,http://localhost:8083/users/79,1,0,0
+1763946424483,2,PUT,200,OK,TESTES 1-35,text,true,,334,336,1,1,http://localhost:8083/users/79,2,0,0
+1763946424485,0,GET,200,OK,TESTES 1-35,text,true,,2087,121,1,1,http://localhost:8083/users,0,0,0
+1763946424486,1,DELETE,200,OK,TESTES 1-35,text,true,,164,210,1,1,http://localhost:8083/users/79,1,0,0
+1763946424487,0,Healthcheck,200,OK,TESTES 1-35,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946424487,2,POST,201,Created,TESTES 1-35,text,true,,354,395,1,1,http://localhost:8083/users,2,0,0
+1763946424489,1,GET ID,200,OK,TESTES 1-35,text,true,,349,124,1,1,http://localhost:8083/users/80,1,0,0
+1763946424491,2,PUT,200,OK,TESTES 1-35,text,true,,334,336,1,1,http://localhost:8083/users/80,2,0,0
+1763946424493,1,GET,200,OK,TESTES 1-35,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946424494,2,DELETE,200,OK,TESTES 1-35,text,true,,164,210,1,1,http://localhost:8083/users/80,2,0,0
+1763946424577,1,Healthcheck,200,OK,TESTES 1-36,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946424579,3,POST,201,Created,TESTES 1-36,text,true,,354,395,1,1,http://localhost:8083/users,3,0,0
+1763946424582,2,GET ID,200,OK,TESTES 1-36,text,true,,349,124,1,1,http://localhost:8083/users/81,2,0,0
+1763946424584,3,PUT,200,OK,TESTES 1-36,text,true,,334,336,1,1,http://localhost:8083/users/81,3,0,0
+1763946424587,1,GET,200,OK,TESTES 1-36,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946424588,2,DELETE,200,OK,TESTES 1-36,text,true,,164,210,1,1,http://localhost:8083/users/81,2,0,0
+1763946424590,0,Healthcheck,200,OK,TESTES 1-36,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946424590,2,POST,201,Created,TESTES 1-36,text,true,,354,395,1,1,http://localhost:8083/users,2,0,0
+1763946424593,1,GET ID,200,OK,TESTES 1-36,text,true,,349,124,1,1,http://localhost:8083/users/82,1,0,0
+1763946424594,3,PUT,200,OK,TESTES 1-36,text,true,,333,335,1,1,http://localhost:8083/users/82,3,0,0
+1763946424597,1,GET,200,OK,TESTES 1-36,text,true,,2086,121,1,1,http://localhost:8083/users,1,0,0
+1763946424598,2,DELETE,200,OK,TESTES 1-36,text,true,,164,210,1,1,http://localhost:8083/users/82,2,0,0
+1763946424676,2,Healthcheck,200,OK,TESTES 1-37,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946424678,4,POST,201,Created,TESTES 1-37,text,true,,354,395,1,1,http://localhost:8083/users,4,0,0
+1763946424682,1,GET ID,200,OK,TESTES 1-37,text,true,,349,124,1,1,http://localhost:8083/users/83,1,0,0
+1763946424684,1,PUT,200,OK,TESTES 1-37,text,true,,334,336,1,1,http://localhost:8083/users/83,1,0,0
+1763946424685,1,GET,200,OK,TESTES 1-37,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946424686,2,DELETE,200,OK,TESTES 1-37,text,true,,164,210,1,1,http://localhost:8083/users/83,2,0,0
+1763946424688,0,Healthcheck,200,OK,TESTES 1-37,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946424688,2,POST,201,Created,TESTES 1-37,text,true,,353,393,1,1,http://localhost:8083/users,2,0,0
+1763946424690,0,GET ID,200,OK,TESTES 1-37,text,true,,348,124,1,1,http://localhost:8083/users/84,0,0,0
+1763946424690,2,PUT,200,OK,TESTES 1-37,text,true,,334,336,1,1,http://localhost:8083/users/84,2,0,0
+1763946424692,1,GET,200,OK,TESTES 1-37,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946424693,2,DELETE,200,OK,TESTES 1-37,text,true,,164,210,1,1,http://localhost:8083/users/84,2,0,0
+1763946424777,2,Healthcheck,200,OK,TESTES 1-38,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946424779,3,POST,201,Created,TESTES 1-38,text,true,,354,395,1,1,http://localhost:8083/users,3,0,0
+1763946424782,1,GET ID,200,OK,TESTES 1-38,text,true,,349,124,1,1,http://localhost:8083/users/85,1,0,0
+1763946424783,3,PUT,200,OK,TESTES 1-38,text,true,,334,336,1,1,http://localhost:8083/users/85,3,0,0
+1763946424786,1,GET,200,OK,TESTES 1-38,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946424787,1,DELETE,200,OK,TESTES 1-38,text,true,,164,210,1,1,http://localhost:8083/users/85,1,0,0
+1763946424788,0,Healthcheck,200,OK,TESTES 1-38,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946424788,2,POST,201,Created,TESTES 1-38,text,true,,353,394,1,1,http://localhost:8083/users,2,0,0
+1763946424790,1,GET ID,200,OK,TESTES 1-38,text,true,,348,124,1,1,http://localhost:8083/users/86,1,0,0
+1763946424791,2,PUT,200,OK,TESTES 1-38,text,true,,334,336,1,1,http://localhost:8083/users/86,2,0,0
+1763946424793,1,GET,200,OK,TESTES 1-38,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946424794,2,DELETE,200,OK,TESTES 1-38,text,true,,164,210,1,1,http://localhost:8083/users/86,2,0,0
+1763946424877,2,Healthcheck,200,OK,TESTES 1-39,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946424879,3,POST,201,Created,TESTES 1-39,text,true,,354,395,1,1,http://localhost:8083/users,3,0,0
+1763946424882,1,GET ID,200,OK,TESTES 1-39,text,true,,349,124,1,1,http://localhost:8083/users/87,1,0,0
+1763946424883,2,PUT,200,OK,TESTES 1-39,text,true,,333,335,1,1,http://localhost:8083/users/87,2,0,0
+1763946424885,1,GET,200,OK,TESTES 1-39,text,true,,2086,121,1,1,http://localhost:8083/users,1,0,0
+1763946424886,1,DELETE,200,OK,TESTES 1-39,text,true,,164,210,1,1,http://localhost:8083/users/87,1,0,0
+1763946424887,0,Healthcheck,200,OK,TESTES 1-39,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946424887,1,POST,201,Created,TESTES 1-39,text,true,,354,395,1,1,http://localhost:8083/users,1,0,0
+1763946424888,1,GET ID,200,OK,TESTES 1-39,text,true,,349,124,1,1,http://localhost:8083/users/88,1,0,0
+1763946424889,1,PUT,200,OK,TESTES 1-39,text,true,,334,336,1,1,http://localhost:8083/users/88,1,0,0
+1763946424890,1,GET,200,OK,TESTES 1-39,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946424891,1,DELETE,200,OK,TESTES 1-39,text,true,,164,210,1,1,http://localhost:8083/users/88,1,0,0
+1763946424977,2,Healthcheck,200,OK,TESTES 1-40,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946424979,7,POST,201,Created,TESTES 1-40,text,true,,354,395,1,1,http://localhost:8083/users,7,0,0
+1763946424987,2,GET ID,200,OK,TESTES 1-40,text,true,,349,124,1,1,http://localhost:8083/users/89,2,0,0
+1763946424989,6,PUT,200,OK,TESTES 1-40,text,true,,334,336,1,1,http://localhost:8083/users/89,6,0,0
+1763946424995,3,GET,200,OK,TESTES 1-40,text,true,,2087,121,1,1,http://localhost:8083/users,3,0,0
+1763946424998,3,DELETE,200,OK,TESTES 1-40,text,true,,164,210,1,1,http://localhost:8083/users/89,3,0,0
+1763946425001,1,Healthcheck,200,OK,TESTES 1-40,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946425002,3,POST,201,Created,TESTES 1-40,text,true,,354,395,1,1,http://localhost:8083/users,3,0,0
+1763946425005,2,GET ID,200,OK,TESTES 1-40,text,true,,349,124,1,1,http://localhost:8083/users/90,2,0,0
+1763946425007,2,PUT,200,OK,TESTES 1-40,text,true,,334,336,1,1,http://localhost:8083/users/90,2,0,0
+1763946425009,1,GET,200,OK,TESTES 1-40,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946425010,2,DELETE,200,OK,TESTES 1-40,text,true,,164,210,1,1,http://localhost:8083/users/90,2,0,0
+1763946425077,2,Healthcheck,200,OK,TESTES 1-41,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946425079,6,POST,201,Created,TESTES 1-41,text,true,,354,395,1,1,http://localhost:8083/users,6,0,0
+1763946425085,2,GET ID,200,OK,TESTES 1-41,text,true,,349,124,1,1,http://localhost:8083/users/91,2,0,0
+1763946425087,5,PUT,200,OK,TESTES 1-41,text,true,,333,335,1,1,http://localhost:8083/users/91,5,0,0
+1763946425092,3,GET,200,OK,TESTES 1-41,text,true,,2086,121,1,1,http://localhost:8083/users,3,0,0
+1763946425095,3,DELETE,200,OK,TESTES 1-41,text,true,,164,210,1,1,http://localhost:8083/users/91,3,0,0
+1763946425098,0,Healthcheck,200,OK,TESTES 1-41,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946425098,4,POST,201,Created,TESTES 1-41,text,true,,354,394,1,1,http://localhost:8083/users,4,0,0
+1763946425102,1,GET ID,200,OK,TESTES 1-41,text,true,,349,124,1,1,http://localhost:8083/users/92,1,0,0
+1763946425103,3,PUT,200,OK,TESTES 1-41,text,true,,334,336,1,1,http://localhost:8083/users/92,3,0,0
+1763946425106,1,GET,200,OK,TESTES 1-41,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946425107,1,DELETE,200,OK,TESTES 1-41,text,true,,164,210,1,1,http://localhost:8083/users/92,1,0,0
+1763946425177,2,Healthcheck,200,OK,TESTES 1-42,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946425179,3,POST,201,Created,TESTES 1-42,text,true,,354,395,1,1,http://localhost:8083/users,3,0,0
+1763946425183,1,GET ID,200,OK,TESTES 1-42,text,true,,349,124,1,1,http://localhost:8083/users/93,1,0,0
+1763946425184,2,PUT,200,OK,TESTES 1-42,text,true,,334,336,1,1,http://localhost:8083/users/93,2,0,0
+1763946425186,1,GET,200,OK,TESTES 1-42,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946425187,2,DELETE,200,OK,TESTES 1-42,text,true,,164,210,1,1,http://localhost:8083/users/93,2,0,0
+1763946425189,0,Healthcheck,200,OK,TESTES 1-42,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946425189,2,POST,201,Created,TESTES 1-42,text,true,,354,395,1,1,http://localhost:8083/users,2,0,0
+1763946425191,0,GET ID,200,OK,TESTES 1-42,text,true,,349,124,1,1,http://localhost:8083/users/94,0,0,0
+1763946425191,3,PUT,200,OK,TESTES 1-42,text,true,,333,335,1,1,http://localhost:8083/users/94,3,0,0
+1763946425194,1,GET,200,OK,TESTES 1-42,text,true,,2086,121,1,1,http://localhost:8083/users,1,0,0
+1763946425195,2,DELETE,200,OK,TESTES 1-42,text,true,,164,210,1,1,http://localhost:8083/users/94,2,0,0
+1763946425277,2,Healthcheck,200,OK,TESTES 1-43,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946425279,6,POST,201,Created,TESTES 1-43,text,true,,354,395,1,1,http://localhost:8083/users,6,0,0
+1763946425286,2,GET ID,200,OK,TESTES 1-43,text,true,,349,124,1,1,http://localhost:8083/users/95,2,0,0
+1763946425288,6,PUT,200,OK,TESTES 1-43,text,true,,334,336,1,1,http://localhost:8083/users/95,6,0,0
+1763946425294,2,GET,200,OK,TESTES 1-43,text,true,,2087,121,1,1,http://localhost:8083/users,2,0,0
+1763946425296,4,DELETE,200,OK,TESTES 1-43,text,true,,164,210,1,1,http://localhost:8083/users/95,4,0,0
+1763946425300,0,Healthcheck,200,OK,TESTES 1-43,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946425300,4,POST,201,Created,TESTES 1-43,text,true,,354,394,1,1,http://localhost:8083/users,4,0,0
+1763946425304,2,GET ID,200,OK,TESTES 1-43,text,true,,349,124,1,1,http://localhost:8083/users/96,2,0,0
+1763946425306,4,PUT,200,OK,TESTES 1-43,text,true,,334,336,1,1,http://localhost:8083/users/96,4,0,0
+1763946425310,2,GET,200,OK,TESTES 1-43,text,true,,2087,121,1,1,http://localhost:8083/users,2,0,0
+1763946425312,3,DELETE,200,OK,TESTES 1-43,text,true,,164,210,1,1,http://localhost:8083/users/96,3,0,0
+1763946425377,1,Healthcheck,200,OK,TESTES 1-44,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946425378,4,POST,201,Created,TESTES 1-44,text,true,,353,394,1,1,http://localhost:8083/users,4,0,0
+1763946425382,2,GET ID,200,OK,TESTES 1-44,text,true,,348,124,1,1,http://localhost:8083/users/97,2,0,0
+1763946425384,4,PUT,200,OK,TESTES 1-44,text,true,,334,336,1,1,http://localhost:8083/users/97,4,0,0
+1763946425388,3,GET,200,OK,TESTES 1-44,text,true,,2087,121,1,1,http://localhost:8083/users,3,0,0
+1763946425391,2,DELETE,200,OK,TESTES 1-44,text,true,,164,210,1,1,http://localhost:8083/users/97,2,0,0
+1763946425393,1,Healthcheck,200,OK,TESTES 1-44,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946425394,2,POST,201,Created,TESTES 1-44,text,true,,354,395,1,1,http://localhost:8083/users,2,0,0
+1763946425396,1,GET ID,200,OK,TESTES 1-44,text,true,,349,124,1,1,http://localhost:8083/users/98,1,0,0
+1763946425397,2,PUT,200,OK,TESTES 1-44,text,true,,333,335,1,1,http://localhost:8083/users/98,2,0,0
+1763946425399,1,GET,200,OK,TESTES 1-44,text,true,,2086,121,1,1,http://localhost:8083/users,1,0,0
+1763946425400,2,DELETE,200,OK,TESTES 1-44,text,true,,164,210,1,1,http://localhost:8083/users/98,2,0,0
+1763946425476,2,Healthcheck,200,OK,TESTES 1-45,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,1
+1763946425478,3,POST,201,Created,TESTES 1-45,text,true,,353,394,1,1,http://localhost:8083/users,3,0,0
+1763946425482,1,GET ID,200,OK,TESTES 1-45,text,true,,348,124,1,1,http://localhost:8083/users/99,1,0,0
+1763946425483,2,PUT,200,OK,TESTES 1-45,text,true,,333,335,1,1,http://localhost:8083/users/99,2,0,0
+1763946425485,2,GET,200,OK,TESTES 1-45,text,true,,2086,121,1,1,http://localhost:8083/users,2,0,0
+1763946425487,2,DELETE,200,OK,TESTES 1-45,text,true,,164,210,1,1,http://localhost:8083/users/99,2,0,0
+1763946425489,0,Healthcheck,200,OK,TESTES 1-45,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946425489,3,POST,201,Created,TESTES 1-45,text,true,,355,395,1,1,http://localhost:8083/users,3,0,0
+1763946425492,1,GET ID,200,OK,TESTES 1-45,text,true,,350,125,1,1,http://localhost:8083/users/100,1,0,0
+1763946425493,2,PUT,200,OK,TESTES 1-45,text,true,,335,337,1,1,http://localhost:8083/users/100,2,0,0
+1763946425495,2,GET,200,OK,TESTES 1-45,text,true,,2088,121,1,1,http://localhost:8083/users,2,0,0
+1763946425497,2,DELETE,200,OK,TESTES 1-45,text,true,,164,211,1,1,http://localhost:8083/users/100,2,0,0
+1763946425577,1,Healthcheck,200,OK,TESTES 1-46,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946425578,4,POST,201,Created,TESTES 1-46,text,true,,355,395,1,1,http://localhost:8083/users,4,0,0
+1763946425582,2,GET ID,200,OK,TESTES 1-46,text,true,,350,125,1,1,http://localhost:8083/users/101,2,0,0
+1763946425585,5,PUT,200,OK,TESTES 1-46,text,true,,335,337,1,1,http://localhost:8083/users/101,5,0,0
+1763946425590,3,GET,200,OK,TESTES 1-46,text,true,,2088,121,1,1,http://localhost:8083/users,3,0,0
+1763946425593,4,DELETE,200,OK,TESTES 1-46,text,true,,164,211,1,1,http://localhost:8083/users/101,4,0,0
+1763946425597,1,Healthcheck,200,OK,TESTES 1-46,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946425598,4,POST,201,Created,TESTES 1-46,text,true,,355,395,1,1,http://localhost:8083/users,4,0,0
+1763946425602,1,GET ID,200,OK,TESTES 1-46,text,true,,350,125,1,1,http://localhost:8083/users/102,1,0,0
+1763946425603,3,PUT,200,OK,TESTES 1-46,text,true,,334,336,1,1,http://localhost:8083/users/102,3,0,0
+1763946425606,1,GET,200,OK,TESTES 1-46,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946425607,1,DELETE,200,OK,TESTES 1-46,text,true,,164,211,1,1,http://localhost:8083/users/102,1,0,0
+1763946425677,1,Healthcheck,200,OK,TESTES 1-47,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946425678,6,POST,201,Created,TESTES 1-47,text,true,,355,395,1,1,http://localhost:8083/users,6,0,0
+1763946425684,3,GET ID,200,OK,TESTES 1-47,text,true,,350,125,1,1,http://localhost:8083/users/103,3,0,0
+1763946425687,7,PUT,200,OK,TESTES 1-47,text,true,,335,337,1,1,http://localhost:8083/users/103,7,0,0
+1763946425694,3,GET,200,OK,TESTES 1-47,text,true,,2088,121,1,1,http://localhost:8083/users,3,0,0
+1763946425697,4,DELETE,200,OK,TESTES 1-47,text,true,,164,211,1,1,http://localhost:8083/users/103,4,0,0
+1763946425701,1,Healthcheck,200,OK,TESTES 1-47,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946425702,4,POST,201,Created,TESTES 1-47,text,true,,355,395,1,1,http://localhost:8083/users,4,0,0
+1763946425706,1,GET ID,200,OK,TESTES 1-47,text,true,,350,125,1,1,http://localhost:8083/users/104,1,0,0
+1763946425707,4,PUT,200,OK,TESTES 1-47,text,true,,335,337,1,1,http://localhost:8083/users/104,4,0,0
+1763946425711,1,GET,200,OK,TESTES 1-47,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946425712,2,DELETE,200,OK,TESTES 1-47,text,true,,164,211,1,1,http://localhost:8083/users/104,2,0,0
+1763946425777,2,Healthcheck,200,OK,TESTES 1-48,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946425779,5,POST,201,Created,TESTES 1-48,text,true,,354,394,1,1,http://localhost:8083/users,5,0,0
+1763946425784,1,GET ID,200,OK,TESTES 1-48,text,true,,349,125,1,1,http://localhost:8083/users/105,1,0,0
+1763946425786,4,PUT,200,OK,TESTES 1-48,text,true,,335,337,1,1,http://localhost:8083/users/105,4,0,0
+1763946425790,3,GET,200,OK,TESTES 1-48,text,true,,2088,121,1,1,http://localhost:8083/users,3,0,0
+1763946425793,3,DELETE,200,OK,TESTES 1-48,text,true,,164,211,1,1,http://localhost:8083/users/105,3,0,0
+1763946425796,0,Healthcheck,200,OK,TESTES 1-48,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946425796,3,POST,201,Created,TESTES 1-48,text,true,,355,395,1,1,http://localhost:8083/users,3,0,0
+1763946425799,1,GET ID,200,OK,TESTES 1-48,text,true,,350,125,1,1,http://localhost:8083/users/106,1,0,0
+1763946425800,3,PUT,200,OK,TESTES 1-48,text,true,,335,337,1,1,http://localhost:8083/users/106,3,0,0
+1763946425803,1,GET,200,OK,TESTES 1-48,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946425804,2,DELETE,200,OK,TESTES 1-48,text,true,,164,211,1,1,http://localhost:8083/users/106,2,0,0
+1763946425877,3,Healthcheck,200,OK,TESTES 1-49,text,true,,182,127,1,1,http://localhost:8083/healthcheck,3,0,0
+1763946425880,5,POST,201,Created,TESTES 1-49,text,true,,355,395,1,1,http://localhost:8083/users,5,0,0
+1763946425885,2,GET ID,200,OK,TESTES 1-49,text,true,,350,125,1,1,http://localhost:8083/users/107,2,0,0
+1763946425887,3,PUT,200,OK,TESTES 1-49,text,true,,335,337,1,1,http://localhost:8083/users/107,3,0,0
+1763946425890,1,GET,200,OK,TESTES 1-49,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946425891,3,DELETE,200,OK,TESTES 1-49,text,true,,164,211,1,1,http://localhost:8083/users/107,3,0,0
+1763946425894,0,Healthcheck,200,OK,TESTES 1-49,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946425894,3,POST,201,Created,TESTES 1-49,text,true,,355,395,1,1,http://localhost:8083/users,3,0,0
+1763946425897,2,GET ID,200,OK,TESTES 1-49,text,true,,350,125,1,1,http://localhost:8083/users/108,2,0,0
+1763946425899,3,PUT,200,OK,TESTES 1-49,text,true,,335,337,1,1,http://localhost:8083/users/108,3,0,0
+1763946425902,1,GET,200,OK,TESTES 1-49,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946425903,2,DELETE,200,OK,TESTES 1-49,text,true,,164,211,1,1,http://localhost:8083/users/108,2,0,0
+1763946425977,3,Healthcheck,200,OK,TESTES 1-50,text,true,,182,127,1,1,http://localhost:8083/healthcheck,3,0,1
+1763946425980,5,POST,201,Created,TESTES 1-50,text,true,,355,395,1,1,http://localhost:8083/users,5,0,0
+1763946425985,1,GET ID,200,OK,TESTES 1-50,text,true,,350,125,1,1,http://localhost:8083/users/109,1,0,0
+1763946425986,3,PUT,200,OK,TESTES 1-50,text,true,,335,337,1,1,http://localhost:8083/users/109,3,0,0
+1763946425989,1,GET,200,OK,TESTES 1-50,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946425990,1,DELETE,200,OK,TESTES 1-50,text,true,,164,211,1,1,http://localhost:8083/users/109,1,0,0
+1763946425991,0,Healthcheck,200,OK,TESTES 1-50,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946425991,2,POST,201,Created,TESTES 1-50,text,true,,355,395,1,1,http://localhost:8083/users,2,0,0
+1763946425993,1,GET ID,200,OK,TESTES 1-50,text,true,,350,125,1,1,http://localhost:8083/users/110,1,0,0
+1763946425994,1,PUT,200,OK,TESTES 1-50,text,true,,335,337,1,1,http://localhost:8083/users/110,1,0,0
+1763946425995,1,GET,200,OK,TESTES 1-50,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946425996,1,DELETE,200,OK,TESTES 1-50,text,true,,164,211,1,1,http://localhost:8083/users/110,1,0,0
+1763946426077,3,Healthcheck,200,OK,TESTES 1-51,text,true,,182,127,1,1,http://localhost:8083/healthcheck,3,0,1
+1763946426080,5,POST,201,Created,TESTES 1-51,text,true,,354,394,1,1,http://localhost:8083/users,5,0,0
+1763946426085,3,GET ID,200,OK,TESTES 1-51,text,true,,349,125,1,1,http://localhost:8083/users/111,3,0,0
+1763946426088,6,PUT,200,OK,TESTES 1-51,text,true,,334,336,1,1,http://localhost:8083/users/111,6,0,0
+1763946426094,3,GET,200,OK,TESTES 1-51,text,true,,2087,121,1,1,http://localhost:8083/users,3,0,0
+1763946426097,4,DELETE,200,OK,TESTES 1-51,text,true,,164,211,1,1,http://localhost:8083/users/111,4,0,0
+1763946426101,1,Healthcheck,200,OK,TESTES 1-51,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946426102,4,POST,201,Created,TESTES 1-51,text,true,,355,395,1,1,http://localhost:8083/users,4,0,0
+1763946426106,2,GET ID,200,OK,TESTES 1-51,text,true,,350,125,1,1,http://localhost:8083/users/112,2,0,0
+1763946426108,4,PUT,200,OK,TESTES 1-51,text,true,,334,336,1,1,http://localhost:8083/users/112,4,0,0
+1763946426112,2,GET,200,OK,TESTES 1-51,text,true,,2087,121,1,1,http://localhost:8083/users,2,0,0
+1763946426114,3,DELETE,200,OK,TESTES 1-51,text,true,,164,211,1,1,http://localhost:8083/users/112,3,0,0
+1763946426176,1,Healthcheck,200,OK,TESTES 1-52,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946426177,4,POST,201,Created,TESTES 1-52,text,true,,354,394,1,1,http://localhost:8083/users,4,0,0
+1763946426181,1,GET ID,200,OK,TESTES 1-52,text,true,,349,125,1,1,http://localhost:8083/users/113,1,0,0
+1763946426182,2,PUT,200,OK,TESTES 1-52,text,true,,334,336,1,1,http://localhost:8083/users/113,2,0,0
+1763946426184,1,GET,200,OK,TESTES 1-52,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946426185,2,DELETE,200,OK,TESTES 1-52,text,true,,164,211,1,1,http://localhost:8083/users/113,2,0,0
+1763946426187,0,Healthcheck,200,OK,TESTES 1-52,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946426187,1,POST,201,Created,TESTES 1-52,text,true,,355,395,1,1,http://localhost:8083/users,1,0,0
+1763946426188,1,GET ID,200,OK,TESTES 1-52,text,true,,350,125,1,1,http://localhost:8083/users/114,1,0,0
+1763946426189,1,PUT,200,OK,TESTES 1-52,text,true,,335,337,1,1,http://localhost:8083/users/114,1,0,0
+1763946426190,1,GET,200,OK,TESTES 1-52,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946426191,1,DELETE,200,OK,TESTES 1-52,text,true,,164,211,1,1,http://localhost:8083/users/114,1,0,0
+1763946426276,1,Healthcheck,200,OK,TESTES 1-53,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946426277,4,POST,201,Created,TESTES 1-53,text,true,,355,395,1,1,http://localhost:8083/users,4,0,0
+1763946426281,2,GET ID,200,OK,TESTES 1-53,text,true,,350,125,1,1,http://localhost:8083/users/115,2,0,0
+1763946426283,3,PUT,200,OK,TESTES 1-53,text,true,,335,337,1,1,http://localhost:8083/users/115,3,0,0
+1763946426286,1,GET,200,OK,TESTES 1-53,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946426287,2,DELETE,200,OK,TESTES 1-53,text,true,,164,211,1,1,http://localhost:8083/users/115,2,0,0
+1763946426289,0,Healthcheck,200,OK,TESTES 1-53,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946426289,2,POST,201,Created,TESTES 1-53,text,true,,355,394,1,1,http://localhost:8083/users,2,0,0
+1763946426291,1,GET ID,200,OK,TESTES 1-53,text,true,,350,125,1,1,http://localhost:8083/users/116,1,0,0
+1763946426292,2,PUT,200,OK,TESTES 1-53,text,true,,335,337,1,1,http://localhost:8083/users/116,2,0,0
+1763946426294,1,GET,200,OK,TESTES 1-53,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946426295,2,DELETE,200,OK,TESTES 1-53,text,true,,164,211,1,1,http://localhost:8083/users/116,2,0,0
+1763946426376,3,Healthcheck,200,OK,TESTES 1-54,text,true,,182,127,1,1,http://localhost:8083/healthcheck,3,0,1
+1763946426379,5,POST,201,Created,TESTES 1-54,text,true,,355,395,1,1,http://localhost:8083/users,5,0,0
+1763946426384,1,GET ID,200,OK,TESTES 1-54,text,true,,350,125,1,1,http://localhost:8083/users/117,1,0,0
+1763946426385,3,PUT,200,OK,TESTES 1-54,text,true,,335,337,1,1,http://localhost:8083/users/117,3,0,0
+1763946426388,1,GET,200,OK,TESTES 1-54,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946426389,2,DELETE,200,OK,TESTES 1-54,text,true,,164,211,1,1,http://localhost:8083/users/117,2,0,0
+1763946426391,1,Healthcheck,200,OK,TESTES 1-54,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946426392,2,POST,201,Created,TESTES 1-54,text,true,,353,393,1,1,http://localhost:8083/users,2,0,0
+1763946426394,1,GET ID,200,OK,TESTES 1-54,text,true,,348,125,1,1,http://localhost:8083/users/118,1,0,0
+1763946426395,2,PUT,200,OK,TESTES 1-54,text,true,,335,337,1,1,http://localhost:8083/users/118,2,0,0
+1763946426397,1,GET,200,OK,TESTES 1-54,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946426398,1,DELETE,200,OK,TESTES 1-54,text,true,,164,211,1,1,http://localhost:8083/users/118,1,0,0
+1763946426476,2,Healthcheck,200,OK,TESTES 1-55,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946426478,6,POST,201,Created,TESTES 1-55,text,true,,355,395,1,1,http://localhost:8083/users,6,0,0
+1763946426484,3,GET ID,200,OK,TESTES 1-55,text,true,,350,125,1,1,http://localhost:8083/users/119,3,0,0
+1763946426487,6,PUT,200,OK,TESTES 1-55,text,true,,334,336,1,1,http://localhost:8083/users/119,6,0,0
+1763946426493,3,GET,200,OK,TESTES 1-55,text,true,,2087,121,1,1,http://localhost:8083/users,3,0,0
+1763946426496,3,DELETE,200,OK,TESTES 1-55,text,true,,164,211,1,1,http://localhost:8083/users/119,3,0,0
+1763946426499,0,Healthcheck,200,OK,TESTES 1-55,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946426499,3,POST,201,Created,TESTES 1-55,text,true,,355,395,1,1,http://localhost:8083/users,3,0,0
+1763946426502,1,GET ID,200,OK,TESTES 1-55,text,true,,350,125,1,1,http://localhost:8083/users/120,1,0,0
+1763946426503,2,PUT,200,OK,TESTES 1-55,text,true,,335,337,1,1,http://localhost:8083/users/120,2,0,0
+1763946426505,1,GET,200,OK,TESTES 1-55,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946426506,2,DELETE,200,OK,TESTES 1-55,text,true,,164,211,1,1,http://localhost:8083/users/120,2,0,0
+1763946426576,2,Healthcheck,200,OK,TESTES 1-56,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,1
+1763946426579,6,POST,201,Created,TESTES 1-56,text,true,,355,395,1,1,http://localhost:8083/users,6,0,0
+1763946426585,4,GET ID,200,OK,TESTES 1-56,text,true,,350,125,1,1,http://localhost:8083/users/121,4,0,0
+1763946426589,6,PUT,200,OK,TESTES 1-56,text,true,,335,337,1,1,http://localhost:8083/users/121,6,0,0
+1763946426595,1,GET,200,OK,TESTES 1-56,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946426596,3,DELETE,200,OK,TESTES 1-56,text,true,,164,211,1,1,http://localhost:8083/users/121,3,0,0
+1763946426599,0,Healthcheck,200,OK,TESTES 1-56,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946426599,2,POST,201,Created,TESTES 1-56,text,true,,355,394,1,1,http://localhost:8083/users,2,0,0
+1763946426601,0,GET ID,200,OK,TESTES 1-56,text,true,,350,125,1,1,http://localhost:8083/users/122,0,0,0
+1763946426601,2,PUT,200,OK,TESTES 1-56,text,true,,335,337,1,1,http://localhost:8083/users/122,2,0,0
+1763946426603,0,GET,200,OK,TESTES 1-56,text,true,,2088,121,1,1,http://localhost:8083/users,0,0,0
+1763946426603,2,DELETE,200,OK,TESTES 1-56,text,true,,164,211,1,1,http://localhost:8083/users/122,2,0,0
+1763946426676,1,Healthcheck,200,OK,TESTES 1-57,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946426677,3,POST,201,Created,TESTES 1-57,text,true,,355,395,1,1,http://localhost:8083/users,3,0,0
+1763946426680,2,GET ID,200,OK,TESTES 1-57,text,true,,350,125,1,1,http://localhost:8083/users/123,2,0,0
+1763946426682,4,PUT,200,OK,TESTES 1-57,text,true,,335,337,1,1,http://localhost:8083/users/123,4,0,0
+1763946426686,2,GET,200,OK,TESTES 1-57,text,true,,2088,121,1,1,http://localhost:8083/users,2,0,0
+1763946426688,4,DELETE,200,OK,TESTES 1-57,text,true,,164,211,1,1,http://localhost:8083/users/123,4,0,0
+1763946426692,0,Healthcheck,200,OK,TESTES 1-57,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946426692,3,POST,201,Created,TESTES 1-57,text,true,,355,395,1,1,http://localhost:8083/users,3,0,0
+1763946426695,2,GET ID,200,OK,TESTES 1-57,text,true,,350,125,1,1,http://localhost:8083/users/124,2,0,0
+1763946426697,2,PUT,200,OK,TESTES 1-57,text,true,,335,337,1,1,http://localhost:8083/users/124,2,0,0
+1763946426700,1,GET,200,OK,TESTES 1-57,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946426701,1,DELETE,200,OK,TESTES 1-57,text,true,,164,211,1,1,http://localhost:8083/users/124,1,0,0
+1763946426776,1,Healthcheck,200,OK,TESTES 1-58,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946426777,3,POST,201,Created,TESTES 1-58,text,true,,355,395,1,1,http://localhost:8083/users,3,0,0
+1763946426780,2,GET ID,200,OK,TESTES 1-58,text,true,,350,125,1,1,http://localhost:8083/users/125,2,0,0
+1763946426782,4,PUT,200,OK,TESTES 1-58,text,true,,335,337,1,1,http://localhost:8083/users/125,4,0,0
+1763946426786,2,GET,200,OK,TESTES 1-58,text,true,,2088,121,1,1,http://localhost:8083/users,2,0,0
+1763946426788,3,DELETE,200,OK,TESTES 1-58,text,true,,164,211,1,1,http://localhost:8083/users/125,3,0,0
+1763946426791,1,Healthcheck,200,OK,TESTES 1-58,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946426792,3,POST,201,Created,TESTES 1-58,text,true,,355,395,1,1,http://localhost:8083/users,3,0,0
+1763946426795,1,GET ID,200,OK,TESTES 1-58,text,true,,350,125,1,1,http://localhost:8083/users/126,1,0,0
+1763946426796,2,PUT,200,OK,TESTES 1-58,text,true,,335,337,1,1,http://localhost:8083/users/126,2,0,0
+1763946426799,0,GET,200,OK,TESTES 1-58,text,true,,2088,121,1,1,http://localhost:8083/users,0,0,0
+1763946426799,2,DELETE,200,OK,TESTES 1-58,text,true,,164,211,1,1,http://localhost:8083/users/126,2,0,0
+1763946426876,1,Healthcheck,200,OK,TESTES 1-59,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946426878,3,POST,201,Created,TESTES 1-59,text,true,,355,395,1,1,http://localhost:8083/users,3,0,0
+1763946426882,2,GET ID,200,OK,TESTES 1-59,text,true,,350,125,1,1,http://localhost:8083/users/127,2,0,0
+1763946426884,5,PUT,200,OK,TESTES 1-59,text,true,,334,336,1,1,http://localhost:8083/users/127,5,0,0
+1763946426889,3,GET,200,OK,TESTES 1-59,text,true,,2087,121,1,1,http://localhost:8083/users,3,0,0
+1763946426893,3,DELETE,200,OK,TESTES 1-59,text,true,,164,211,1,1,http://localhost:8083/users/127,3,0,0
+1763946426896,0,Healthcheck,200,OK,TESTES 1-59,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946426896,3,POST,201,Created,TESTES 1-59,text,true,,354,394,1,1,http://localhost:8083/users,3,0,0
+1763946426899,0,GET ID,200,OK,TESTES 1-59,text,true,,349,125,1,1,http://localhost:8083/users/128,0,0,0
+1763946426899,2,PUT,200,OK,TESTES 1-59,text,true,,334,336,1,1,http://localhost:8083/users/128,2,0,0
+1763946426901,1,GET,200,OK,TESTES 1-59,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946426902,1,DELETE,200,OK,TESTES 1-59,text,true,,164,211,1,1,http://localhost:8083/users/128,1,0,0
+1763946426976,1,Healthcheck,200,OK,TESTES 1-60,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946426977,5,POST,201,Created,TESTES 1-60,text,true,,354,394,1,1,http://localhost:8083/users,5,0,0
+1763946426982,2,GET ID,200,OK,TESTES 1-60,text,true,,349,125,1,1,http://localhost:8083/users/129,2,0,0
+1763946426984,6,PUT,200,OK,TESTES 1-60,text,true,,335,337,1,1,http://localhost:8083/users/129,6,0,0
+1763946426990,2,GET,200,OK,TESTES 1-60,text,true,,2088,121,1,1,http://localhost:8083/users,2,0,0
+1763946426992,2,DELETE,200,OK,TESTES 1-60,text,true,,164,211,1,1,http://localhost:8083/users/129,2,0,0
+1763946426994,1,Healthcheck,200,OK,TESTES 1-60,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946426995,2,POST,201,Created,TESTES 1-60,text,true,,355,394,1,1,http://localhost:8083/users,2,0,0
+1763946426997,1,GET ID,200,OK,TESTES 1-60,text,true,,350,125,1,1,http://localhost:8083/users/130,1,0,0
+1763946426998,2,PUT,200,OK,TESTES 1-60,text,true,,335,337,1,1,http://localhost:8083/users/130,2,0,0
+1763946427000,1,GET,200,OK,TESTES 1-60,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946427001,1,DELETE,200,OK,TESTES 1-60,text,true,,164,211,1,1,http://localhost:8083/users/130,1,0,0
+1763946427077,1,Healthcheck,200,OK,TESTES 1-61,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946427078,5,POST,201,Created,TESTES 1-61,text,true,,355,395,1,1,http://localhost:8083/users,5,0,0
+1763946427083,2,GET ID,200,OK,TESTES 1-61,text,true,,350,125,1,1,http://localhost:8083/users/131,2,0,0
+1763946427086,4,PUT,200,OK,TESTES 1-61,text,true,,335,337,1,1,http://localhost:8083/users/131,4,0,0
+1763946427090,2,GET,200,OK,TESTES 1-61,text,true,,2088,121,1,1,http://localhost:8083/users,2,0,0
+1763946427092,2,DELETE,200,OK,TESTES 1-61,text,true,,164,211,1,1,http://localhost:8083/users/131,2,0,0
+1763946427095,0,Healthcheck,200,OK,TESTES 1-61,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946427095,2,POST,201,Created,TESTES 1-61,text,true,,355,395,1,1,http://localhost:8083/users,2,0,0
+1763946427097,1,GET ID,200,OK,TESTES 1-61,text,true,,350,125,1,1,http://localhost:8083/users/132,1,0,0
+1763946427098,2,PUT,200,OK,TESTES 1-61,text,true,,335,337,1,1,http://localhost:8083/users/132,2,0,0
+1763946427100,1,GET,200,OK,TESTES 1-61,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946427101,2,DELETE,200,OK,TESTES 1-61,text,true,,164,211,1,1,http://localhost:8083/users/132,2,0,0
+1763946427177,3,Healthcheck,200,OK,TESTES 1-62,text,true,,182,127,1,1,http://localhost:8083/healthcheck,3,0,1
+1763946427180,8,POST,201,Created,TESTES 1-62,text,true,,355,395,1,1,http://localhost:8083/users,8,0,0
+1763946427188,4,GET ID,200,OK,TESTES 1-62,text,true,,350,125,1,1,http://localhost:8083/users/133,4,0,0
+1763946427193,7,PUT,200,OK,TESTES 1-62,text,true,,335,337,1,1,http://localhost:8083/users/133,7,0,0
+1763946427200,3,GET,200,OK,TESTES 1-62,text,true,,2088,121,1,1,http://localhost:8083/users,3,0,0
+1763946427203,3,DELETE,200,OK,TESTES 1-62,text,true,,164,211,1,1,http://localhost:8083/users/133,3,0,0
+1763946427207,0,Healthcheck,200,OK,TESTES 1-62,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946427207,6,POST,201,Created,TESTES 1-62,text,true,,354,394,1,1,http://localhost:8083/users,6,0,0
+1763946427213,3,GET ID,200,OK,TESTES 1-62,text,true,,349,125,1,1,http://localhost:8083/users/134,3,0,0
+1763946427216,5,PUT,200,OK,TESTES 1-62,text,true,,335,337,1,1,http://localhost:8083/users/134,5,0,0
+1763946427221,2,GET,200,OK,TESTES 1-62,text,true,,2088,121,1,1,http://localhost:8083/users,2,0,0
+1763946427223,2,DELETE,200,OK,TESTES 1-62,text,true,,164,211,1,1,http://localhost:8083/users/134,2,0,0
+1763946427276,2,Healthcheck,200,OK,TESTES 1-63,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,1
+1763946427279,6,POST,201,Created,TESTES 1-63,text,true,,355,395,1,1,http://localhost:8083/users,6,0,0
+1763946427285,2,GET ID,200,OK,TESTES 1-63,text,true,,350,125,1,1,http://localhost:8083/users/135,2,0,0
+1763946427287,4,PUT,200,OK,TESTES 1-63,text,true,,334,336,1,1,http://localhost:8083/users/135,4,0,0
+1763946427291,2,GET,200,OK,TESTES 1-63,text,true,,2087,121,1,1,http://localhost:8083/users,2,0,0
+1763946427293,1,DELETE,200,OK,TESTES 1-63,text,true,,164,211,1,1,http://localhost:8083/users/135,1,0,0
+1763946427294,1,Healthcheck,200,OK,TESTES 1-63,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946427295,2,POST,201,Created,TESTES 1-63,text,true,,355,395,1,1,http://localhost:8083/users,2,0,0
+1763946427297,1,GET ID,200,OK,TESTES 1-63,text,true,,350,125,1,1,http://localhost:8083/users/136,1,0,0
+1763946427298,1,PUT,200,OK,TESTES 1-63,text,true,,335,337,1,1,http://localhost:8083/users/136,1,0,0
+1763946427299,1,GET,200,OK,TESTES 1-63,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946427300,1,DELETE,200,OK,TESTES 1-63,text,true,,164,211,1,1,http://localhost:8083/users/136,1,0,0
+1763946427376,2,Healthcheck,200,OK,TESTES 1-64,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,1
+1763946427378,5,POST,201,Created,TESTES 1-64,text,true,,354,394,1,1,http://localhost:8083/users,5,0,0
+1763946427383,2,GET ID,200,OK,TESTES 1-64,text,true,,349,125,1,1,http://localhost:8083/users/137,2,0,0
+1763946427385,4,PUT,200,OK,TESTES 1-64,text,true,,335,337,1,1,http://localhost:8083/users/137,4,0,0
+1763946427389,2,GET,200,OK,TESTES 1-64,text,true,,2088,121,1,1,http://localhost:8083/users,2,0,0
+1763946427391,2,DELETE,200,OK,TESTES 1-64,text,true,,164,211,1,1,http://localhost:8083/users/137,2,0,0
+1763946427393,0,Healthcheck,200,OK,TESTES 1-64,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946427393,2,POST,201,Created,TESTES 1-64,text,true,,355,395,1,1,http://localhost:8083/users,2,0,0
+1763946427395,1,GET ID,200,OK,TESTES 1-64,text,true,,350,125,1,1,http://localhost:8083/users/138,1,0,0
+1763946427396,2,PUT,200,OK,TESTES 1-64,text,true,,335,337,1,1,http://localhost:8083/users/138,2,0,0
+1763946427398,0,GET,200,OK,TESTES 1-64,text,true,,2088,121,1,1,http://localhost:8083/users,0,0,0
+1763946427398,2,DELETE,200,OK,TESTES 1-64,text,true,,164,211,1,1,http://localhost:8083/users/138,2,0,0
+1763946427476,2,Healthcheck,200,OK,TESTES 1-65,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,1
+1763946427478,6,POST,201,Created,TESTES 1-65,text,true,,355,395,1,1,http://localhost:8083/users,6,0,0
+1763946427484,2,GET ID,200,OK,TESTES 1-65,text,true,,350,125,1,1,http://localhost:8083/users/139,2,0,0
+1763946427486,3,PUT,200,OK,TESTES 1-65,text,true,,334,336,1,1,http://localhost:8083/users/139,3,0,0
+1763946427489,1,GET,200,OK,TESTES 1-65,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946427490,2,DELETE,200,OK,TESTES 1-65,text,true,,164,211,1,1,http://localhost:8083/users/139,2,0,0
+1763946427492,0,Healthcheck,200,OK,TESTES 1-65,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946427492,2,POST,201,Created,TESTES 1-65,text,true,,355,395,1,1,http://localhost:8083/users,2,0,0
+1763946427494,1,GET ID,200,OK,TESTES 1-65,text,true,,350,125,1,1,http://localhost:8083/users/140,1,0,0
+1763946427495,2,PUT,200,OK,TESTES 1-65,text,true,,335,337,1,1,http://localhost:8083/users/140,2,0,0
+1763946427497,1,GET,200,OK,TESTES 1-65,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946427498,2,DELETE,200,OK,TESTES 1-65,text,true,,164,211,1,1,http://localhost:8083/users/140,2,0,0
+1763946427577,1,Healthcheck,200,OK,TESTES 1-66,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946427578,5,POST,201,Created,TESTES 1-66,text,true,,355,395,1,1,http://localhost:8083/users,5,0,0
+1763946427583,1,GET ID,200,OK,TESTES 1-66,text,true,,350,125,1,1,http://localhost:8083/users/141,1,0,0
+1763946427584,3,PUT,200,OK,TESTES 1-66,text,true,,335,337,1,1,http://localhost:8083/users/141,3,0,0
+1763946427587,1,GET,200,OK,TESTES 1-66,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946427588,2,DELETE,200,OK,TESTES 1-66,text,true,,164,211,1,1,http://localhost:8083/users/141,2,0,0
+1763946427590,0,Healthcheck,200,OK,TESTES 1-66,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946427590,1,POST,201,Created,TESTES 1-66,text,true,,354,394,1,1,http://localhost:8083/users,1,0,0
+1763946427591,1,GET ID,200,OK,TESTES 1-66,text,true,,349,125,1,1,http://localhost:8083/users/142,1,0,0
+1763946427592,2,PUT,200,OK,TESTES 1-66,text,true,,335,337,1,1,http://localhost:8083/users/142,2,0,0
+1763946427594,1,GET,200,OK,TESTES 1-66,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946427595,1,DELETE,200,OK,TESTES 1-66,text,true,,164,211,1,1,http://localhost:8083/users/142,1,0,0
+1763946427676,2,Healthcheck,200,OK,TESTES 1-67,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,1
+1763946427678,6,POST,201,Created,TESTES 1-67,text,true,,354,394,1,1,http://localhost:8083/users,6,0,0
+1763946427684,1,GET ID,200,OK,TESTES 1-67,text,true,,349,125,1,1,http://localhost:8083/users/143,1,0,0
+1763946427685,3,PUT,200,OK,TESTES 1-67,text,true,,335,337,1,1,http://localhost:8083/users/143,3,0,0
+1763946427688,1,GET,200,OK,TESTES 1-67,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946427689,1,DELETE,200,OK,TESTES 1-67,text,true,,164,211,1,1,http://localhost:8083/users/143,1,0,0
+1763946427690,1,Healthcheck,200,OK,TESTES 1-67,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946427691,1,POST,201,Created,TESTES 1-67,text,true,,355,395,1,1,http://localhost:8083/users,1,0,0
+1763946427692,1,GET ID,200,OK,TESTES 1-67,text,true,,350,125,1,1,http://localhost:8083/users/144,1,0,0
+1763946427693,2,PUT,200,OK,TESTES 1-67,text,true,,335,337,1,1,http://localhost:8083/users/144,2,0,0
+1763946427695,1,GET,200,OK,TESTES 1-67,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946427696,2,DELETE,200,OK,TESTES 1-67,text,true,,164,211,1,1,http://localhost:8083/users/144,2,0,0
+1763946427777,2,Healthcheck,200,OK,TESTES 1-68,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946427779,6,POST,201,Created,TESTES 1-68,text,true,,355,394,1,1,http://localhost:8083/users,6,0,0
+1763946427785,3,GET ID,200,OK,TESTES 1-68,text,true,,350,125,1,1,http://localhost:8083/users/145,3,0,0
+1763946427788,4,PUT,200,OK,TESTES 1-68,text,true,,335,337,1,1,http://localhost:8083/users/145,4,0,0
+1763946427792,2,GET,200,OK,TESTES 1-68,text,true,,2088,121,1,1,http://localhost:8083/users,2,0,0
+1763946427794,2,DELETE,200,OK,TESTES 1-68,text,true,,164,211,1,1,http://localhost:8083/users/145,2,0,0
+1763946427796,0,Healthcheck,200,OK,TESTES 1-68,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946427796,2,POST,201,Created,TESTES 1-68,text,true,,355,395,1,1,http://localhost:8083/users,2,0,0
+1763946427798,1,GET ID,200,OK,TESTES 1-68,text,true,,350,125,1,1,http://localhost:8083/users/146,1,0,0
+1763946427799,2,PUT,200,OK,TESTES 1-68,text,true,,335,337,1,1,http://localhost:8083/users/146,2,0,0
+1763946427801,1,GET,200,OK,TESTES 1-68,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946427802,1,DELETE,200,OK,TESTES 1-68,text,true,,164,211,1,1,http://localhost:8083/users/146,1,0,0
+1763946427877,1,Healthcheck,200,OK,TESTES 1-69,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946427878,5,POST,201,Created,TESTES 1-69,text,true,,355,395,1,1,http://localhost:8083/users,5,0,0
+1763946427883,3,GET ID,200,OK,TESTES 1-69,text,true,,350,125,1,1,http://localhost:8083/users/147,3,0,0
+1763946427886,6,PUT,200,OK,TESTES 1-69,text,true,,335,337,1,1,http://localhost:8083/users/147,6,0,0
+1763946427892,2,GET,200,OK,TESTES 1-69,text,true,,2088,121,1,1,http://localhost:8083/users,2,0,0
+1763946427894,2,DELETE,200,OK,TESTES 1-69,text,true,,164,211,1,1,http://localhost:8083/users/147,2,0,0
+1763946427896,1,Healthcheck,200,OK,TESTES 1-69,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946427897,3,POST,201,Created,TESTES 1-69,text,true,,354,394,1,1,http://localhost:8083/users,3,0,0
+1763946427900,1,GET ID,200,OK,TESTES 1-69,text,true,,349,125,1,1,http://localhost:8083/users/148,1,0,0
+1763946427901,3,PUT,200,OK,TESTES 1-69,text,true,,335,337,1,1,http://localhost:8083/users/148,3,0,0
+1763946427904,1,GET,200,OK,TESTES 1-69,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946427905,2,DELETE,200,OK,TESTES 1-69,text,true,,164,211,1,1,http://localhost:8083/users/148,2,0,0
+1763946427977,2,Healthcheck,200,OK,TESTES 1-70,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946427980,6,POST,201,Created,TESTES 1-70,text,true,,355,395,1,1,http://localhost:8083/users,6,0,0
+1763946427986,3,GET ID,200,OK,TESTES 1-70,text,true,,350,125,1,1,http://localhost:8083/users/149,3,0,0
+1763946427989,6,PUT,200,OK,TESTES 1-70,text,true,,333,335,1,1,http://localhost:8083/users/149,6,0,0
+1763946427995,4,GET,200,OK,TESTES 1-70,text,true,,2086,121,1,1,http://localhost:8083/users,4,0,0
+1763946427999,3,DELETE,200,OK,TESTES 1-70,text,true,,164,211,1,1,http://localhost:8083/users/149,3,0,0
+1763946428002,1,Healthcheck,200,OK,TESTES 1-70,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946428003,3,POST,201,Created,TESTES 1-70,text,true,,355,395,1,1,http://localhost:8083/users,3,0,0
+1763946428006,2,GET ID,200,OK,TESTES 1-70,text,true,,350,125,1,1,http://localhost:8083/users/150,2,0,0
+1763946428008,2,PUT,200,OK,TESTES 1-70,text,true,,335,337,1,1,http://localhost:8083/users/150,2,0,0
+1763946428010,1,GET,200,OK,TESTES 1-70,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946428012,1,DELETE,200,OK,TESTES 1-70,text,true,,164,211,1,1,http://localhost:8083/users/150,1,0,0
+1763946428077,2,Healthcheck,200,OK,TESTES 1-71,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946428079,4,POST,201,Created,TESTES 1-71,text,true,,355,395,1,1,http://localhost:8083/users,4,0,0
+1763946428083,2,GET ID,200,OK,TESTES 1-71,text,true,,350,125,1,1,http://localhost:8083/users/151,2,0,0
+1763946428085,3,PUT,200,OK,TESTES 1-71,text,true,,335,337,1,1,http://localhost:8083/users/151,3,0,0
+1763946428088,1,GET,200,OK,TESTES 1-71,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946428089,2,DELETE,200,OK,TESTES 1-71,text,true,,164,211,1,1,http://localhost:8083/users/151,2,0,0
+1763946428091,0,Healthcheck,200,OK,TESTES 1-71,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946428091,2,POST,201,Created,TESTES 1-71,text,true,,355,395,1,1,http://localhost:8083/users,2,0,0
+1763946428093,1,GET ID,200,OK,TESTES 1-71,text,true,,350,125,1,1,http://localhost:8083/users/152,1,0,0
+1763946428094,2,PUT,200,OK,TESTES 1-71,text,true,,335,337,1,1,http://localhost:8083/users/152,2,0,0
+1763946428096,1,GET,200,OK,TESTES 1-71,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946428097,1,DELETE,200,OK,TESTES 1-71,text,true,,164,211,1,1,http://localhost:8083/users/152,1,0,0
+1763946428177,2,Healthcheck,200,OK,TESTES 1-72,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,1
+1763946428179,4,POST,201,Created,TESTES 1-72,text,true,,354,394,1,1,http://localhost:8083/users,4,0,0
+1763946428183,2,GET ID,200,OK,TESTES 1-72,text,true,,349,125,1,1,http://localhost:8083/users/153,2,0,0
+1763946428185,3,PUT,200,OK,TESTES 1-72,text,true,,335,337,1,1,http://localhost:8083/users/153,3,0,0
+1763946428188,1,GET,200,OK,TESTES 1-72,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946428189,2,DELETE,200,OK,TESTES 1-72,text,true,,164,211,1,1,http://localhost:8083/users/153,2,0,0
+1763946428191,1,Healthcheck,200,OK,TESTES 1-72,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946428192,3,POST,201,Created,TESTES 1-72,text,true,,355,395,1,1,http://localhost:8083/users,3,0,0
+1763946428195,1,GET ID,200,OK,TESTES 1-72,text,true,,350,125,1,1,http://localhost:8083/users/154,1,0,0
+1763946428197,2,PUT,200,OK,TESTES 1-72,text,true,,333,335,1,1,http://localhost:8083/users/154,2,0,0
+1763946428199,2,GET,200,OK,TESTES 1-72,text,true,,2086,121,1,1,http://localhost:8083/users,2,0,0
+1763946428201,3,DELETE,200,OK,TESTES 1-72,text,true,,164,211,1,1,http://localhost:8083/users/154,3,0,0
+1763946428277,2,Healthcheck,200,OK,TESTES 1-73,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946428279,5,POST,201,Created,TESTES 1-73,text,true,,355,395,1,1,http://localhost:8083/users,5,0,0
+1763946428284,3,GET ID,200,OK,TESTES 1-73,text,true,,350,125,1,1,http://localhost:8083/users/155,3,0,0
+1763946428287,7,PUT,200,OK,TESTES 1-73,text,true,,334,336,1,1,http://localhost:8083/users/155,7,0,0
+1763946428294,3,GET,200,OK,TESTES 1-73,text,true,,2087,121,1,1,http://localhost:8083/users,3,0,0
+1763946428297,4,DELETE,200,OK,TESTES 1-73,text,true,,164,211,1,1,http://localhost:8083/users/155,4,0,0
+1763946428301,1,Healthcheck,200,OK,TESTES 1-73,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946428302,5,POST,201,Created,TESTES 1-73,text,true,,355,395,1,1,http://localhost:8083/users,5,0,0
+1763946428307,2,GET ID,200,OK,TESTES 1-73,text,true,,350,125,1,1,http://localhost:8083/users/156,2,0,0
+1763946428310,3,PUT,200,OK,TESTES 1-73,text,true,,335,337,1,1,http://localhost:8083/users/156,3,0,0
+1763946428314,1,GET,200,OK,TESTES 1-73,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946428315,2,DELETE,200,OK,TESTES 1-73,text,true,,164,211,1,1,http://localhost:8083/users/156,2,0,0
+1763946428376,1,Healthcheck,200,OK,TESTES 1-74,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946428377,2,POST,201,Created,TESTES 1-74,text,true,,355,395,1,1,http://localhost:8083/users,2,0,0
+1763946428380,0,GET ID,200,OK,TESTES 1-74,text,true,,350,125,1,1,http://localhost:8083/users/157,0,0,0
+1763946428381,1,PUT,200,OK,TESTES 1-74,text,true,,335,337,1,1,http://localhost:8083/users/157,1,0,0
+1763946428382,1,GET,200,OK,TESTES 1-74,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946428383,1,DELETE,200,OK,TESTES 1-74,text,true,,164,211,1,1,http://localhost:8083/users/157,1,0,0
+1763946428384,1,Healthcheck,200,OK,TESTES 1-74,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946428385,1,POST,201,Created,TESTES 1-74,text,true,,355,395,1,1,http://localhost:8083/users,1,0,0
+1763946428386,1,GET ID,200,OK,TESTES 1-74,text,true,,350,125,1,1,http://localhost:8083/users/158,1,0,0
+1763946428387,1,PUT,200,OK,TESTES 1-74,text,true,,335,337,1,1,http://localhost:8083/users/158,1,0,0
+1763946428388,1,GET,200,OK,TESTES 1-74,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946428389,1,DELETE,200,OK,TESTES 1-74,text,true,,164,211,1,1,http://localhost:8083/users/158,1,0,0
+1763946428476,3,Healthcheck,200,OK,TESTES 1-75,text,true,,182,127,1,1,http://localhost:8083/healthcheck,3,0,1
+1763946428479,6,POST,201,Created,TESTES 1-75,text,true,,355,395,1,1,http://localhost:8083/users,6,0,0
+1763946428486,2,GET ID,200,OK,TESTES 1-75,text,true,,350,125,1,1,http://localhost:8083/users/159,2,0,0
+1763946428488,5,PUT,200,OK,TESTES 1-75,text,true,,333,335,1,1,http://localhost:8083/users/159,5,0,0
+1763946428493,1,GET,200,OK,TESTES 1-75,text,true,,2086,121,1,1,http://localhost:8083/users,1,0,0
+1763946428494,2,DELETE,200,OK,TESTES 1-75,text,true,,164,211,1,1,http://localhost:8083/users/159,2,0,0
+1763946428496,1,Healthcheck,200,OK,TESTES 1-75,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946428497,2,POST,201,Created,TESTES 1-75,text,true,,355,394,1,1,http://localhost:8083/users,2,0,0
+1763946428499,1,GET ID,200,OK,TESTES 1-75,text,true,,350,125,1,1,http://localhost:8083/users/160,1,0,0
+1763946428500,2,PUT,200,OK,TESTES 1-75,text,true,,335,337,1,1,http://localhost:8083/users/160,2,0,0
+1763946428502,1,GET,200,OK,TESTES 1-75,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946428503,3,DELETE,200,OK,TESTES 1-75,text,true,,164,211,1,1,http://localhost:8083/users/160,3,0,0
+1763946428576,2,Healthcheck,200,OK,TESTES 1-76,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,1
+1763946428579,4,POST,201,Created,TESTES 1-76,text,true,,355,395,1,1,http://localhost:8083/users,4,0,0
+1763946428583,1,GET ID,200,OK,TESTES 1-76,text,true,,350,125,1,1,http://localhost:8083/users/161,1,0,0
+1763946428584,3,PUT,200,OK,TESTES 1-76,text,true,,335,337,1,1,http://localhost:8083/users/161,3,0,0
+1763946428587,1,GET,200,OK,TESTES 1-76,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946428588,2,DELETE,200,OK,TESTES 1-76,text,true,,164,211,1,1,http://localhost:8083/users/161,2,0,0
+1763946428590,0,Healthcheck,200,OK,TESTES 1-76,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946428590,3,POST,201,Created,TESTES 1-76,text,true,,355,395,1,1,http://localhost:8083/users,3,0,0
+1763946428593,1,GET ID,200,OK,TESTES 1-76,text,true,,350,125,1,1,http://localhost:8083/users/162,1,0,0
+1763946428594,2,PUT,200,OK,TESTES 1-76,text,true,,334,336,1,1,http://localhost:8083/users/162,2,0,0
+1763946428596,1,GET,200,OK,TESTES 1-76,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946428597,2,DELETE,200,OK,TESTES 1-76,text,true,,164,211,1,1,http://localhost:8083/users/162,2,0,0
+1763946428676,2,Healthcheck,200,OK,TESTES 1-77,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946428678,3,POST,201,Created,TESTES 1-77,text,true,,354,394,1,1,http://localhost:8083/users,3,0,0
+1763946428681,2,GET ID,200,OK,TESTES 1-77,text,true,,349,125,1,1,http://localhost:8083/users/163,2,0,0
+1763946428683,2,PUT,200,OK,TESTES 1-77,text,true,,334,336,1,1,http://localhost:8083/users/163,2,0,0
+1763946428685,1,GET,200,OK,TESTES 1-77,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946428686,2,DELETE,200,OK,TESTES 1-77,text,true,,164,211,1,1,http://localhost:8083/users/163,2,0,0
+1763946428688,0,Healthcheck,200,OK,TESTES 1-77,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946428688,3,POST,201,Created,TESTES 1-77,text,true,,355,395,1,1,http://localhost:8083/users,3,0,0
+1763946428691,1,GET ID,200,OK,TESTES 1-77,text,true,,350,125,1,1,http://localhost:8083/users/164,1,0,0
+1763946428692,3,PUT,200,OK,TESTES 1-77,text,true,,335,337,1,1,http://localhost:8083/users/164,3,0,0
+1763946428695,1,GET,200,OK,TESTES 1-77,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946428696,3,DELETE,200,OK,TESTES 1-77,text,true,,164,211,1,1,http://localhost:8083/users/164,3,0,0
+1763946428776,2,Healthcheck,200,OK,TESTES 1-78,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946428778,3,POST,201,Created,TESTES 1-78,text,true,,355,395,1,1,http://localhost:8083/users,3,0,0
+1763946428781,2,GET ID,200,OK,TESTES 1-78,text,true,,350,125,1,1,http://localhost:8083/users/165,2,0,0
+1763946428783,3,PUT,200,OK,TESTES 1-78,text,true,,335,337,1,1,http://localhost:8083/users/165,3,0,0
+1763946428786,1,GET,200,OK,TESTES 1-78,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946428787,2,DELETE,200,OK,TESTES 1-78,text,true,,164,211,1,1,http://localhost:8083/users/165,2,0,0
+1763946428789,1,Healthcheck,200,OK,TESTES 1-78,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946428790,2,POST,201,Created,TESTES 1-78,text,true,,355,394,1,1,http://localhost:8083/users,2,0,0
+1763946428792,1,GET ID,200,OK,TESTES 1-78,text,true,,350,125,1,1,http://localhost:8083/users/166,1,0,0
+1763946428793,2,PUT,200,OK,TESTES 1-78,text,true,,335,337,1,1,http://localhost:8083/users/166,2,0,0
+1763946428795,1,GET,200,OK,TESTES 1-78,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946428796,2,DELETE,200,OK,TESTES 1-78,text,true,,164,211,1,1,http://localhost:8083/users/166,2,0,0
+1763946428876,1,Healthcheck,200,OK,TESTES 1-79,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946428877,2,POST,201,Created,TESTES 1-79,text,true,,355,395,1,1,http://localhost:8083/users,2,0,0
+1763946428879,1,GET ID,200,OK,TESTES 1-79,text,true,,350,125,1,1,http://localhost:8083/users/167,1,0,0
+1763946428880,1,PUT,200,OK,TESTES 1-79,text,true,,335,337,1,1,http://localhost:8083/users/167,1,0,0
+1763946428881,1,GET,200,OK,TESTES 1-79,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946428882,1,DELETE,200,OK,TESTES 1-79,text,true,,164,211,1,1,http://localhost:8083/users/167,1,0,0
+1763946428883,0,Healthcheck,200,OK,TESTES 1-79,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946428883,1,POST,201,Created,TESTES 1-79,text,true,,355,395,1,1,http://localhost:8083/users,1,0,0
+1763946428884,1,GET ID,200,OK,TESTES 1-79,text,true,,350,125,1,1,http://localhost:8083/users/168,1,0,0
+1763946428885,1,PUT,200,OK,TESTES 1-79,text,true,,335,337,1,1,http://localhost:8083/users/168,1,0,0
+1763946428886,1,GET,200,OK,TESTES 1-79,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946428887,1,DELETE,200,OK,TESTES 1-79,text,true,,164,211,1,1,http://localhost:8083/users/168,1,0,0
+1763946428977,2,Healthcheck,200,OK,TESTES 1-80,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946428979,7,POST,201,Created,TESTES 1-80,text,true,,353,393,1,1,http://localhost:8083/users,7,0,0
+1763946428986,3,GET ID,200,OK,TESTES 1-80,text,true,,348,125,1,1,http://localhost:8083/users/169,3,0,0
+1763946428990,6,PUT,200,OK,TESTES 1-80,text,true,,335,337,1,1,http://localhost:8083/users/169,6,0,0
+1763946428996,3,GET,200,OK,TESTES 1-80,text,true,,2088,121,1,1,http://localhost:8083/users,3,0,0
+1763946428999,6,DELETE,200,OK,TESTES 1-80,text,true,,164,211,1,1,http://localhost:8083/users/169,6,0,0
+1763946429005,1,Healthcheck,200,OK,TESTES 1-80,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946429006,4,POST,201,Created,TESTES 1-80,text,true,,355,395,1,1,http://localhost:8083/users,4,0,0
+1763946429011,1,GET ID,200,OK,TESTES 1-80,text,true,,350,125,1,1,http://localhost:8083/users/170,1,0,0
+1763946429012,3,PUT,200,OK,TESTES 1-80,text,true,,335,337,1,1,http://localhost:8083/users/170,3,0,0
+1763946429015,1,GET,200,OK,TESTES 1-80,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946429016,2,DELETE,200,OK,TESTES 1-80,text,true,,164,211,1,1,http://localhost:8083/users/170,2,0,0
+1763946429076,1,Healthcheck,200,OK,TESTES 1-81,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946429077,3,POST,201,Created,TESTES 1-81,text,true,,355,395,1,1,http://localhost:8083/users,3,0,0
+1763946429080,1,GET ID,200,OK,TESTES 1-81,text,true,,350,125,1,1,http://localhost:8083/users/171,1,0,0
+1763946429081,3,PUT,200,OK,TESTES 1-81,text,true,,335,337,1,1,http://localhost:8083/users/171,3,0,0
+1763946429084,1,GET,200,OK,TESTES 1-81,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946429085,3,DELETE,200,OK,TESTES 1-81,text,true,,164,211,1,1,http://localhost:8083/users/171,3,0,0
+1763946429088,1,Healthcheck,200,OK,TESTES 1-81,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946429089,3,POST,201,Created,TESTES 1-81,text,true,,355,395,1,1,http://localhost:8083/users,3,0,0
+1763946429092,1,GET ID,200,OK,TESTES 1-81,text,true,,350,125,1,1,http://localhost:8083/users/172,1,0,0
+1763946429094,3,PUT,200,OK,TESTES 1-81,text,true,,335,337,1,1,http://localhost:8083/users/172,3,0,0
+1763946429098,2,GET,200,OK,TESTES 1-81,text,true,,2088,121,1,1,http://localhost:8083/users,2,0,0
+1763946429100,3,DELETE,200,OK,TESTES 1-81,text,true,,164,211,1,1,http://localhost:8083/users/172,3,0,0
+1763946429176,2,Healthcheck,200,OK,TESTES 1-82,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,1
+1763946429178,3,POST,201,Created,TESTES 1-82,text,true,,353,393,1,1,http://localhost:8083/users,3,0,0
+1763946429181,1,GET ID,200,OK,TESTES 1-82,text,true,,348,125,1,1,http://localhost:8083/users/173,1,0,0
+1763946429182,2,PUT,200,OK,TESTES 1-82,text,true,,335,337,1,1,http://localhost:8083/users/173,2,0,0
+1763946429184,1,GET,200,OK,TESTES 1-82,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946429185,2,DELETE,200,OK,TESTES 1-82,text,true,,164,211,1,1,http://localhost:8083/users/173,2,0,0
+1763946429187,1,Healthcheck,200,OK,TESTES 1-82,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946429188,2,POST,201,Created,TESTES 1-82,text,true,,354,394,1,1,http://localhost:8083/users,2,0,0
+1763946429190,1,GET ID,200,OK,TESTES 1-82,text,true,,349,125,1,1,http://localhost:8083/users/174,1,0,0
+1763946429191,2,PUT,200,OK,TESTES 1-82,text,true,,334,336,1,1,http://localhost:8083/users/174,2,0,0
+1763946429193,1,GET,200,OK,TESTES 1-82,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946429194,1,DELETE,200,OK,TESTES 1-82,text,true,,164,211,1,1,http://localhost:8083/users/174,1,0,0
+1763946429277,2,Healthcheck,200,OK,TESTES 1-83,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946429279,7,POST,201,Created,TESTES 1-83,text,true,,355,395,1,1,http://localhost:8083/users,7,0,0
+1763946429286,3,GET ID,200,OK,TESTES 1-83,text,true,,350,125,1,1,http://localhost:8083/users/175,3,0,0
+1763946429289,5,PUT,200,OK,TESTES 1-83,text,true,,334,336,1,1,http://localhost:8083/users/175,5,0,0
+1763946429294,2,GET,200,OK,TESTES 1-83,text,true,,2087,121,1,1,http://localhost:8083/users,2,0,0
+1763946429296,3,DELETE,200,OK,TESTES 1-83,text,true,,164,211,1,1,http://localhost:8083/users/175,3,0,0
+1763946429299,1,Healthcheck,200,OK,TESTES 1-83,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946429300,3,POST,201,Created,TESTES 1-83,text,true,,355,395,1,1,http://localhost:8083/users,3,0,0
+1763946429303,2,GET ID,200,OK,TESTES 1-83,text,true,,350,125,1,1,http://localhost:8083/users/176,2,0,0
+1763946429305,3,PUT,200,OK,TESTES 1-83,text,true,,335,337,1,1,http://localhost:8083/users/176,3,0,0
+1763946429308,1,GET,200,OK,TESTES 1-83,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946429309,2,DELETE,200,OK,TESTES 1-83,text,true,,164,211,1,1,http://localhost:8083/users/176,2,0,0
+1763946429376,2,Healthcheck,200,OK,TESTES 1-84,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,1
+1763946429378,6,POST,201,Created,TESTES 1-84,text,true,,355,395,1,1,http://localhost:8083/users,6,0,0
+1763946429384,3,GET ID,200,OK,TESTES 1-84,text,true,,350,125,1,1,http://localhost:8083/users/177,3,0,0
+1763946429387,6,PUT,200,OK,TESTES 1-84,text,true,,335,337,1,1,http://localhost:8083/users/177,6,0,0
+1763946429393,2,GET,200,OK,TESTES 1-84,text,true,,2088,121,1,1,http://localhost:8083/users,2,0,0
+1763946429395,3,DELETE,200,OK,TESTES 1-84,text,true,,164,211,1,1,http://localhost:8083/users/177,3,0,0
+1763946429398,0,Healthcheck,200,OK,TESTES 1-84,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946429398,3,POST,201,Created,TESTES 1-84,text,true,,354,394,1,1,http://localhost:8083/users,3,0,0
+1763946429401,1,GET ID,200,OK,TESTES 1-84,text,true,,349,125,1,1,http://localhost:8083/users/178,1,0,0
+1763946429402,2,PUT,200,OK,TESTES 1-84,text,true,,334,336,1,1,http://localhost:8083/users/178,2,0,0
+1763946429404,1,GET,200,OK,TESTES 1-84,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946429405,1,DELETE,200,OK,TESTES 1-84,text,true,,164,211,1,1,http://localhost:8083/users/178,1,0,0
+1763946429477,1,Healthcheck,200,OK,TESTES 1-85,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946429478,3,POST,201,Created,TESTES 1-85,text,true,,355,395,1,1,http://localhost:8083/users,3,0,0
+1763946429481,1,GET ID,200,OK,TESTES 1-85,text,true,,350,125,1,1,http://localhost:8083/users/179,1,0,0
+1763946429482,2,PUT,200,OK,TESTES 1-85,text,true,,335,337,1,1,http://localhost:8083/users/179,2,0,0
+1763946429484,1,GET,200,OK,TESTES 1-85,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946429485,1,DELETE,200,OK,TESTES 1-85,text,true,,164,211,1,1,http://localhost:8083/users/179,1,0,0
+1763946429486,0,Healthcheck,200,OK,TESTES 1-85,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946429486,1,POST,201,Created,TESTES 1-85,text,true,,355,395,1,1,http://localhost:8083/users,1,0,0
+1763946429487,1,GET ID,200,OK,TESTES 1-85,text,true,,350,125,1,1,http://localhost:8083/users/180,1,0,0
+1763946429488,1,PUT,200,OK,TESTES 1-85,text,true,,335,337,1,1,http://localhost:8083/users/180,1,0,0
+1763946429489,1,GET,200,OK,TESTES 1-85,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946429490,1,DELETE,200,OK,TESTES 1-85,text,true,,164,211,1,1,http://localhost:8083/users/180,1,0,0
+1763946429576,1,Healthcheck,200,OK,TESTES 1-86,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946429577,3,POST,201,Created,TESTES 1-86,text,true,,355,395,1,1,http://localhost:8083/users,3,0,0
+1763946429580,0,GET ID,200,OK,TESTES 1-86,text,true,,350,125,1,1,http://localhost:8083/users/181,0,0,0
+1763946429580,2,PUT,200,OK,TESTES 1-86,text,true,,335,337,1,1,http://localhost:8083/users/181,2,0,0
+1763946429582,1,GET,200,OK,TESTES 1-86,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946429583,1,DELETE,200,OK,TESTES 1-86,text,true,,164,211,1,1,http://localhost:8083/users/181,1,0,0
+1763946429584,0,Healthcheck,200,OK,TESTES 1-86,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946429584,1,POST,201,Created,TESTES 1-86,text,true,,355,395,1,1,http://localhost:8083/users,1,0,0
+1763946429585,1,GET ID,200,OK,TESTES 1-86,text,true,,350,125,1,1,http://localhost:8083/users/182,1,0,0
+1763946429586,1,PUT,200,OK,TESTES 1-86,text,true,,334,336,1,1,http://localhost:8083/users/182,1,0,0
+1763946429587,1,GET,200,OK,TESTES 1-86,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946429588,1,DELETE,200,OK,TESTES 1-86,text,true,,164,211,1,1,http://localhost:8083/users/182,1,0,0
+1763946429677,2,Healthcheck,200,OK,TESTES 1-87,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946429679,2,POST,201,Created,TESTES 1-87,text,true,,355,395,1,1,http://localhost:8083/users,2,0,0
+1763946429682,2,GET ID,200,OK,TESTES 1-87,text,true,,350,125,1,1,http://localhost:8083/users/183,2,0,0
+1763946429684,5,PUT,200,OK,TESTES 1-87,text,true,,335,337,1,1,http://localhost:8083/users/183,5,0,0
+1763946429689,2,GET,200,OK,TESTES 1-87,text,true,,2088,121,1,1,http://localhost:8083/users,2,0,0
+1763946429691,2,DELETE,200,OK,TESTES 1-87,text,true,,164,211,1,1,http://localhost:8083/users/183,2,0,0
+1763946429693,1,Healthcheck,200,OK,TESTES 1-87,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946429694,1,POST,201,Created,TESTES 1-87,text,true,,355,395,1,1,http://localhost:8083/users,1,0,0
+1763946429696,0,GET ID,200,OK,TESTES 1-87,text,true,,350,125,1,1,http://localhost:8083/users/184,0,0,0
+1763946429696,2,PUT,200,OK,TESTES 1-87,text,true,,334,336,1,1,http://localhost:8083/users/184,2,0,0
+1763946429698,1,GET,200,OK,TESTES 1-87,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946429699,1,DELETE,200,OK,TESTES 1-87,text,true,,164,211,1,1,http://localhost:8083/users/184,1,0,0
+1763946429776,1,Healthcheck,200,OK,TESTES 1-88,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,1
+1763946429777,5,POST,201,Created,TESTES 1-88,text,true,,355,395,1,1,http://localhost:8083/users,5,0,0
+1763946429782,3,GET ID,200,OK,TESTES 1-88,text,true,,350,125,1,1,http://localhost:8083/users/185,3,0,0
+1763946429786,5,PUT,200,OK,TESTES 1-88,text,true,,334,336,1,1,http://localhost:8083/users/185,5,0,0
+1763946429791,2,GET,200,OK,TESTES 1-88,text,true,,2087,121,1,1,http://localhost:8083/users,2,0,0
+1763946429793,3,DELETE,200,OK,TESTES 1-88,text,true,,164,211,1,1,http://localhost:8083/users/185,3,0,0
+1763946429796,0,Healthcheck,200,OK,TESTES 1-88,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946429796,2,POST,201,Created,TESTES 1-88,text,true,,355,395,1,1,http://localhost:8083/users,2,0,0
+1763946429798,1,GET ID,200,OK,TESTES 1-88,text,true,,350,125,1,1,http://localhost:8083/users/186,1,0,0
+1763946429799,2,PUT,200,OK,TESTES 1-88,text,true,,334,336,1,1,http://localhost:8083/users/186,2,0,0
+1763946429801,1,GET,200,OK,TESTES 1-88,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946429802,1,DELETE,200,OK,TESTES 1-88,text,true,,164,211,1,1,http://localhost:8083/users/186,1,0,0
+1763946429877,2,Healthcheck,200,OK,TESTES 1-89,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946429879,5,POST,201,Created,TESTES 1-89,text,true,,355,395,1,1,http://localhost:8083/users,5,0,0
+1763946429884,2,GET ID,200,OK,TESTES 1-89,text,true,,350,125,1,1,http://localhost:8083/users/187,2,0,0
+1763946429886,4,PUT,200,OK,TESTES 1-89,text,true,,335,337,1,1,http://localhost:8083/users/187,4,0,0
+1763946429890,2,GET,200,OK,TESTES 1-89,text,true,,2088,121,1,1,http://localhost:8083/users,2,0,0
+1763946429892,2,DELETE,200,OK,TESTES 1-89,text,true,,164,211,1,1,http://localhost:8083/users/187,2,0,0
+1763946429894,1,Healthcheck,200,OK,TESTES 1-89,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946429895,2,POST,201,Created,TESTES 1-89,text,true,,354,394,1,1,http://localhost:8083/users,2,0,0
+1763946429897,1,GET ID,200,OK,TESTES 1-89,text,true,,349,125,1,1,http://localhost:8083/users/188,1,0,0
+1763946429899,2,PUT,200,OK,TESTES 1-89,text,true,,335,337,1,1,http://localhost:8083/users/188,2,0,0
+1763946429901,1,GET,200,OK,TESTES 1-89,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946429902,1,DELETE,200,OK,TESTES 1-89,text,true,,164,211,1,1,http://localhost:8083/users/188,1,0,0
+1763946429976,2,Healthcheck,200,OK,TESTES 1-90,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,1
+1763946429978,3,POST,201,Created,TESTES 1-90,text,true,,355,395,1,1,http://localhost:8083/users,3,0,0
+1763946429981,1,GET ID,200,OK,TESTES 1-90,text,true,,350,125,1,1,http://localhost:8083/users/189,1,0,0
+1763946429982,3,PUT,200,OK,TESTES 1-90,text,true,,335,337,1,1,http://localhost:8083/users/189,3,0,0
+1763946429985,1,GET,200,OK,TESTES 1-90,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946429986,1,DELETE,200,OK,TESTES 1-90,text,true,,164,211,1,1,http://localhost:8083/users/189,1,0,0
+1763946429987,0,Healthcheck,200,OK,TESTES 1-90,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946429987,2,POST,201,Created,TESTES 1-90,text,true,,355,395,1,1,http://localhost:8083/users,2,0,0
+1763946429989,1,GET ID,200,OK,TESTES 1-90,text,true,,350,125,1,1,http://localhost:8083/users/190,1,0,0
+1763946429990,2,PUT,200,OK,TESTES 1-90,text,true,,335,337,1,1,http://localhost:8083/users/190,2,0,0
+1763946429992,1,GET,200,OK,TESTES 1-90,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946429993,1,DELETE,200,OK,TESTES 1-90,text,true,,164,211,1,1,http://localhost:8083/users/190,1,0,0
+1763946430077,1,Healthcheck,200,OK,TESTES 1-91,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946430078,3,POST,201,Created,TESTES 1-91,text,true,,355,395,1,1,http://localhost:8083/users,3,0,0
+1763946430081,0,GET ID,200,OK,TESTES 1-91,text,true,,350,125,1,1,http://localhost:8083/users/191,0,0,0
+1763946430081,2,PUT,200,OK,TESTES 1-91,text,true,,335,337,1,1,http://localhost:8083/users/191,2,0,0
+1763946430083,1,GET,200,OK,TESTES 1-91,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946430084,1,DELETE,200,OK,TESTES 1-91,text,true,,164,211,1,1,http://localhost:8083/users/191,1,0,0
+1763946430085,0,Healthcheck,200,OK,TESTES 1-91,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946430085,1,POST,201,Created,TESTES 1-91,text,true,,355,394,1,1,http://localhost:8083/users,1,0,0
+1763946430086,1,GET ID,200,OK,TESTES 1-91,text,true,,350,125,1,1,http://localhost:8083/users/192,1,0,0
+1763946430087,1,PUT,200,OK,TESTES 1-91,text,true,,335,337,1,1,http://localhost:8083/users/192,1,0,0
+1763946430088,1,GET,200,OK,TESTES 1-91,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946430089,1,DELETE,200,OK,TESTES 1-91,text,true,,164,211,1,1,http://localhost:8083/users/192,1,0,0
+1763946430176,1,Healthcheck,200,OK,TESTES 1-92,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946430177,4,POST,201,Created,TESTES 1-92,text,true,,355,395,1,1,http://localhost:8083/users,4,0,0
+1763946430181,1,GET ID,200,OK,TESTES 1-92,text,true,,350,125,1,1,http://localhost:8083/users/193,1,0,0
+1763946430182,3,PUT,200,OK,TESTES 1-92,text,true,,335,337,1,1,http://localhost:8083/users/193,3,0,0
+1763946430185,1,GET,200,OK,TESTES 1-92,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946430186,1,DELETE,200,OK,TESTES 1-92,text,true,,164,211,1,1,http://localhost:8083/users/193,1,0,0
+1763946430187,1,Healthcheck,200,OK,TESTES 1-92,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946430188,2,POST,201,Created,TESTES 1-92,text,true,,355,395,1,1,http://localhost:8083/users,2,0,0
+1763946430190,1,GET ID,200,OK,TESTES 1-92,text,true,,350,125,1,1,http://localhost:8083/users/194,1,0,0
+1763946430191,3,PUT,200,OK,TESTES 1-92,text,true,,335,337,1,1,http://localhost:8083/users/194,3,0,0
+1763946430194,2,GET,200,OK,TESTES 1-92,text,true,,2088,121,1,1,http://localhost:8083/users,2,0,0
+1763946430196,3,DELETE,200,OK,TESTES 1-92,text,true,,164,211,1,1,http://localhost:8083/users/194,3,0,0
+1763946430276,2,Healthcheck,200,OK,TESTES 1-93,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,1
+1763946430279,6,POST,201,Created,TESTES 1-93,text,true,,355,394,1,1,http://localhost:8083/users,6,0,0
+1763946430285,2,GET ID,200,OK,TESTES 1-93,text,true,,350,125,1,1,http://localhost:8083/users/195,2,0,0
+1763946430287,5,PUT,200,OK,TESTES 1-93,text,true,,335,337,1,1,http://localhost:8083/users/195,5,0,0
+1763946430292,3,GET,200,OK,TESTES 1-93,text,true,,2088,121,1,1,http://localhost:8083/users,3,0,0
+1763946430295,3,DELETE,200,OK,TESTES 1-93,text,true,,164,211,1,1,http://localhost:8083/users/195,3,0,0
+1763946430298,1,Healthcheck,200,OK,TESTES 1-93,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946430299,3,POST,201,Created,TESTES 1-93,text,true,,355,395,1,1,http://localhost:8083/users,3,0,0
+1763946430302,2,GET ID,200,OK,TESTES 1-93,text,true,,350,125,1,1,http://localhost:8083/users/196,2,0,0
+1763946430304,2,PUT,200,OK,TESTES 1-93,text,true,,335,337,1,1,http://localhost:8083/users/196,2,0,0
+1763946430306,1,GET,200,OK,TESTES 1-93,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946430308,1,DELETE,200,OK,TESTES 1-93,text,true,,164,211,1,1,http://localhost:8083/users/196,1,0,0
+1763946430376,3,Healthcheck,200,OK,TESTES 1-94,text,true,,182,127,1,1,http://localhost:8083/healthcheck,3,0,1
+1763946430379,6,POST,201,Created,TESTES 1-94,text,true,,355,395,1,1,http://localhost:8083/users,6,0,0
+1763946430385,3,GET ID,200,OK,TESTES 1-94,text,true,,350,125,1,1,http://localhost:8083/users/197,3,0,0
+1763946430389,6,PUT,200,OK,TESTES 1-94,text,true,,334,336,1,1,http://localhost:8083/users/197,6,0,0
+1763946430395,3,GET,200,OK,TESTES 1-94,text,true,,2087,121,1,1,http://localhost:8083/users,3,0,0
+1763946430398,3,DELETE,200,OK,TESTES 1-94,text,true,,164,211,1,1,http://localhost:8083/users/197,3,0,0
+1763946430401,1,Healthcheck,200,OK,TESTES 1-94,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946430402,2,POST,201,Created,TESTES 1-94,text,true,,354,394,1,1,http://localhost:8083/users,2,0,0
+1763946430404,1,GET ID,200,OK,TESTES 1-94,text,true,,349,125,1,1,http://localhost:8083/users/198,1,0,0
+1763946430405,2,PUT,200,OK,TESTES 1-94,text,true,,335,337,1,1,http://localhost:8083/users/198,2,0,0
+1763946430407,1,GET,200,OK,TESTES 1-94,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946430408,2,DELETE,200,OK,TESTES 1-94,text,true,,164,211,1,1,http://localhost:8083/users/198,2,0,0
+1763946430476,3,Healthcheck,200,OK,TESTES 1-95,text,true,,182,127,1,1,http://localhost:8083/healthcheck,3,0,1
+1763946430479,7,POST,201,Created,TESTES 1-95,text,true,,354,394,1,1,http://localhost:8083/users,7,0,0
+1763946430486,4,GET ID,200,OK,TESTES 1-95,text,true,,349,125,1,1,http://localhost:8083/users/199,4,0,0
+1763946430490,6,PUT,200,OK,TESTES 1-95,text,true,,334,336,1,1,http://localhost:8083/users/199,6,0,0
+1763946430496,3,GET,200,OK,TESTES 1-95,text,true,,2087,121,1,1,http://localhost:8083/users,3,0,0
+1763946430499,3,DELETE,200,OK,TESTES 1-95,text,true,,164,211,1,1,http://localhost:8083/users/199,3,0,0
+1763946430502,0,Healthcheck,200,OK,TESTES 1-95,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946430502,3,POST,201,Created,TESTES 1-95,text,true,,355,394,1,1,http://localhost:8083/users,3,0,0
+1763946430505,1,GET ID,200,OK,TESTES 1-95,text,true,,350,125,1,1,http://localhost:8083/users/200,1,0,0
+1763946430506,2,PUT,200,OK,TESTES 1-95,text,true,,335,337,1,1,http://localhost:8083/users/200,2,0,0
+1763946430508,0,GET,200,OK,TESTES 1-95,text,true,,2088,121,1,1,http://localhost:8083/users,0,0,0
+1763946430508,2,DELETE,200,OK,TESTES 1-95,text,true,,164,211,1,1,http://localhost:8083/users/200,2,0,0
+1763946430576,2,Healthcheck,200,OK,TESTES 1-96,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,1
+1763946430579,6,POST,201,Created,TESTES 1-96,text,true,,355,395,1,1,http://localhost:8083/users,6,0,0
+1763946430585,3,GET ID,200,OK,TESTES 1-96,text,true,,350,125,1,1,http://localhost:8083/users/201,3,0,0
+1763946430588,6,PUT,200,OK,TESTES 1-96,text,true,,335,337,1,1,http://localhost:8083/users/201,6,0,0
+1763946430594,2,GET,200,OK,TESTES 1-96,text,true,,2088,121,1,1,http://localhost:8083/users,2,0,0
+1763946430596,3,DELETE,200,OK,TESTES 1-96,text,true,,164,211,1,1,http://localhost:8083/users/201,3,0,0
+1763946430599,1,Healthcheck,200,OK,TESTES 1-96,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946430600,2,POST,201,Created,TESTES 1-96,text,true,,355,395,1,1,http://localhost:8083/users,2,0,0
+1763946430602,2,GET ID,200,OK,TESTES 1-96,text,true,,350,125,1,1,http://localhost:8083/users/202,2,0,0
+1763946430604,2,PUT,200,OK,TESTES 1-96,text,true,,334,336,1,1,http://localhost:8083/users/202,2,0,0
+1763946430606,0,GET,200,OK,TESTES 1-96,text,true,,2087,121,1,1,http://localhost:8083/users,0,0,0
+1763946430606,1,DELETE,200,OK,TESTES 1-96,text,true,,164,211,1,1,http://localhost:8083/users/202,1,0,0
+1763946430676,2,Healthcheck,200,OK,TESTES 1-97,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946430678,4,POST,201,Created,TESTES 1-97,text,true,,355,395,1,1,http://localhost:8083/users,4,0,0
+1763946430682,1,GET ID,200,OK,TESTES 1-97,text,true,,350,125,1,1,http://localhost:8083/users/203,1,0,0
+1763946430683,4,PUT,200,OK,TESTES 1-97,text,true,,335,337,1,1,http://localhost:8083/users/203,4,0,0
+1763946430687,2,GET,200,OK,TESTES 1-97,text,true,,2088,121,1,1,http://localhost:8083/users,2,0,0
+1763946430689,2,DELETE,200,OK,TESTES 1-97,text,true,,164,211,1,1,http://localhost:8083/users/203,2,0,0
+1763946430691,1,Healthcheck,200,OK,TESTES 1-97,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946430692,2,POST,201,Created,TESTES 1-97,text,true,,355,395,1,1,http://localhost:8083/users,2,0,0
+1763946430694,1,GET ID,200,OK,TESTES 1-97,text,true,,350,125,1,1,http://localhost:8083/users/204,1,0,0
+1763946430695,2,PUT,200,OK,TESTES 1-97,text,true,,335,337,1,1,http://localhost:8083/users/204,2,0,0
+1763946430697,1,GET,200,OK,TESTES 1-97,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946430698,1,DELETE,200,OK,TESTES 1-97,text,true,,164,211,1,1,http://localhost:8083/users/204,1,0,0
+1763946430776,3,Healthcheck,200,OK,TESTES 1-98,text,true,,182,127,1,1,http://localhost:8083/healthcheck,3,0,1
+1763946430779,6,POST,201,Created,TESTES 1-98,text,true,,355,395,1,1,http://localhost:8083/users,6,0,0
+1763946430785,2,GET ID,200,OK,TESTES 1-98,text,true,,350,125,1,1,http://localhost:8083/users/205,2,0,0
+1763946430787,3,PUT,200,OK,TESTES 1-98,text,true,,335,337,1,1,http://localhost:8083/users/205,3,0,0
+1763946430791,2,GET,200,OK,TESTES 1-98,text,true,,2088,121,1,1,http://localhost:8083/users,2,0,0
+1763946430793,3,DELETE,200,OK,TESTES 1-98,text,true,,164,211,1,1,http://localhost:8083/users/205,3,0,0
+1763946430796,1,Healthcheck,200,OK,TESTES 1-98,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946430797,3,POST,201,Created,TESTES 1-98,text,true,,353,393,1,1,http://localhost:8083/users,3,0,0
+1763946430800,1,GET ID,200,OK,TESTES 1-98,text,true,,348,125,1,1,http://localhost:8083/users/206,1,0,0
+1763946430801,3,PUT,200,OK,TESTES 1-98,text,true,,334,336,1,1,http://localhost:8083/users/206,3,0,0
+1763946430804,1,GET,200,OK,TESTES 1-98,text,true,,2087,121,1,1,http://localhost:8083/users,1,0,0
+1763946430805,1,DELETE,200,OK,TESTES 1-98,text,true,,164,211,1,1,http://localhost:8083/users/206,1,0,0
+1763946430876,1,Healthcheck,200,OK,TESTES 1-99,text,true,,182,127,1,1,http://localhost:8083/healthcheck,1,0,0
+1763946430877,5,POST,201,Created,TESTES 1-99,text,true,,355,395,1,1,http://localhost:8083/users,5,0,0
+1763946430882,1,GET ID,200,OK,TESTES 1-99,text,true,,350,125,1,1,http://localhost:8083/users/207,1,0,0
+1763946430884,3,PUT,200,OK,TESTES 1-99,text,true,,335,337,1,1,http://localhost:8083/users/207,3,0,0
+1763946430887,1,GET,200,OK,TESTES 1-99,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946430888,2,DELETE,200,OK,TESTES 1-99,text,true,,164,211,1,1,http://localhost:8083/users/207,2,0,0
+1763946430890,0,Healthcheck,200,OK,TESTES 1-99,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946430890,2,POST,201,Created,TESTES 1-99,text,true,,355,395,1,1,http://localhost:8083/users,2,0,0
+1763946430892,1,GET ID,200,OK,TESTES 1-99,text,true,,350,125,1,1,http://localhost:8083/users/208,1,0,0
+1763946430893,2,PUT,200,OK,TESTES 1-99,text,true,,335,337,1,1,http://localhost:8083/users/208,2,0,0
+1763946430895,0,GET,200,OK,TESTES 1-99,text,true,,2088,121,1,1,http://localhost:8083/users,0,0,0
+1763946430895,2,DELETE,200,OK,TESTES 1-99,text,true,,164,211,1,1,http://localhost:8083/users/208,2,0,0
+1763946430976,2,Healthcheck,200,OK,TESTES 1-100,text,true,,182,127,1,1,http://localhost:8083/healthcheck,2,0,0
+1763946430978,3,POST,201,Created,TESTES 1-100,text,true,,355,395,1,1,http://localhost:8083/users,3,0,0
+1763946430981,2,GET ID,200,OK,TESTES 1-100,text,true,,350,125,1,1,http://localhost:8083/users/209,2,0,0
+1763946430983,4,PUT,200,OK,TESTES 1-100,text,true,,335,337,1,1,http://localhost:8083/users/209,4,0,0
+1763946430987,2,GET,200,OK,TESTES 1-100,text,true,,2088,121,1,1,http://localhost:8083/users,2,0,0
+1763946430989,2,DELETE,200,OK,TESTES 1-100,text,true,,164,211,1,1,http://localhost:8083/users/209,2,0,0
+1763946430992,0,Healthcheck,200,OK,TESTES 1-100,text,true,,182,127,1,1,http://localhost:8083/healthcheck,0,0,0
+1763946430992,2,POST,201,Created,TESTES 1-100,text,true,,355,395,1,1,http://localhost:8083/users,2,0,0
+1763946430994,1,GET ID,200,OK,TESTES 1-100,text,true,,350,125,1,1,http://localhost:8083/users/210,1,0,0
+1763946430995,2,PUT,200,OK,TESTES 1-100,text,true,,335,337,1,1,http://localhost:8083/users/210,2,0,0
+1763946430997,1,GET,200,OK,TESTES 1-100,text,true,,2088,121,1,1,http://localhost:8083/users,1,0,0
+1763946430998,3,DELETE,200,OK,TESTES 1-100,text,true,,164,211,1,1,http://localhost:8083/users/210,3,0,0
