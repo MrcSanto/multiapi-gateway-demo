@@ -52,6 +52,53 @@ graph TD
 | Python API     | Python (FastAPI)  | 8085           | CRUD de usuários                               |
 | Database       | PostgreSQL 12     | 5432           | Persistencia dos dados                         |
 
+## Rodando o projeto 
+
+1. Clonar o repositório
+  ```bash
+  git clone <https://github.com/MrcSanto/multiapi-gateway-demo>
+  cd multiapi-gateway-demo
+  ```
+
+2. Iniciar a aplicação
+  ```
+  make dev
+  ```
+
+3. Testar a saúde da aplicação
+  ```
+  make health
+  ```
+
+4. Para consultar os logs separadamente basta rodar um dos comandos abaixo:
+  - Golang
+    ```
+    make go-logs
+    ```
+  - Python
+    ```
+    make python-logs
+    ```
+  - Node
+    ```
+    make node-logs
+    ```
+  - PostgreSQL
+    ```
+    make db-logs
+    ```
+
+
+4. Para derrubar realizar alguns pequenos testes:
+  ```
+  make test
+  ```
+
+5. E finalmente, para derrubar a aplicação:
+  ```
+  make clean
+  ```
+
 ## Testando o sistema
 
 1. Testando o Gateway Health
@@ -93,3 +140,9 @@ graph TD
     # Iniciar novamente
     docker start go_app
     ```
+
+## Autores
+  - Igor Zanette
+  - Marco Antônio Santolin
+  - Marcos Paulo de Medeiros
+
