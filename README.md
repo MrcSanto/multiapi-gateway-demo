@@ -2,6 +2,10 @@
 
 Sistema distribuído com API Gateway em Rust e microserviços backend.
 
+> [!NOTE]
+> Para acessar o repositório no github, acesse o link abaixo.
+> https://github.com/MrcSanto/multiapi-gateway-demo
+
 ## Arquitetura
 
 ```mermaid
