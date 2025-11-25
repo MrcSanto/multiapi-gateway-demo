@@ -1,9 +1,9 @@
-# Trabalho Ubiquitous - API Gateway + Microservices
+# Trabalho Sistemas Distribuídos - API Gateway + Microservices
 
 Sistema distribuído com API Gateway em Rust e microserviços backend.
 
 > [!NOTE]
-> Para acessar o repositório no github, acesse o link abaixo.
+> Para acessar o repositório no github, acesse o link: 
 > https://github.com/MrcSanto/multiapi-gateway-demo
 
 ## Arquitetura
@@ -60,7 +60,7 @@ graph TD
 
 1. Clonar o repositório
   ```bash
-  git clone <https://github.com/MrcSanto/multiapi-gateway-demo>
+  git clone https://github.com/MrcSanto/multiapi-gateway-demo
   cd multiapi-gateway-demo
   ```
 
