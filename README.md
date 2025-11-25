@@ -93,7 +93,7 @@ graph TD
     ```
 
 
-4. Para derrubar realizar alguns pequenos testes:
+4. Para realizar alguns pequenos testes:
   ```
   make test
   ```
